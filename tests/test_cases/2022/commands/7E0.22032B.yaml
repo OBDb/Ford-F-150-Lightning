@@ -1,0 +1,25 @@
+command_id: 7E0.22032B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462032B00
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 0
+- response: 7E80462032B0C
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 6
+- response: 7E80462032B1D
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 14.5
+- response: 7E80462032B22
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 17
+- response: 7E80462032B24
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 18
+- response: 7E80462032B29
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 20.5
+- response: 7E80462032B33
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 25.5

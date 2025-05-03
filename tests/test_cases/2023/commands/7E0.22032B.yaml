@@ -1,0 +1,160 @@
+command_id: 7E0.22032B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462032B00
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 0
+- response: 7E80462032B05
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 2.5
+- response: 7E80462032B06
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 3
+- response: 7E80462032B08
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 4
+- response: 7E80462032B09
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 4.5
+- response: 7E80462032B0A
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 5
+- response: 7E80462032B0B
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 5.5
+- response: 7E80462032B0D
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 6.5
+- response: 7E80462032B0E
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 7
+- response: 7E80462032B0F
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 7.5
+- response: 7E80462032B10
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 8
+- response: 7E80462032B11
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 8.5
+- response: 7E80462032B12
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 9
+- response: 7E80462032B13
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 9.5
+- response: 7E80462032B14
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 10
+- response: 7E80462032B15
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 10.5
+- response: 7E80462032B16
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 11
+- response: 7E80462032B17
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 11.5
+- response: 7E80462032B18
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 12
+- response: 7E80462032B1A
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 13
+- response: 7E80462032B1B
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 13.5
+- response: 7E80462032B1C
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 14
+- response: 7E80462032B1D
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 14.5
+- response: 7E80462032B1E
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 15
+- response: 7E80462032B1F
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 15.5
+- response: 7E80462032B20
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 16
+- response: 7E80462032B21
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 16.5
+- response: 7E80462032B22
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 17
+- response: 7E80462032B23
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 17.5
+- response: 7E80462032B24
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 18
+- response: 7E80462032B25
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 18.5
+- response: 7E80462032B26
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 19
+- response: 7E80462032B27
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 19.5
+- response: 7E80462032B28
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 20
+- response: 7E80462032B29
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 20.5
+- response: 7E80462032B2A
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 21
+- response: 7E80462032B2B
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 21.5
+- response: 7E80462032B2C
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 22
+- response: 7E80462032B2D
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 22.5
+- response: 7E80462032B2F
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 23.5
+- response: 7E80462032B30
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 24
+- response: 7E80462032B31
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 24.5
+- response: 7E80462032B34
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 26
+- response: 7E80462032B35
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 26.5
+- response: 7E80462032B38
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 28
+- response: 7E80462032B3A
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 29
+- response: 7E80462032B3D
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 30.5
+- response: 7E80462032B3E
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 31
+- response: 7E80462032B40
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 32
+- response: 7E80462032B46
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 35
+- response: 7E80462032B47
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 35.5
+- response: 7E80462032B4C
+  expected_values:
+    FORD_[ECU] Accelerator pedal position: 38

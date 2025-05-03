@@ -1,0 +1,22 @@
+command_id: 726.72E.222813
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '72E056228130315'
+  expected_values:
+    FORD_TP_FL: 39.45
+- response: '72E056228130338'
+  expected_values:
+    FORD_TP_FL: 41.2
+- response: 72E05622813034C
+  expected_values:
+    FORD_TP_FL: 42.2
+- response: '72E056228130351'
+  expected_values:
+    FORD_TP_FL: 42.45
+- response: '72E056228130356'
+  expected_values:
+    FORD_TP_FL: 42.7
+- response: 72E05622813035B
+  expected_values:
+    FORD_TP_FL: 42.95

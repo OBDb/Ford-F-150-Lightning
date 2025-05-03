@@ -1,0 +1,49 @@
+command_id: 7DF.221E12
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EA04621E1228
+  expected_values:
+    FORD_GEAR: 40
+- response: 7EA04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: |-
+    7EA04621E1246
+    7EC04621E1246
+    7EE04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: |-
+    7EA04621E1246
+    7EE04621E1246
+    7EC04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: 7EC04621E1228
+  expected_values:
+    FORD_GEAR: 40
+- response: 7EC04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: |-
+    7EC04621E1246
+    7EA04621E1246
+    7EE04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: 7EE04621E1228
+  expected_values:
+    FORD_GEAR: 40
+- response: 7EE04621E123C
+  expected_values:
+    FORD_GEAR: 60
+- response: 7EE04621E1246
+  expected_values:
+    FORD_GEAR: 70
+- response: |-
+    7EE04621E1246
+    7EC04621E1246
+    7EA04621E1246
+  expected_values:
+    FORD_GEAR: 70

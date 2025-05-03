@@ -1,0 +1,55 @@
+command_id: 7E2.7EA.22DD04
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EA0462DD0428
+  expected_values:
+    FORD_IAT: 0
+- response: 7EA0462DD043E
+  expected_values:
+    FORD_IAT: 22
+- response: 7EA0462DD043F
+  expected_values:
+    FORD_IAT: 23
+- response: 7EA0462DD0440
+  expected_values:
+    FORD_IAT: 24
+- response: 7EA0462DD0441
+  expected_values:
+    FORD_IAT: 25
+- response: 7EA0462DD0442
+  expected_values:
+    FORD_IAT: 26
+- response: 7EA0462DD0443
+  expected_values:
+    FORD_IAT: 27
+- response: 7EA0462DD0444
+  expected_values:
+    FORD_IAT: 28
+- response: 7EA0462DD0445
+  expected_values:
+    FORD_IAT: 29
+- response: 7EA0462DD0446
+  expected_values:
+    FORD_IAT: 30
+- response: 7EA0462DD0447
+  expected_values:
+    FORD_IAT: 31
+- response: 7EA0462DD0449
+  expected_values:
+    FORD_IAT: 33
+- response: 7EA0462DD044C
+  expected_values:
+    FORD_IAT: 36
+- response: 7EA0462DD044E
+  expected_values:
+    FORD_IAT: 38
+- response: 7EA0462DD0451
+  expected_values:
+    FORD_IAT: 41
+- response: 7EA0462DD0452
+  expected_values:
+    FORD_IAT: 42
+- response: 7EA0462DD0453
+  expected_values:
+    FORD_IAT: 43
