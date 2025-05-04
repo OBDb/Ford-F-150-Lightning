@@ -1,0 +1,106 @@
+command_id: 726.72E.222813
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 72E0562281302B1
+  expected_values:
+    FORD_TP_FL: 34.45
+- response: 72E0562281302B6
+  expected_values:
+    FORD_TP_FL: 34.7
+- response: 72E0562281302BB
+  expected_values:
+    FORD_TP_FL: 34.95
+- response: 72E0562281302CC
+  expected_values:
+    FORD_TP_FL: 35.8
+- response: 72E0562281302D4
+  expected_values:
+    FORD_TP_FL: 36.2
+- response: 72E0562281302D9
+  expected_values:
+    FORD_TP_FL: 36.45
+- response: 72E0562281302DE
+  expected_values:
+    FORD_TP_FL: 36.7
+- response: 72E0562281302E3
+  expected_values:
+    FORD_TP_FL: 36.95
+- response: 72E0562281302E7
+  expected_values:
+    FORD_TP_FL: 37.15
+- response: 72E0562281302E8
+  expected_values:
+    FORD_TP_FL: 37.2
+- response: 72E0562281302ED
+  expected_values:
+    FORD_TP_FL: 37.45
+- response: 72E0562281302EF
+  expected_values:
+    FORD_TP_FL: 37.55
+- response: 72E0562281302F2
+  expected_values:
+    FORD_TP_FL: 37.7
+- response: 72E0562281302F4
+  expected_values:
+    FORD_TP_FL: 37.8
+- response: 72E0562281302F6
+  expected_values:
+    FORD_TP_FL: 37.9
+- response: 72E0562281302F7
+  expected_values:
+    FORD_TP_FL: 37.95
+- response: 72E0562281302F9
+  expected_values:
+    FORD_TP_FL: 38.05
+- response: 72E0562281302FB
+  expected_values:
+    FORD_TP_FL: 38.15
+- response: 72E0562281302FC
+  expected_values:
+    FORD_TP_FL: 38.2
+- response: 72E0562281302FE
+  expected_values:
+    FORD_TP_FL: 38.3
+- response: '72E056228130300'
+  expected_values:
+    FORD_TP_FL: 38.4
+- response: '72E056228130301'
+  expected_values:
+    FORD_TP_FL: 38.45
+- response: '72E056228130303'
+  expected_values:
+    FORD_TP_FL: 38.55
+- response: '72E056228130305'
+  expected_values:
+    FORD_TP_FL: 38.65
+- response: '72E056228130308'
+  expected_values:
+    FORD_TP_FL: 38.8
+- response: 72E05622813030A
+  expected_values:
+    FORD_TP_FL: 38.9
+- response: 72E05622813030D
+  expected_values:
+    FORD_TP_FL: 39.05
+- response: 72E05622813030F
+  expected_values:
+    FORD_TP_FL: 39.15
+- response: '72E056228130312'
+  expected_values:
+    FORD_TP_FL: 39.3
+- response: '72E056228130314'
+  expected_values:
+    FORD_TP_FL: 39.4
+- response: '72E056228130317'
+  expected_values:
+    FORD_TP_FL: 39.55
+- response: '72E056228130319'
+  expected_values:
+    FORD_TP_FL: 39.65
+- response: 72E05622813031C
+  expected_values:
+    FORD_TP_FL: 39.8
+- response: '72E056228130321'
+  expected_values:
+    FORD_TP_FL: 40.05
