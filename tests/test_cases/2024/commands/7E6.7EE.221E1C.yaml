@@ -1,0 +1,820 @@
+command_id: 7E6.7EE.221E1C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EE05621E1C0114
+  expected_values:
+    FORD_TT: 17.25
+- response: 7EE05621E1C0119
+  expected_values:
+    FORD_TT: 17.5625
+- response: 7EE05621E1C011A
+  expected_values:
+    FORD_TT: 17.625
+- response: 7EE05621E1C011C
+  expected_values:
+    FORD_TT: 17.75
+- response: 7EE05621E1C011E
+  expected_values:
+    FORD_TT: 17.875
+- response: 7EE05621E1C0123
+  expected_values:
+    FORD_TT: 18.1875
+- response: 7EE05621E1C0126
+  expected_values:
+    FORD_TT: 18.375
+- response: 7EE05621E1C0128
+  expected_values:
+    FORD_TT: 18.5
+- response: 7EE05621E1C012B
+  expected_values:
+    FORD_TT: 18.6875
+- response: 7EE05621E1C012C
+  expected_values:
+    FORD_TT: 18.75
+- response: 7EE05621E1C012E
+  expected_values:
+    FORD_TT: 18.875
+- response: 7EE05621E1C012F
+  expected_values:
+    FORD_TT: 18.9375
+- response: 7EE05621E1C0130
+  expected_values:
+    FORD_TT: 19
+- response: 7EE05621E1C0131
+  expected_values:
+    FORD_TT: 19.0625
+- response: 7EE05621E1C0135
+  expected_values:
+    FORD_TT: 19.3125
+- response: 7EE05621E1C0136
+  expected_values:
+    FORD_TT: 19.375
+- response: 7EE05621E1C0137
+  expected_values:
+    FORD_TT: 19.4375
+- response: 7EE05621E1C0139
+  expected_values:
+    FORD_TT: 19.5625
+- response: 7EE05621E1C013A
+  expected_values:
+    FORD_TT: 19.625
+- response: 7EE05621E1C013B
+  expected_values:
+    FORD_TT: 19.6875
+- response: 7EE05621E1C013C
+  expected_values:
+    FORD_TT: 19.75
+- response: 7EE05621E1C013D
+  expected_values:
+    FORD_TT: 19.8125
+- response: 7EE05621E1C013E
+  expected_values:
+    FORD_TT: 19.875
+- response: 7EE05621E1C0140
+  expected_values:
+    FORD_TT: 20
+- response: 7EE05621E1C0141
+  expected_values:
+    FORD_TT: 20.0625
+- response: 7EE05621E1C0142
+  expected_values:
+    FORD_TT: 20.125
+- response: 7EE05621E1C0143
+  expected_values:
+    FORD_TT: 20.1875
+- response: 7EE05621E1C0144
+  expected_values:
+    FORD_TT: 20.25
+- response: 7EE05621E1C0145
+  expected_values:
+    FORD_TT: 20.3125
+- response: 7EE05621E1C0146
+  expected_values:
+    FORD_TT: 20.375
+- response: 7EE05621E1C0147
+  expected_values:
+    FORD_TT: 20.4375
+- response: 7EE05621E1C0148
+  expected_values:
+    FORD_TT: 20.5
+- response: 7EE05621E1C0149
+  expected_values:
+    FORD_TT: 20.5625
+- response: 7EE05621E1C014A
+  expected_values:
+    FORD_TT: 20.625
+- response: 7EE05621E1C014B
+  expected_values:
+    FORD_TT: 20.6875
+- response: 7EE05621E1C014C
+  expected_values:
+    FORD_TT: 20.75
+- response: 7EE05621E1C014D
+  expected_values:
+    FORD_TT: 20.8125
+- response: 7EE05621E1C014E
+  expected_values:
+    FORD_TT: 20.875
+- response: 7EE05621E1C014F
+  expected_values:
+    FORD_TT: 20.9375
+- response: 7EE05621E1C0150
+  expected_values:
+    FORD_TT: 21
+- response: 7EE05621E1C0151
+  expected_values:
+    FORD_TT: 21.0625
+- response: 7EE05621E1C0152
+  expected_values:
+    FORD_TT: 21.125
+- response: 7EE05621E1C0153
+  expected_values:
+    FORD_TT: 21.1875
+- response: 7EE05621E1C0154
+  expected_values:
+    FORD_TT: 21.25
+- response: 7EE05621E1C0155
+  expected_values:
+    FORD_TT: 21.3125
+- response: 7EE05621E1C0156
+  expected_values:
+    FORD_TT: 21.375
+- response: 7EE05621E1C0157
+  expected_values:
+    FORD_TT: 21.4375
+- response: 7EE05621E1C0158
+  expected_values:
+    FORD_TT: 21.5
+- response: 7EE05621E1C0159
+  expected_values:
+    FORD_TT: 21.5625
+- response: 7EE05621E1C015A
+  expected_values:
+    FORD_TT: 21.625
+- response: 7EE05621E1C015B
+  expected_values:
+    FORD_TT: 21.6875
+- response: 7EE05621E1C015C
+  expected_values:
+    FORD_TT: 21.75
+- response: 7EE05621E1C015D
+  expected_values:
+    FORD_TT: 21.8125
+- response: 7EE05621E1C015E
+  expected_values:
+    FORD_TT: 21.875
+- response: 7EE05621E1C015F
+  expected_values:
+    FORD_TT: 21.9375
+- response: 7EE05621E1C0160
+  expected_values:
+    FORD_TT: 22
+- response: 7EE05621E1C0161
+  expected_values:
+    FORD_TT: 22.0625
+- response: 7EE05621E1C0162
+  expected_values:
+    FORD_TT: 22.125
+- response: 7EE05621E1C0163
+  expected_values:
+    FORD_TT: 22.1875
+- response: 7EE05621E1C0164
+  expected_values:
+    FORD_TT: 22.25
+- response: 7EE05621E1C0165
+  expected_values:
+    FORD_TT: 22.3125
+- response: 7EE05621E1C0166
+  expected_values:
+    FORD_TT: 22.375
+- response: 7EE05621E1C0168
+  expected_values:
+    FORD_TT: 22.5
+- response: 7EE05621E1C0169
+  expected_values:
+    FORD_TT: 22.5625
+- response: 7EE05621E1C016B
+  expected_values:
+    FORD_TT: 22.6875
+- response: 7EE05621E1C016D
+  expected_values:
+    FORD_TT: 22.8125
+- response: 7EE05621E1C016E
+  expected_values:
+    FORD_TT: 22.875
+- response: 7EE05621E1C016F
+  expected_values:
+    FORD_TT: 22.9375
+- response: 7EE05621E1C0172
+  expected_values:
+    FORD_TT: 23.125
+- response: 7EE05621E1C0173
+  expected_values:
+    FORD_TT: 23.1875
+- response: 7EE05621E1C0174
+  expected_values:
+    FORD_TT: 23.25
+- response: 7EE05621E1C0175
+  expected_values:
+    FORD_TT: 23.3125
+- response: 7EE05621E1C0176
+  expected_values:
+    FORD_TT: 23.375
+- response: 7EE05621E1C0177
+  expected_values:
+    FORD_TT: 23.4375
+- response: 7EE05621E1C0178
+  expected_values:
+    FORD_TT: 23.5
+- response: 7EE05621E1C0179
+  expected_values:
+    FORD_TT: 23.5625
+- response: 7EE05621E1C017A
+  expected_values:
+    FORD_TT: 23.625
+- response: 7EE05621E1C017B
+  expected_values:
+    FORD_TT: 23.6875
+- response: 7EE05621E1C017C
+  expected_values:
+    FORD_TT: 23.75
+- response: 7EE05621E1C017D
+  expected_values:
+    FORD_TT: 23.8125
+- response: 7EE05621E1C017E
+  expected_values:
+    FORD_TT: 23.875
+- response: 7EE05621E1C017F
+  expected_values:
+    FORD_TT: 23.9375
+- response: 7EE05621E1C0181
+  expected_values:
+    FORD_TT: 24.0625
+- response: 7EE05621E1C0182
+  expected_values:
+    FORD_TT: 24.125
+- response: 7EE05621E1C0183
+  expected_values:
+    FORD_TT: 24.1875
+- response: 7EE05621E1C0184
+  expected_values:
+    FORD_TT: 24.25
+- response: 7EE05621E1C0185
+  expected_values:
+    FORD_TT: 24.3125
+- response: 7EE05621E1C0186
+  expected_values:
+    FORD_TT: 24.375
+- response: 7EE05621E1C0187
+  expected_values:
+    FORD_TT: 24.4375
+- response: 7EE05621E1C0188
+  expected_values:
+    FORD_TT: 24.5
+- response: 7EE05621E1C0189
+  expected_values:
+    FORD_TT: 24.5625
+- response: 7EE05621E1C018A
+  expected_values:
+    FORD_TT: 24.625
+- response: 7EE05621E1C018B
+  expected_values:
+    FORD_TT: 24.6875
+- response: 7EE05621E1C018C
+  expected_values:
+    FORD_TT: 24.75
+- response: 7EE05621E1C018D
+  expected_values:
+    FORD_TT: 24.8125
+- response: 7EE05621E1C018E
+  expected_values:
+    FORD_TT: 24.875
+- response: 7EE05621E1C018F
+  expected_values:
+    FORD_TT: 24.9375
+- response: 7EE05621E1C0191
+  expected_values:
+    FORD_TT: 25.0625
+- response: 7EE05621E1C0192
+  expected_values:
+    FORD_TT: 25.125
+- response: 7EE05621E1C0193
+  expected_values:
+    FORD_TT: 25.1875
+- response: 7EE05621E1C0194
+  expected_values:
+    FORD_TT: 25.25
+- response: 7EE05621E1C0195
+  expected_values:
+    FORD_TT: 25.3125
+- response: 7EE05621E1C0196
+  expected_values:
+    FORD_TT: 25.375
+- response: 7EE05621E1C0197
+  expected_values:
+    FORD_TT: 25.4375
+- response: 7EE05621E1C0198
+  expected_values:
+    FORD_TT: 25.5
+- response: 7EE05621E1C019A
+  expected_values:
+    FORD_TT: 25.625
+- response: 7EE05621E1C019B
+  expected_values:
+    FORD_TT: 25.6875
+- response: 7EE05621E1C019C
+  expected_values:
+    FORD_TT: 25.75
+- response: 7EE05621E1C019D
+  expected_values:
+    FORD_TT: 25.8125
+- response: 7EE05621E1C019E
+  expected_values:
+    FORD_TT: 25.875
+- response: 7EE05621E1C019F
+  expected_values:
+    FORD_TT: 25.9375
+- response: 7EE05621E1C01A0
+  expected_values:
+    FORD_TT: 26
+- response: 7EE05621E1C01A1
+  expected_values:
+    FORD_TT: 26.0625
+- response: 7EE05621E1C01A2
+  expected_values:
+    FORD_TT: 26.125
+- response: 7EE05621E1C01A3
+  expected_values:
+    FORD_TT: 26.1875
+- response: 7EE05621E1C01A4
+  expected_values:
+    FORD_TT: 26.25
+- response: 7EE05621E1C01A5
+  expected_values:
+    FORD_TT: 26.3125
+- response: 7EE05621E1C01A6
+  expected_values:
+    FORD_TT: 26.375
+- response: 7EE05621E1C01A7
+  expected_values:
+    FORD_TT: 26.4375
+- response: 7EE05621E1C01A8
+  expected_values:
+    FORD_TT: 26.5
+- response: 7EE05621E1C01A9
+  expected_values:
+    FORD_TT: 26.5625
+- response: 7EE05621E1C01AA
+  expected_values:
+    FORD_TT: 26.625
+- response: 7EE05621E1C01AC
+  expected_values:
+    FORD_TT: 26.75
+- response: 7EE05621E1C01AD
+  expected_values:
+    FORD_TT: 26.8125
+- response: 7EE05621E1C01B0
+  expected_values:
+    FORD_TT: 27
+- response: 7EE05621E1C01B2
+  expected_values:
+    FORD_TT: 27.125
+- response: 7EE05621E1C01B3
+  expected_values:
+    FORD_TT: 27.1875
+- response: 7EE05621E1C01B4
+  expected_values:
+    FORD_TT: 27.25
+- response: 7EE05621E1C01B5
+  expected_values:
+    FORD_TT: 27.3125
+- response: 7EE05621E1C01B6
+  expected_values:
+    FORD_TT: 27.375
+- response: 7EE05621E1C01B7
+  expected_values:
+    FORD_TT: 27.4375
+- response: 7EE05621E1C01B8
+  expected_values:
+    FORD_TT: 27.5
+- response: 7EE05621E1C01B9
+  expected_values:
+    FORD_TT: 27.5625
+- response: 7EE05621E1C01BA
+  expected_values:
+    FORD_TT: 27.625
+- response: 7EE05621E1C01BB
+  expected_values:
+    FORD_TT: 27.6875
+- response: 7EE05621E1C01BC
+  expected_values:
+    FORD_TT: 27.75
+- response: 7EE05621E1C01BD
+  expected_values:
+    FORD_TT: 27.8125
+- response: 7EE05621E1C01BE
+  expected_values:
+    FORD_TT: 27.875
+- response: 7EE05621E1C01BF
+  expected_values:
+    FORD_TT: 27.9375
+- response: 7EE05621E1C01C0
+  expected_values:
+    FORD_TT: 28
+- response: 7EE05621E1C01C1
+  expected_values:
+    FORD_TT: 28.0625
+- response: 7EE05621E1C01C2
+  expected_values:
+    FORD_TT: 28.125
+- response: 7EE05621E1C01C3
+  expected_values:
+    FORD_TT: 28.1875
+- response: 7EE05621E1C01C4
+  expected_values:
+    FORD_TT: 28.25
+- response: 7EE05621E1C01C5
+  expected_values:
+    FORD_TT: 28.3125
+- response: 7EE05621E1C01C6
+  expected_values:
+    FORD_TT: 28.375
+- response: 7EE05621E1C01C7
+  expected_values:
+    FORD_TT: 28.4375
+- response: 7EE05621E1C01C8
+  expected_values:
+    FORD_TT: 28.5
+- response: 7EE05621E1C01C9
+  expected_values:
+    FORD_TT: 28.5625
+- response: 7EE05621E1C01CA
+  expected_values:
+    FORD_TT: 28.625
+- response: 7EE05621E1C01CB
+  expected_values:
+    FORD_TT: 28.6875
+- response: 7EE05621E1C01CC
+  expected_values:
+    FORD_TT: 28.75
+- response: 7EE05621E1C01CD
+  expected_values:
+    FORD_TT: 28.8125
+- response: 7EE05621E1C01CE
+  expected_values:
+    FORD_TT: 28.875
+- response: 7EE05621E1C01CF
+  expected_values:
+    FORD_TT: 28.9375
+- response: 7EE05621E1C01D0
+  expected_values:
+    FORD_TT: 29
+- response: 7EE05621E1C01D1
+  expected_values:
+    FORD_TT: 29.0625
+- response: 7EE05621E1C01D2
+  expected_values:
+    FORD_TT: 29.125
+- response: 7EE05621E1C01D3
+  expected_values:
+    FORD_TT: 29.1875
+- response: 7EE05621E1C01D4
+  expected_values:
+    FORD_TT: 29.25
+- response: 7EE05621E1C01D5
+  expected_values:
+    FORD_TT: 29.3125
+- response: 7EE05621E1C01D6
+  expected_values:
+    FORD_TT: 29.375
+- response: 7EE05621E1C01D7
+  expected_values:
+    FORD_TT: 29.4375
+- response: 7EE05621E1C01D8
+  expected_values:
+    FORD_TT: 29.5
+- response: 7EE05621E1C01D9
+  expected_values:
+    FORD_TT: 29.5625
+- response: 7EE05621E1C01DA
+  expected_values:
+    FORD_TT: 29.625
+- response: 7EE05621E1C01DB
+  expected_values:
+    FORD_TT: 29.6875
+- response: 7EE05621E1C01DC
+  expected_values:
+    FORD_TT: 29.75
+- response: 7EE05621E1C01DD
+  expected_values:
+    FORD_TT: 29.8125
+- response: 7EE05621E1C01DE
+  expected_values:
+    FORD_TT: 29.875
+- response: 7EE05621E1C01DF
+  expected_values:
+    FORD_TT: 29.9375
+- response: 7EE05621E1C01E0
+  expected_values:
+    FORD_TT: 30
+- response: 7EE05621E1C01E1
+  expected_values:
+    FORD_TT: 30.0625
+- response: 7EE05621E1C01E2
+  expected_values:
+    FORD_TT: 30.125
+- response: 7EE05621E1C01E5
+  expected_values:
+    FORD_TT: 30.3125
+- response: 7EE05621E1C01E6
+  expected_values:
+    FORD_TT: 30.375
+- response: 7EE05621E1C01E7
+  expected_values:
+    FORD_TT: 30.4375
+- response: 7EE05621E1C01E8
+  expected_values:
+    FORD_TT: 30.5
+- response: 7EE05621E1C01E9
+  expected_values:
+    FORD_TT: 30.5625
+- response: 7EE05621E1C01EA
+  expected_values:
+    FORD_TT: 30.625
+- response: 7EE05621E1C01EB
+  expected_values:
+    FORD_TT: 30.6875
+- response: 7EE05621E1C01EC
+  expected_values:
+    FORD_TT: 30.75
+- response: 7EE05621E1C01ED
+  expected_values:
+    FORD_TT: 30.8125
+- response: 7EE05621E1C01EE
+  expected_values:
+    FORD_TT: 30.875
+- response: 7EE05621E1C01EF
+  expected_values:
+    FORD_TT: 30.9375
+- response: 7EE05621E1C01F0
+  expected_values:
+    FORD_TT: 31
+- response: 7EE05621E1C01F1
+  expected_values:
+    FORD_TT: 31.0625
+- response: 7EE05621E1C01F2
+  expected_values:
+    FORD_TT: 31.125
+- response: 7EE05621E1C01F3
+  expected_values:
+    FORD_TT: 31.1875
+- response: 7EE05621E1C01F4
+  expected_values:
+    FORD_TT: 31.25
+- response: 7EE05621E1C01F5
+  expected_values:
+    FORD_TT: 31.3125
+- response: 7EE05621E1C01F6
+  expected_values:
+    FORD_TT: 31.375
+- response: 7EE05621E1C01F7
+  expected_values:
+    FORD_TT: 31.4375
+- response: 7EE05621E1C01F8
+  expected_values:
+    FORD_TT: 31.5
+- response: 7EE05621E1C01F9
+  expected_values:
+    FORD_TT: 31.5625
+- response: 7EE05621E1C01FA
+  expected_values:
+    FORD_TT: 31.625
+- response: 7EE05621E1C01FB
+  expected_values:
+    FORD_TT: 31.6875
+- response: 7EE05621E1C01FC
+  expected_values:
+    FORD_TT: 31.75
+- response: 7EE05621E1C01FD
+  expected_values:
+    FORD_TT: 31.8125
+- response: 7EE05621E1C01FE
+  expected_values:
+    FORD_TT: 31.875
+- response: 7EE05621E1C01FF
+  expected_values:
+    FORD_TT: 31.9375
+- response: 7EE05621E1C0200
+  expected_values:
+    FORD_TT: 32
+- response: 7EE05621E1C0201
+  expected_values:
+    FORD_TT: 32.0625
+- response: 7EE05621E1C0202
+  expected_values:
+    FORD_TT: 32.125
+- response: 7EE05621E1C0203
+  expected_values:
+    FORD_TT: 32.1875
+- response: 7EE05621E1C0204
+  expected_values:
+    FORD_TT: 32.25
+- response: 7EE05621E1C0205
+  expected_values:
+    FORD_TT: 32.3125
+- response: 7EE05621E1C0206
+  expected_values:
+    FORD_TT: 32.375
+- response: 7EE05621E1C0207
+  expected_values:
+    FORD_TT: 32.4375
+- response: 7EE05621E1C0208
+  expected_values:
+    FORD_TT: 32.5
+- response: 7EE05621E1C0209
+  expected_values:
+    FORD_TT: 32.5625
+- response: 7EE05621E1C020B
+  expected_values:
+    FORD_TT: 32.6875
+- response: 7EE05621E1C020C
+  expected_values:
+    FORD_TT: 32.75
+- response: 7EE05621E1C020D
+  expected_values:
+    FORD_TT: 32.8125
+- response: 7EE05621E1C020E
+  expected_values:
+    FORD_TT: 32.875
+- response: 7EE05621E1C0210
+  expected_values:
+    FORD_TT: 33
+- response: 7EE05621E1C0212
+  expected_values:
+    FORD_TT: 33.125
+- response: 7EE05621E1C0213
+  expected_values:
+    FORD_TT: 33.1875
+- response: 7EE05621E1C0214
+  expected_values:
+    FORD_TT: 33.25
+- response: 7EE05621E1C0215
+  expected_values:
+    FORD_TT: 33.3125
+- response: 7EE05621E1C0216
+  expected_values:
+    FORD_TT: 33.375
+- response: 7EE05621E1C0217
+  expected_values:
+    FORD_TT: 33.4375
+- response: 7EE05621E1C0218
+  expected_values:
+    FORD_TT: 33.5
+- response: 7EE05621E1C0219
+  expected_values:
+    FORD_TT: 33.5625
+- response: 7EE05621E1C021A
+  expected_values:
+    FORD_TT: 33.625
+- response: 7EE05621E1C021B
+  expected_values:
+    FORD_TT: 33.6875
+- response: 7EE05621E1C021C
+  expected_values:
+    FORD_TT: 33.75
+- response: 7EE05621E1C021E
+  expected_values:
+    FORD_TT: 33.875
+- response: 7EE05621E1C021F
+  expected_values:
+    FORD_TT: 33.9375
+- response: 7EE05621E1C0220
+  expected_values:
+    FORD_TT: 34
+- response: 7EE05621E1C0221
+  expected_values:
+    FORD_TT: 34.0625
+- response: 7EE05621E1C0222
+  expected_values:
+    FORD_TT: 34.125
+- response: 7EE05621E1C0223
+  expected_values:
+    FORD_TT: 34.1875
+- response: 7EE05621E1C0228
+  expected_values:
+    FORD_TT: 34.5
+- response: 7EE05621E1C022D
+  expected_values:
+    FORD_TT: 34.8125
+- response: 7EE05621E1C022F
+  expected_values:
+    FORD_TT: 34.9375
+- response: 7EE05621E1C0230
+  expected_values:
+    FORD_TT: 35
+- response: 7EE05621E1C0232
+  expected_values:
+    FORD_TT: 35.125
+- response: 7EE05621E1C0233
+  expected_values:
+    FORD_TT: 35.1875
+- response: 7EE05621E1C0235
+  expected_values:
+    FORD_TT: 35.3125
+- response: 7EE05621E1C0239
+  expected_values:
+    FORD_TT: 35.5625
+- response: 7EE05621E1C023D
+  expected_values:
+    FORD_TT: 35.8125
+- response: 7EE05621E1C0241
+  expected_values:
+    FORD_TT: 36.0625
+- response: 7EE05621E1C0243
+  expected_values:
+    FORD_TT: 36.1875
+- response: 7EE05621E1C0244
+  expected_values:
+    FORD_TT: 36.25
+- response: 7EE05621E1C0246
+  expected_values:
+    FORD_TT: 36.375
+- response: 7EE05621E1C0247
+  expected_values:
+    FORD_TT: 36.4375
+- response: 7EE05621E1C0249
+  expected_values:
+    FORD_TT: 36.5625
+- response: 7EE05621E1C024D
+  expected_values:
+    FORD_TT: 36.8125
+- response: 7EE05621E1C0251
+  expected_values:
+    FORD_TT: 37.0625
+- response: 7EE05621E1C0253
+  expected_values:
+    FORD_TT: 37.1875
+- response: 7EE05621E1C0255
+  expected_values:
+    FORD_TT: 37.3125
+- response: 7EE05621E1C0257
+  expected_values:
+    FORD_TT: 37.4375
+- response: 7EE05621E1C0258
+  expected_values:
+    FORD_TT: 37.5
+- response: 7EE05621E1C0259
+  expected_values:
+    FORD_TT: 37.5625
+- response: 7EE05621E1C025A
+  expected_values:
+    FORD_TT: 37.625
+- response: 7EE05621E1C025C
+  expected_values:
+    FORD_TT: 37.75
+- response: 7EE05621E1C025E
+  expected_values:
+    FORD_TT: 37.875
+- response: 7EE05621E1C0261
+  expected_values:
+    FORD_TT: 38.0625
+- response: 7EE05621E1C0262
+  expected_values:
+    FORD_TT: 38.125
+- response: 7EE05621E1C0265
+  expected_values:
+    FORD_TT: 38.3125
+- response: 7EE05621E1C0268
+  expected_values:
+    FORD_TT: 38.5
+- response: 7EE05621E1C0269
+  expected_values:
+    FORD_TT: 38.5625
+- response: 7EE05621E1C026E
+  expected_values:
+    FORD_TT: 38.875
+- response: 7EE05621E1C026F
+  expected_values:
+    FORD_TT: 38.9375
+- response: 7EE05621E1C0278
+  expected_values:
+    FORD_TT: 39.5
+- response: 7EE05621E1C027C
+  expected_values:
+    FORD_TT: 39.75
+- response: 7EE05621E1C027E
+  expected_values:
+    FORD_TT: 39.875
+- response: 7EE05621E1C027F
+  expected_values:
+    FORD_TT: 39.9375
+- response: 7EE05621E1C0284
+  expected_values:
+    FORD_TT: 40.25
+- response: 7EE05621E1C0285
+  expected_values:
+    FORD_TT: 40.3125
+- response: 7EE05621E1C028A
+  expected_values:
+    FORD_TT: 40.625

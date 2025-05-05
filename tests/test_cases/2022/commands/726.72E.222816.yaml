@@ -1,0 +1,28 @@
+command_id: 726.72E.222816
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 72E05622816031A
+  expected_values:
+    FORD_TP_RL: 39.7
+    FORD_TP_RLO: 39.7
+- response: '72E056228160338'
+  expected_values:
+    FORD_TP_RL: 41.2
+    FORD_TP_RLO: 41.2
+- response: '72E056228160347'
+  expected_values:
+    FORD_TP_RL: 41.95
+    FORD_TP_RLO: 41.95
+- response: 72E05622816034C
+  expected_values:
+    FORD_TP_RL: 42.2
+    FORD_TP_RLO: 42.2
+- response: '72E056228160351'
+  expected_values:
+    FORD_TP_RL: 42.45
+    FORD_TP_RLO: 42.45
+- response: '72E056228160356'
+  expected_values:
+    FORD_TP_RL: 42.7
+    FORD_TP_RLO: 42.7

@@ -1,0 +1,52 @@
+command_id: 764.22A224
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 76C0562A2240000
+  expected_values:
+    FORD_CC_TGT_VSS: 0
+- response: 76C0562A224000A
+  expected_values:
+    FORD_CC_TGT_VSS: 3.6
+- response: 76C0562A224001E
+  expected_values:
+    FORD_CC_TGT_VSS: 10.8
+- response: 76C0562A224FF1A
+  expected_values:
+    FORD_CC_TGT_VSS: -82.8
+- response: 76C0562A224FF2E
+  expected_values:
+    FORD_CC_TGT_VSS: -75.6
+- response: 76C0562A224FF4C
+  expected_values:
+    FORD_CC_TGT_VSS: -64.8
+- response: 76C0562A224FF6A
+  expected_values:
+    FORD_CC_TGT_VSS: -54
+- response: 76C0562A224FF74
+  expected_values:
+    FORD_CC_TGT_VSS: -50.4
+- response: 76C0562A224FF7E
+  expected_values:
+    FORD_CC_TGT_VSS: -46.8
+- response: 76C0562A224FF92
+  expected_values:
+    FORD_CC_TGT_VSS: -39.6
+- response: 76C0562A224FF9C
+  expected_values:
+    FORD_CC_TGT_VSS: -36
+- response: 76C0562A224FFA6
+  expected_values:
+    FORD_CC_TGT_VSS: -32.4
+- response: 76C0562A224FFC4
+  expected_values:
+    FORD_CC_TGT_VSS: -21.6
+- response: 76C0562A224FFE2
+  expected_values:
+    FORD_CC_TGT_VSS: -10.8
+- response: 76C0562A224FFEC
+  expected_values:
+    FORD_CC_TGT_VSS: -7.2
+- response: 76C0562A224FFF6
+  expected_values:
+    FORD_CC_TGT_VSS: -3.6

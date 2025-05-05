@@ -1,0 +1,67 @@
+command_id: 720.728.22404C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7280662404C01D994
+  expected_values:
+    FORD_ODO_V3: 12123.6
+- response: 7280662404C01D997
+  expected_values:
+    FORD_ODO_V3: 12123.9
+- response: 7280662404C01D998
+  expected_values:
+    FORD_ODO_V3: 12124
+- response: 7280662404C01D99A
+  expected_values:
+    FORD_ODO_V3: 12124.2
+- response: 7280662404C01D99D
+  expected_values:
+    FORD_ODO_V3: 12124.5
+- response: 7280662404C01D9A0
+  expected_values:
+    FORD_ODO_V3: 12124.8
+- response: 7280662404C01D9A3
+  expected_values:
+    FORD_ODO_V3: 12125.1
+- response: 7280662404C01D9A7
+  expected_values:
+    FORD_ODO_V3: 12125.5
+- response: 7280662404C01D9AA
+  expected_values:
+    FORD_ODO_V3: 12125.8
+- response: 7280662404C01D9AE
+  expected_values:
+    FORD_ODO_V3: 12126.2
+- response: 7280662404C01D9B0
+  expected_values:
+    FORD_ODO_V3: 12126.4
+- response: 7280662404C01D9B4
+  expected_values:
+    FORD_ODO_V3: 12126.8
+- response: 7280662404C01D9B9
+  expected_values:
+    FORD_ODO_V3: 12127.3
+- response: 7280662404C01D9BA
+  expected_values:
+    FORD_ODO_V3: 12127.4
+- response: 7280662404C01D9BF
+  expected_values:
+    FORD_ODO_V3: 12127.9
+- response: 7280662404C01D9C1
+  expected_values:
+    FORD_ODO_V3: 12128.1
+- response: 7280662404C01D9C6
+  expected_values:
+    FORD_ODO_V3: 12128.6
+- response: 7280662404C01D9CA
+  expected_values:
+    FORD_ODO_V3: 12129
+- response: 7280662404C01D9CC
+  expected_values:
+    FORD_ODO_V3: 12129.2
+- response: 7280662404C01D9CD
+  expected_values:
+    FORD_ODO_V3: 12129.3
+- response: 7280662404C07BA81
+  expected_values:
+    FORD_ODO_V3: 50649.7

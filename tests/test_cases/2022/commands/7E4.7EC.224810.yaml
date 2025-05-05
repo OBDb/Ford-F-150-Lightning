@@ -1,0 +1,10 @@
+command_id: 7E4.7EC.224810
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EC056248101A41
+  expected_values:
+    FORD_HVBAT_AGE: 24195.6
+- response: 7EC056248101A55
+  expected_values:
+    FORD_HVBAT_AGE: 24267.6

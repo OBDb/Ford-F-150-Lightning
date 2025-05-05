@@ -1,0 +1,22 @@
+command_id: 760.222B00
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 76807622B0010000000
+  expected_values:
+    FORD_PARKING_BRAKE: 0
+- response: 76807622B0010800000
+  expected_values:
+    FORD_PARKING_BRAKE: 0
+- response: 76807622B0018000000
+  expected_values:
+    FORD_PARKING_BRAKE: 0
+- response: 76807622B00D6000000
+  expected_values:
+    FORD_PARKING_BRAKE: 1
+- response: 76807622B00D6800000
+  expected_values:
+    FORD_PARKING_BRAKE: 1
+- response: 76807622B00DE000000
+  expected_values:
+    FORD_PARKING_BRAKE: 1
