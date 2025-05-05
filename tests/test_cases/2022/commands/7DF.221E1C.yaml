@@ -4,192 +4,192 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7EE05621E1C00C2
   expected_values:
-    FORD_TOT: 12.125
+    FORD_TT: 12.125
 - response: 7EE05621E1C0117
   expected_values:
-    FORD_TOT: 17.4375
+    FORD_TT: 17.4375
 - response: |-
     7EE05621E1C0117
     7EF05621E1C010C
   expected_values:
-    FORD_TOT: 16.75
+    FORD_TOT_V2: 16.75
 - response: 7EE05621E1C0118
   expected_values:
-    FORD_TOT: 17.5
+    FORD_TT: 17.5
 - response: 7EE05621E1C0119
   expected_values:
-    FORD_TOT: 17.5625
+    FORD_TT: 17.5625
 - response: 7EE05621E1C011B
   expected_values:
-    FORD_TOT: 17.6875
+    FORD_TT: 17.6875
 - response: 7EE05621E1C0123
   expected_values:
-    FORD_TOT: 18.1875
+    FORD_TT: 18.1875
 - response: 7EE05621E1C0126
   expected_values:
-    FORD_TOT: 18.375
+    FORD_TT: 18.375
 - response: 7EE05621E1C0127
   expected_values:
-    FORD_TOT: 18.4375
+    FORD_TT: 18.4375
 - response: |-
     7EE05621E1C0127
     7EF05621E1C0143
   expected_values:
-    FORD_TOT: 20.1875
+    FORD_TOT_V2: 20.1875
 - response: 7EE05621E1C0128
   expected_values:
-    FORD_TOT: 18.5
+    FORD_TT: 18.5
 - response: |-
     7EE05621E1C0128
     7EF05621E1C0144
   expected_values:
-    FORD_TOT: 20.25
+    FORD_TOT_V2: 20.25
 - response: 7EE05621E1C0129
   expected_values:
-    FORD_TOT: 18.5625
+    FORD_TT: 18.5625
 - response: 7EE05621E1C012C
   expected_values:
-    FORD_TOT: 18.75
+    FORD_TT: 18.75
 - response: 7EE05621E1C0130
   expected_values:
-    FORD_TOT: 19
+    FORD_TT: 19
 - response: 7EE05621E1C0135
   expected_values:
-    FORD_TOT: 19.3125
+    FORD_TT: 19.3125
 - response: 7EE05621E1C0136
   expected_values:
-    FORD_TOT: 19.375
+    FORD_TT: 19.375
 - response: 7EE05621E1C013A
   expected_values:
-    FORD_TOT: 19.625
+    FORD_TT: 19.625
 - response: 7EE05621E1C013C
   expected_values:
-    FORD_TOT: 19.75
+    FORD_TT: 19.75
 - response: 7EE05621E1C013F
   expected_values:
-    FORD_TOT: 19.9375
+    FORD_TT: 19.9375
 - response: 7EE05621E1C0140
   expected_values:
-    FORD_TOT: 20
+    FORD_TT: 20
 - response: 7EE05621E1C0146
   expected_values:
-    FORD_TOT: 20.375
+    FORD_TT: 20.375
 - response: 7EE05621E1C014F
   expected_values:
-    FORD_TOT: 20.9375
+    FORD_TT: 20.9375
 - response: 7EE05621E1C0153
   expected_values:
-    FORD_TOT: 21.1875
+    FORD_TT: 21.1875
 - response: 7EE05621E1C0154
   expected_values:
-    FORD_TOT: 21.25
+    FORD_TT: 21.25
 - response: 7EE05621E1C015A
   expected_values:
-    FORD_TOT: 21.625
+    FORD_TT: 21.625
 - response: 7EE05621E1C015D
   expected_values:
-    FORD_TOT: 21.8125
+    FORD_TT: 21.8125
 - response: 7EE05621E1C015E
   expected_values:
-    FORD_TOT: 21.875
+    FORD_TT: 21.875
 - response: 7EE05621E1C0162
   expected_values:
-    FORD_TOT: 22.125
+    FORD_TT: 22.125
 - response: 7EE05621E1C0167
   expected_values:
-    FORD_TOT: 22.4375
+    FORD_TT: 22.4375
 - response: 7EE05621E1C0168
   expected_values:
-    FORD_TOT: 22.5
+    FORD_TT: 22.5
 - response: 7EE05621E1C016C
   expected_values:
-    FORD_TOT: 22.75
+    FORD_TT: 22.75
 - response: 7EE05621E1C016D
   expected_values:
-    FORD_TOT: 22.8125
+    FORD_TT: 22.8125
 - response: 7EE05621E1C0175
   expected_values:
-    FORD_TOT: 23.3125
+    FORD_TT: 23.3125
 - response: 7EE05621E1C0177
   expected_values:
-    FORD_TOT: 23.4375
+    FORD_TT: 23.4375
 - response: 7EE05621E1C0180
   expected_values:
-    FORD_TOT: 24
+    FORD_TT: 24
 - response: 7EE05621E1C0185
   expected_values:
-    FORD_TOT: 24.3125
+    FORD_TT: 24.3125
 - response: 7EE05621E1C0186
   expected_values:
-    FORD_TOT: 24.375
+    FORD_TT: 24.375
 - response: 7EE05621E1C018A
   expected_values:
-    FORD_TOT: 24.625
+    FORD_TT: 24.625
 - response: 7EE05621E1C018C
   expected_values:
-    FORD_TOT: 24.75
+    FORD_TT: 24.75
 - response: 7EE05621E1C018D
   expected_values:
-    FORD_TOT: 24.8125
+    FORD_TT: 24.8125
 - response: |-
     7EF05621E1C00D9
     7EE05621E1C00C2
   expected_values:
-    FORD_TOT: 12.125
+    FORD_TT: 12.125
 - response: 7EF05621E1C010D
   expected_values:
-    FORD_TOT: 16.8125
+    FORD_TOT_V2: 16.8125
 - response: 7EF05621E1C010E
   expected_values:
-    FORD_TOT: 16.875
+    FORD_TOT_V2: 16.875
 - response: 7EF05621E1C010F
   expected_values:
-    FORD_TOT: 16.9375
+    FORD_TOT_V2: 16.9375
 - response: 7EF05621E1C0118
   expected_values:
-    FORD_TOT: 17.5
+    FORD_TOT_V2: 17.5
 - response: 7EF05621E1C011E
   expected_values:
-    FORD_TOT: 17.875
+    FORD_TOT_V2: 17.875
 - response: 7EF05621E1C0130
   expected_values:
-    FORD_TOT: 19
+    FORD_TOT_V2: 19
 - response: 7EF05621E1C013C
   expected_values:
-    FORD_TOT: 19.75
+    FORD_TOT_V2: 19.75
 - response: 7EF05621E1C0143
   expected_values:
-    FORD_TOT: 20.1875
+    FORD_TOT_V2: 20.1875
 - response: |-
     7EF05621E1C0143
     7EE05621E1C0127
   expected_values:
-    FORD_TOT: 18.4375
+    FORD_TT: 18.4375
 - response: 7EF05621E1C0144
   expected_values:
-    FORD_TOT: 20.25
+    FORD_TOT_V2: 20.25
 - response: |-
     7EF05621E1C0144
     7EE05621E1C0129
   expected_values:
-    FORD_TOT: 18.5625
+    FORD_TT: 18.5625
 - response: |-
     7EF05621E1C0145
     7EE05621E1C0129
   expected_values:
-    FORD_TOT: 18.5625
+    FORD_TT: 18.5625
 - response: 7EF05621E1C0172
   expected_values:
-    FORD_TOT: 23.125
+    FORD_TOT_V2: 23.125
 - response: 7EF05621E1C0182
   expected_values:
-    FORD_TOT: 24.125
+    FORD_TOT_V2: 24.125
 - response: 7EF05621E1C0186
   expected_values:
-    FORD_TOT: 24.375
+    FORD_TOT_V2: 24.375
 - response: 7EF05621E1C0189
   expected_values:
-    FORD_TOT: 24.5625
+    FORD_TOT_V2: 24.5625
 - response: 7EF05621E1C01B2
   expected_values:
-    FORD_TOT: 27.125
+    FORD_TOT_V2: 27.125
