@@ -2,30 +2,393 @@ command_id: 7E4.7EC.224801
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7EC056248016939
+  expected_values:
+    FORD_HVBAT_SOC: 53.874
+- response: 7EC0562480169A4
+  expected_values:
+    FORD_HVBAT_SOC: 54.088
+- response: 7EC0562480169C0
+  expected_values:
+    FORD_HVBAT_SOC: 54.144
+- response: 7EC0562480169C1
+  expected_values:
+    FORD_HVBAT_SOC: 54.146
+- response: 7EC0562480169C2
+  expected_values:
+    FORD_HVBAT_SOC: 54.148
+- response: 7EC0562480169C4
+  expected_values:
+    FORD_HVBAT_SOC: 54.152
+- response: 7EC0562480169C7
+  expected_values:
+    FORD_HVBAT_SOC: 54.158
+- response: 7EC0562480169CA
+  expected_values:
+    FORD_HVBAT_SOC: 54.164
+- response: 7EC0562480169CD
+  expected_values:
+    FORD_HVBAT_SOC: 54.17
+- response: 7EC0562480169D0
+  expected_values:
+    FORD_HVBAT_SOC: 54.176
+- response: 7EC0562480169D4
+  expected_values:
+    FORD_HVBAT_SOC: 54.184
+- response: 7EC0562480169DF
+  expected_values:
+    FORD_HVBAT_SOC: 54.206
+- response: 7EC056248016A29
+  expected_values:
+    FORD_HVBAT_SOC: 54.354
+- response: 7EC056248016A2A
+  expected_values:
+    FORD_HVBAT_SOC: 54.356
+- response: 7EC056248016A5C
+  expected_values:
+    FORD_HVBAT_SOC: 54.456
+- response: 7EC056248016AC1
+  expected_values:
+    FORD_HVBAT_SOC: 54.658
+- response: 7EC056248016B63
+  expected_values:
+    FORD_HVBAT_SOC: 54.982
+- response: 7EC056248017067
+  expected_values:
+    FORD_HVBAT_SOC: 57.55
+- response: 7EC056248017086
+  expected_values:
+    FORD_HVBAT_SOC: 57.612
+- response: 7EC05624801708F
+  expected_values:
+    FORD_HVBAT_SOC: 57.63
+- response: 7EC056248017091
+  expected_values:
+    FORD_HVBAT_SOC: 57.634
+- response: 7EC056248017095
+  expected_values:
+    FORD_HVBAT_SOC: 57.642
+- response: 7EC0562480170A0
+  expected_values:
+    FORD_HVBAT_SOC: 57.664
+- response: 7EC0562480170A8
+  expected_values:
+    FORD_HVBAT_SOC: 57.68
+- response: 7EC0562480170B3
+  expected_values:
+    FORD_HVBAT_SOC: 57.702
+- response: 7EC0562480170BD
+  expected_values:
+    FORD_HVBAT_SOC: 57.722
+- response: 7EC0562480170C0
+  expected_values:
+    FORD_HVBAT_SOC: 57.728
+- response: 7EC0562480170C2
+  expected_values:
+    FORD_HVBAT_SOC: 57.732
+- response: 7EC0562480170F4
+  expected_values:
+    FORD_HVBAT_SOC: 57.832
+- response: 7EC0562480170FB
+  expected_values:
+    FORD_HVBAT_SOC: 57.846
+- response: 7EC0562480171A4
+  expected_values:
+    FORD_HVBAT_SOC: 58.184
+- response: 7EC056248017208
+  expected_values:
+    FORD_HVBAT_SOC: 58.384
+- response: 7EC0562480172AF
+  expected_values:
+    FORD_HVBAT_SOC: 58.718
+- response: 7EC0562480172D8
+  expected_values:
+    FORD_HVBAT_SOC: 58.8
+- response: 7EC0562480172DB
+  expected_values:
+    FORD_HVBAT_SOC: 58.806
+- response: 7EC056248017319
+  expected_values:
+    FORD_HVBAT_SOC: 58.93
+- response: 7EC05624801731A
+  expected_values:
+    FORD_HVBAT_SOC: 58.932
+- response: 7EC056248017330
+  expected_values:
+    FORD_HVBAT_SOC: 58.976
+- response: 7EC056248017333
+  expected_values:
+    FORD_HVBAT_SOC: 58.982
+- response: 7EC056248017379
+  expected_values:
+    FORD_HVBAT_SOC: 59.122
+- response: 7EC05624801739A
+  expected_values:
+    FORD_HVBAT_SOC: 59.188
+- response: 7EC0562480173A5
+  expected_values:
+    FORD_HVBAT_SOC: 59.21
+- response: 7EC0562480173B8
+  expected_values:
+    FORD_HVBAT_SOC: 59.248
+- response: 7EC0562480173C0
+  expected_values:
+    FORD_HVBAT_SOC: 59.264
+- response: 7EC0562480173D5
+  expected_values:
+    FORD_HVBAT_SOC: 59.306
+- response: 7EC056248017426
+  expected_values:
+    FORD_HVBAT_SOC: 59.468
+- response: 7EC056248017462
+  expected_values:
+    FORD_HVBAT_SOC: 59.588
+- response: 7EC0562480174A9
+  expected_values:
+    FORD_HVBAT_SOC: 59.73
+- response: 7EC056248017547
+  expected_values:
+    FORD_HVBAT_SOC: 60.046
+- response: 7EC056248017570
+  expected_values:
+    FORD_HVBAT_SOC: 60.128
+- response: 7EC0562480175C7
+  expected_values:
+    FORD_HVBAT_SOC: 60.302
+- response: 7EC056248017609
+  expected_values:
+    FORD_HVBAT_SOC: 60.434
+- response: 7EC056248017665
+  expected_values:
+    FORD_HVBAT_SOC: 60.618
+- response: 7EC056248017675
+  expected_values:
+    FORD_HVBAT_SOC: 60.65
+- response: 7EC0562480176EB
+  expected_values:
+    FORD_HVBAT_SOC: 60.886
+- response: 7EC05624801772A
+  expected_values:
+    FORD_HVBAT_SOC: 61.012
+- response: 7EC056248017795
+  expected_values:
+    FORD_HVBAT_SOC: 61.226
+- response: 7EC0562480177A8
+  expected_values:
+    FORD_HVBAT_SOC: 61.264
+- response: 7EC0562480177B0
+  expected_values:
+    FORD_HVBAT_SOC: 61.28
+- response: 7EC0562480177B3
+  expected_values:
+    FORD_HVBAT_SOC: 61.286
+- response: 7EC0562480177B5
+  expected_values:
+    FORD_HVBAT_SOC: 61.29
+- response: 7EC0562480177B6
+  expected_values:
+    FORD_HVBAT_SOC: 61.292
+- response: 7EC0562480177BE
+  expected_values:
+    FORD_HVBAT_SOC: 61.308
+- response: 7EC0562480177E9
+  expected_values:
+    FORD_HVBAT_SOC: 61.394
+- response: 7EC0562480177F9
+  expected_values:
+    FORD_HVBAT_SOC: 61.426
+- response: 7EC056248017859
+  expected_values:
+    FORD_HVBAT_SOC: 61.618
+- response: 7EC0562480178A2
+  expected_values:
+    FORD_HVBAT_SOC: 61.764
+- response: 7EC0562480178A3
+  expected_values:
+    FORD_HVBAT_SOC: 61.766
+- response: 7EC0562480178C4
+  expected_values:
+    FORD_HVBAT_SOC: 61.832
+- response: 7EC056248017902
+  expected_values:
+    FORD_HVBAT_SOC: 61.956
+- response: 7EC05624801792A
+  expected_values:
+    FORD_HVBAT_SOC: 62.036
+- response: 7EC056248017AF9
+  expected_values:
+    FORD_HVBAT_SOC: 62.962
+- response: 7EC056248017AFE
+  expected_values:
+    FORD_HVBAT_SOC: 62.972
+- response: 7EC056248017B08
+  expected_values:
+    FORD_HVBAT_SOC: 62.992
+- response: 7EC056248017B15
+  expected_values:
+    FORD_HVBAT_SOC: 63.018
+- response: 7EC056248017B19
+  expected_values:
+    FORD_HVBAT_SOC: 63.026
+- response: 7EC056248017B2B
+  expected_values:
+    FORD_HVBAT_SOC: 63.062
+- response: 7EC056248017B2E
+  expected_values:
+    FORD_HVBAT_SOC: 63.068
+- response: 7EC056248017B39
+  expected_values:
+    FORD_HVBAT_SOC: 63.09
+- response: 7EC056248017B45
+  expected_values:
+    FORD_HVBAT_SOC: 63.114
+- response: 7EC056248017B4A
+  expected_values:
+    FORD_HVBAT_SOC: 63.124
+- response: 7EC056248017B4F
+  expected_values:
+    FORD_HVBAT_SOC: 63.134
+- response: 7EC056248017B51
+  expected_values:
+    FORD_HVBAT_SOC: 63.138
+- response: 7EC056248017B54
+  expected_values:
+    FORD_HVBAT_SOC: 63.144
+- response: 7EC056248017B56
+  expected_values:
+    FORD_HVBAT_SOC: 63.148
+- response: 7EC056248017B59
+  expected_values:
+    FORD_HVBAT_SOC: 63.154
+- response: 7EC056248017B5B
+  expected_values:
+    FORD_HVBAT_SOC: 63.158
+- response: 7EC056248017B5E
+  expected_values:
+    FORD_HVBAT_SOC: 63.164
+- response: 7EC056248017B60
+  expected_values:
+    FORD_HVBAT_SOC: 63.168
+- response: 7EC056248017B63
+  expected_values:
+    FORD_HVBAT_SOC: 63.174
+- response: 7EC056248017B66
+  expected_values:
+    FORD_HVBAT_SOC: 63.18
+- response: 7EC056248017B6A
+  expected_values:
+    FORD_HVBAT_SOC: 63.188
+- response: 7EC056248017B6B
+  expected_values:
+    FORD_HVBAT_SOC: 63.19
+- response: 7EC056248017B6F
+  expected_values:
+    FORD_HVBAT_SOC: 63.198
+- response: 7EC056248017B71
+  expected_values:
+    FORD_HVBAT_SOC: 63.202
+- response: 7EC056248017B73
+  expected_values:
+    FORD_HVBAT_SOC: 63.206
+- response: 7EC056248017B76
+  expected_values:
+    FORD_HVBAT_SOC: 63.212
+- response: 7EC056248017B78
+  expected_values:
+    FORD_HVBAT_SOC: 63.216
+- response: 7EC056248017B83
+  expected_values:
+    FORD_HVBAT_SOC: 63.238
+- response: 7EC056248017B8A
+  expected_values:
+    FORD_HVBAT_SOC: 63.252
+- response: 7EC056248017B8C
+  expected_values:
+    FORD_HVBAT_SOC: 63.256
+- response: 7EC056248017BBF
+  expected_values:
+    FORD_HVBAT_SOC: 63.358
+- response: 7EC056248017C48
+  expected_values:
+    FORD_HVBAT_SOC: 63.632
+- response: 7EC056248017C78
+  expected_values:
+    FORD_HVBAT_SOC: 63.728
+- response: 7EC056248017C85
+  expected_values:
+    FORD_HVBAT_SOC: 63.754
+- response: 7EC056248017C87
+  expected_values:
+    FORD_HVBAT_SOC: 63.758
+- response: 7EC056248017C9B
+  expected_values:
+    FORD_HVBAT_SOC: 63.798
+- response: 7EC056248017C9C
+  expected_values:
+    FORD_HVBAT_SOC: 63.8
 - response: 7EC056248017CA1
   expected_values:
     FORD_HVBAT_SOC: 63.81
+- response: 7EC056248017CAB
+  expected_values:
+    FORD_HVBAT_SOC: 63.83
+- response: 7EC056248017CAE
+  expected_values:
+    FORD_HVBAT_SOC: 63.836
 - response: 7EC056248017CC6
   expected_values:
     FORD_HVBAT_SOC: 63.884
+- response: 7EC056248017CD7
+  expected_values:
+    FORD_HVBAT_SOC: 63.918
 - response: 7EC056248017CD9
   expected_values:
     FORD_HVBAT_SOC: 63.922
+- response: 7EC056248017CDB
+  expected_values:
+    FORD_HVBAT_SOC: 63.926
 - response: 7EC056248017CE8
   expected_values:
     FORD_HVBAT_SOC: 63.952
+- response: 7EC056248017CED
+  expected_values:
+    FORD_HVBAT_SOC: 63.962
 - response: 7EC056248017CFC
   expected_values:
     FORD_HVBAT_SOC: 63.992
+- response: 7EC056248017D36
+  expected_values:
+    FORD_HVBAT_SOC: 64.108
 - response: 7EC056248017D37
   expected_values:
     FORD_HVBAT_SOC: 64.11
+- response: 7EC056248017D59
+  expected_values:
+    FORD_HVBAT_SOC: 64.178
+- response: 7EC056248017D72
+  expected_values:
+    FORD_HVBAT_SOC: 64.228
+- response: 7EC056248017D74
+  expected_values:
+    FORD_HVBAT_SOC: 64.232
+- response: 7EC056248017D91
+  expected_values:
+    FORD_HVBAT_SOC: 64.29
 - response: 7EC056248017DAB
   expected_values:
     FORD_HVBAT_SOC: 64.342
+- response: 7EC056248017DBA
+  expected_values:
+    FORD_HVBAT_SOC: 64.372
+- response: 7EC056248017DDD
+  expected_values:
+    FORD_HVBAT_SOC: 64.442
 - response: 7EC056248017DE9
   expected_values:
     FORD_HVBAT_SOC: 64.466
+- response: 7EC056248017DEE
+  expected_values:
+    FORD_HVBAT_SOC: 64.476
 - response: 7EC056248017E02
   expected_values:
     FORD_HVBAT_SOC: 64.516
@@ -38,6 +401,9 @@ test_cases:
 - response: 7EC056248017E2F
   expected_values:
     FORD_HVBAT_SOC: 64.606
+- response: 7EC056248017E3D
+  expected_values:
+    FORD_HVBAT_SOC: 64.634
 - response: 7EC056248017E8B
   expected_values:
     FORD_HVBAT_SOC: 64.79
@@ -53,6 +419,9 @@ test_cases:
 - response: 7EC056248017EEF
   expected_values:
     FORD_HVBAT_SOC: 64.99
+- response: 7EC056248017F2E
+  expected_values:
+    FORD_HVBAT_SOC: 65.116
 - response: 7EC056248017F3C
   expected_values:
     FORD_HVBAT_SOC: 65.144
@@ -65,30 +434,69 @@ test_cases:
 - response: 7EC056248017F41
   expected_values:
     FORD_HVBAT_SOC: 65.154
+- response: 7EC056248017F48
+  expected_values:
+    FORD_HVBAT_SOC: 65.168
+- response: 7EC056248017F54
+  expected_values:
+    FORD_HVBAT_SOC: 65.192
 - response: 7EC056248017F7D
   expected_values:
     FORD_HVBAT_SOC: 65.274
 - response: 7EC056248017F94
   expected_values:
     FORD_HVBAT_SOC: 65.32
+- response: 7EC056248017F9A
+  expected_values:
+    FORD_HVBAT_SOC: 65.332
+- response: 7EC056248017FA1
+  expected_values:
+    FORD_HVBAT_SOC: 65.346
 - response: 7EC056248017FA5
   expected_values:
     FORD_HVBAT_SOC: 65.354
+- response: 7EC056248017FA6
+  expected_values:
+    FORD_HVBAT_SOC: 65.356
 - response: 7EC056248017FAF
   expected_values:
     FORD_HVBAT_SOC: 65.374
+- response: 7EC056248017FC4
+  expected_values:
+    FORD_HVBAT_SOC: 65.416
 - response: 7EC056248017FD8
   expected_values:
     FORD_HVBAT_SOC: 65.456
 - response: 7EC056248017FDC
   expected_values:
     FORD_HVBAT_SOC: 65.464
+- response: 7EC056248017FE4
+  expected_values:
+    FORD_HVBAT_SOC: 65.48
 - response: 7EC056248017FEE
   expected_values:
     FORD_HVBAT_SOC: 65.5
 - response: 7EC056248017FF8
   expected_values:
     FORD_HVBAT_SOC: 65.52
+- response: 7EC056248018020
+  expected_values:
+    FORD_HVBAT_SOC: 65.6
+- response: 7EC056248018023
+  expected_values:
+    FORD_HVBAT_SOC: 65.606
+- response: 7EC056248018024
+  expected_values:
+    FORD_HVBAT_SOC: 65.608
+- response: 7EC056248018025
+  expected_values:
+    FORD_HVBAT_SOC: 65.61
+- response: 7EC056248018026
+  expected_values:
+    FORD_HVBAT_SOC: 65.612
+- response: 7EC056248018027
+  expected_values:
+    FORD_HVBAT_SOC: 65.614
 - response: 7EC05624801802C
   expected_values:
     FORD_HVBAT_SOC: 65.624
@@ -143,6 +551,9 @@ test_cases:
 - response: 7EC056248018081
   expected_values:
     FORD_HVBAT_SOC: 65.794
+- response: 7EC056248018083
+  expected_values:
+    FORD_HVBAT_SOC: 65.798
 - response: 7EC056248018084
   expected_values:
     FORD_HVBAT_SOC: 65.8
@@ -170,6 +581,9 @@ test_cases:
 - response: 7EC0562480180A8
   expected_values:
     FORD_HVBAT_SOC: 65.872
+- response: 7EC0562480180A9
+  expected_values:
+    FORD_HVBAT_SOC: 65.874
 - response: 7EC0562480180AE
   expected_values:
     FORD_HVBAT_SOC: 65.884
@@ -233,6 +647,9 @@ test_cases:
 - response: 7EC056248018117
   expected_values:
     FORD_HVBAT_SOC: 66.094
+- response: 7EC05624801811A
+  expected_values:
+    FORD_HVBAT_SOC: 66.1
 - response: 7EC05624801811B
   expected_values:
     FORD_HVBAT_SOC: 66.102
@@ -269,6 +686,9 @@ test_cases:
 - response: 7EC05624801815D
   expected_values:
     FORD_HVBAT_SOC: 66.234
+- response: 7EC05624801815F
+  expected_values:
+    FORD_HVBAT_SOC: 66.238
 - response: 7EC056248018162
   expected_values:
     FORD_HVBAT_SOC: 66.244
@@ -278,6 +698,9 @@ test_cases:
 - response: 7EC05624801816D
   expected_values:
     FORD_HVBAT_SOC: 66.266
+- response: 7EC056248018171
+  expected_values:
+    FORD_HVBAT_SOC: 66.274
 - response: 7EC056248018178
   expected_values:
     FORD_HVBAT_SOC: 66.288
@@ -302,6 +725,9 @@ test_cases:
 - response: 7EC0562480181B2
   expected_values:
     FORD_HVBAT_SOC: 66.404
+- response: 7EC0562480181BB
+  expected_values:
+    FORD_HVBAT_SOC: 66.422
 - response: 7EC0562480181C3
   expected_values:
     FORD_HVBAT_SOC: 66.438
@@ -320,6 +746,9 @@ test_cases:
 - response: 7EC0562480181F8
   expected_values:
     FORD_HVBAT_SOC: 66.544
+- response: 7EC0562480181F9
+  expected_values:
+    FORD_HVBAT_SOC: 66.546
 - response: 7EC0562480181FF
   expected_values:
     FORD_HVBAT_SOC: 66.558
@@ -347,6 +776,9 @@ test_cases:
 - response: 7EC05624801824B
   expected_values:
     FORD_HVBAT_SOC: 66.71
+- response: 7EC05624801825D
+  expected_values:
+    FORD_HVBAT_SOC: 66.746
 - response: 7EC05624801829F
   expected_values:
     FORD_HVBAT_SOC: 66.878
@@ -356,51 +788,327 @@ test_cases:
 - response: 7EC0562480182AA
   expected_values:
     FORD_HVBAT_SOC: 66.9
+- response: 7EC0562480182B8
+  expected_values:
+    FORD_HVBAT_SOC: 66.928
 - response: 7EC0562480182C7
   expected_values:
     FORD_HVBAT_SOC: 66.958
+- response: 7EC0562480182D4
+  expected_values:
+    FORD_HVBAT_SOC: 66.984
 - response: 7EC056248018305
   expected_values:
     FORD_HVBAT_SOC: 67.082
+- response: 7EC05624801830D
+  expected_values:
+    FORD_HVBAT_SOC: 67.098
+- response: 7EC056248018319
+  expected_values:
+    FORD_HVBAT_SOC: 67.122
 - response: 7EC056248018335
   expected_values:
     FORD_HVBAT_SOC: 67.178
+- response: 7EC05624801834D
+  expected_values:
+    FORD_HVBAT_SOC: 67.226
+- response: 7EC056248018379
+  expected_values:
+    FORD_HVBAT_SOC: 67.314
 - response: 7EC056248018390
   expected_values:
     FORD_HVBAT_SOC: 67.36
+- response: 7EC0562480183DA
+  expected_values:
+    FORD_HVBAT_SOC: 67.508
+- response: 7EC0562480183DC
+  expected_values:
+    FORD_HVBAT_SOC: 67.512
+- response: 7EC05624801840E
+  expected_values:
+    FORD_HVBAT_SOC: 67.612
+- response: 7EC05624801841E
+  expected_values:
+    FORD_HVBAT_SOC: 67.644
+- response: 7EC056248018455
+  expected_values:
+    FORD_HVBAT_SOC: 67.754
+- response: 7EC05624801845B
+  expected_values:
+    FORD_HVBAT_SOC: 67.766
+- response: 7EC056248018480
+  expected_values:
+    FORD_HVBAT_SOC: 67.84
+- response: 7EC056248018491
+  expected_values:
+    FORD_HVBAT_SOC: 67.874
+- response: 7EC056248018495
+  expected_values:
+    FORD_HVBAT_SOC: 67.882
+- response: 7EC0562480184B3
+  expected_values:
+    FORD_HVBAT_SOC: 67.942
+- response: 7EC0562480184B8
+  expected_values:
+    FORD_HVBAT_SOC: 67.952
+- response: 7EC0562480184BC
+  expected_values:
+    FORD_HVBAT_SOC: 67.96
+- response: 7EC0562480184C0
+  expected_values:
+    FORD_HVBAT_SOC: 67.968
+- response: 7EC0562480184D1
+  expected_values:
+    FORD_HVBAT_SOC: 68.002
+- response: 7EC0562480184E4
+  expected_values:
+    FORD_HVBAT_SOC: 68.04
+- response: 7EC0562480184E6
+  expected_values:
+    FORD_HVBAT_SOC: 68.044
+- response: 7EC0562480184E9
+  expected_values:
+    FORD_HVBAT_SOC: 68.05
+- response: 7EC0562480184EC
+  expected_values:
+    FORD_HVBAT_SOC: 68.056
+- response: 7EC0562480184EE
+  expected_values:
+    FORD_HVBAT_SOC: 68.06
+- response: 7EC0562480184F0
+  expected_values:
+    FORD_HVBAT_SOC: 68.064
+- response: 7EC0562480184FE
+  expected_values:
+    FORD_HVBAT_SOC: 68.092
+- response: 7EC056248018554
+  expected_values:
+    FORD_HVBAT_SOC: 68.264
+- response: 7EC056248018558
+  expected_values:
+    FORD_HVBAT_SOC: 68.272
+- response: 7EC05624801855D
+  expected_values:
+    FORD_HVBAT_SOC: 68.282
+- response: 7EC056248018564
+  expected_values:
+    FORD_HVBAT_SOC: 68.296
+- response: 7EC056248018569
+  expected_values:
+    FORD_HVBAT_SOC: 68.306
+- response: 7EC056248018570
+  expected_values:
+    FORD_HVBAT_SOC: 68.32
+- response: 7EC056248018586
+  expected_values:
+    FORD_HVBAT_SOC: 68.364
+- response: 7EC05624801858C
+  expected_values:
+    FORD_HVBAT_SOC: 68.376
+- response: 7EC05624801858E
+  expected_values:
+    FORD_HVBAT_SOC: 68.38
+- response: 7EC0562480185A1
+  expected_values:
+    FORD_HVBAT_SOC: 68.418
+- response: 7EC0562480185C5
+  expected_values:
+    FORD_HVBAT_SOC: 68.49
+- response: 7EC0562480185CB
+  expected_values:
+    FORD_HVBAT_SOC: 68.502
+- response: 7EC0562480185D4
+  expected_values:
+    FORD_HVBAT_SOC: 68.52
+- response: 7EC0562480185E5
+  expected_values:
+    FORD_HVBAT_SOC: 68.554
+- response: 7EC0562480185F4
+  expected_values:
+    FORD_HVBAT_SOC: 68.584
+- response: 7EC056248018601
+  expected_values:
+    FORD_HVBAT_SOC: 68.61
+- response: 7EC05624801861D
+  expected_values:
+    FORD_HVBAT_SOC: 68.666
+- response: 7EC056248018629
+  expected_values:
+    FORD_HVBAT_SOC: 68.69
+- response: 7EC056248018631
+  expected_values:
+    FORD_HVBAT_SOC: 68.706
+- response: 7EC056248018632
+  expected_values:
+    FORD_HVBAT_SOC: 68.708
+- response: 7EC056248018645
+  expected_values:
+    FORD_HVBAT_SOC: 68.746
+- response: 7EC05624801864F
+  expected_values:
+    FORD_HVBAT_SOC: 68.766
+- response: 7EC056248018653
+  expected_values:
+    FORD_HVBAT_SOC: 68.774
+- response: 7EC056248018658
+  expected_values:
+    FORD_HVBAT_SOC: 68.784
+- response: 7EC05624801865D
+  expected_values:
+    FORD_HVBAT_SOC: 68.794
+- response: 7EC056248018660
+  expected_values:
+    FORD_HVBAT_SOC: 68.8
+- response: 7EC056248018662
+  expected_values:
+    FORD_HVBAT_SOC: 68.804
+- response: 7EC056248018669
+  expected_values:
+    FORD_HVBAT_SOC: 68.818
+- response: 7EC056248018672
+  expected_values:
+    FORD_HVBAT_SOC: 68.836
+- response: 7EC05624801868B
+  expected_values:
+    FORD_HVBAT_SOC: 68.886
+- response: 7EC05624801869B
+  expected_values:
+    FORD_HVBAT_SOC: 68.918
+- response: 7EC056248018734
+  expected_values:
+    FORD_HVBAT_SOC: 69.224
+- response: 7EC056248018735
+  expected_values:
+    FORD_HVBAT_SOC: 69.226
+- response: 7EC05624801873A
+  expected_values:
+    FORD_HVBAT_SOC: 69.236
+- response: 7EC056248018769
+  expected_values:
+    FORD_HVBAT_SOC: 69.33
+- response: 7EC05624801876B
+  expected_values:
+    FORD_HVBAT_SOC: 69.334
+- response: 7EC056248018770
+  expected_values:
+    FORD_HVBAT_SOC: 69.344
+- response: 7EC056248018777
+  expected_values:
+    FORD_HVBAT_SOC: 69.358
+- response: 7EC05624801877A
+  expected_values:
+    FORD_HVBAT_SOC: 69.364
+- response: 7EC05624801877C
+  expected_values:
+    FORD_HVBAT_SOC: 69.368
+- response: 7EC05624801877E
+  expected_values:
+    FORD_HVBAT_SOC: 69.372
+- response: 7EC056248018780
+  expected_values:
+    FORD_HVBAT_SOC: 69.376
+- response: 7EC056248018783
+  expected_values:
+    FORD_HVBAT_SOC: 69.382
+- response: 7EC056248018785
+  expected_values:
+    FORD_HVBAT_SOC: 69.386
 - response: 7EC056248018786
   expected_values:
     FORD_HVBAT_SOC: 69.388
+- response: 7EC056248018787
+  expected_values:
+    FORD_HVBAT_SOC: 69.39
+- response: 7EC05624801878A
+  expected_values:
+    FORD_HVBAT_SOC: 69.396
+- response: 7EC05624801878B
+  expected_values:
+    FORD_HVBAT_SOC: 69.398
+- response: 7EC05624801878C
+  expected_values:
+    FORD_HVBAT_SOC: 69.4
+- response: 7EC05624801878F
+  expected_values:
+    FORD_HVBAT_SOC: 69.406
 - response: 7EC056248018791
   expected_values:
     FORD_HVBAT_SOC: 69.41
+- response: 7EC056248018793
+  expected_values:
+    FORD_HVBAT_SOC: 69.414
+- response: 7EC056248018796
+  expected_values:
+    FORD_HVBAT_SOC: 69.42
+- response: 7EC056248018797
+  expected_values:
+    FORD_HVBAT_SOC: 69.422
+- response: 7EC056248018799
+  expected_values:
+    FORD_HVBAT_SOC: 69.426
 - response: 7EC0562480187A1
   expected_values:
     FORD_HVBAT_SOC: 69.442
 - response: 7EC0562480187A2
   expected_values:
     FORD_HVBAT_SOC: 69.444
+- response: 7EC0562480187A4
+  expected_values:
+    FORD_HVBAT_SOC: 69.448
+- response: 7EC0562480187A6
+  expected_values:
+    FORD_HVBAT_SOC: 69.452
 - response: 7EC0562480187AA
   expected_values:
     FORD_HVBAT_SOC: 69.46
+- response: 7EC0562480187AB
+  expected_values:
+    FORD_HVBAT_SOC: 69.462
 - response: 7EC0562480187AC
   expected_values:
     FORD_HVBAT_SOC: 69.464
+- response: 7EC0562480187AD
+  expected_values:
+    FORD_HVBAT_SOC: 69.466
+- response: 7EC0562480187AF
+  expected_values:
+    FORD_HVBAT_SOC: 69.47
 - response: 7EC0562480187B0
   expected_values:
     FORD_HVBAT_SOC: 69.472
+- response: 7EC0562480187B1
+  expected_values:
+    FORD_HVBAT_SOC: 69.474
+- response: 7EC0562480187D3
+  expected_values:
+    FORD_HVBAT_SOC: 69.542
+- response: 7EC0562480187EA
+  expected_values:
+    FORD_HVBAT_SOC: 69.588
 - response: 7EC0562480187EB
   expected_values:
     FORD_HVBAT_SOC: 69.59
 - response: 7EC0562480187F6
   expected_values:
     FORD_HVBAT_SOC: 69.612
+- response: 7EC056248018802
+  expected_values:
+    FORD_HVBAT_SOC: 69.636
+- response: 7EC056248018818
+  expected_values:
+    FORD_HVBAT_SOC: 69.68
 - response: 7EC056248018820
   expected_values:
     FORD_HVBAT_SOC: 69.696
+- response: 7EC05624801882A
+  expected_values:
+    FORD_HVBAT_SOC: 69.716
 - response: 7EC05624801882D
   expected_values:
     FORD_HVBAT_SOC: 69.722
+- response: 7EC056248018832
+  expected_values:
+    FORD_HVBAT_SOC: 69.732
 - response: 7EC056248018843
   expected_values:
     FORD_HVBAT_SOC: 69.766
@@ -410,6 +1118,21 @@ test_cases:
 - response: 7EC05624801886E
   expected_values:
     FORD_HVBAT_SOC: 69.852
+- response: 7EC05624801886F
+  expected_values:
+    FORD_HVBAT_SOC: 69.854
+- response: 7EC056248018875
+  expected_values:
+    FORD_HVBAT_SOC: 69.866
+- response: 7EC056248018893
+  expected_values:
+    FORD_HVBAT_SOC: 69.926
+- response: 7EC0562480188A4
+  expected_values:
+    FORD_HVBAT_SOC: 69.96
+- response: 7EC0562480188A6
+  expected_values:
+    FORD_HVBAT_SOC: 69.964
 - response: 7EC0562480188BC
   expected_values:
     FORD_HVBAT_SOC: 70.008
@@ -422,18 +1145,48 @@ test_cases:
 - response: 7EC056248018905
   expected_values:
     FORD_HVBAT_SOC: 70.154
+- response: 7EC056248018907
+  expected_values:
+    FORD_HVBAT_SOC: 70.158
+- response: 7EC056248018909
+  expected_values:
+    FORD_HVBAT_SOC: 70.162
 - response: 7EC056248018914
   expected_values:
     FORD_HVBAT_SOC: 70.184
+- response: 7EC05624801892F
+  expected_values:
+    FORD_HVBAT_SOC: 70.238
+- response: 7EC056248018957
+  expected_values:
+    FORD_HVBAT_SOC: 70.318
 - response: 7EC056248018966
   expected_values:
     FORD_HVBAT_SOC: 70.348
+- response: 7EC056248018968
+  expected_values:
+    FORD_HVBAT_SOC: 70.352
 - response: 7EC056248018979
   expected_values:
     FORD_HVBAT_SOC: 70.386
+- response: 7EC056248018981
+  expected_values:
+    FORD_HVBAT_SOC: 70.402
+- response: 7EC056248018992
+  expected_values:
+    FORD_HVBAT_SOC: 70.436
 - response: 7EC05624801899C
   expected_values:
     FORD_HVBAT_SOC: 70.456
+- response: 7EC05624801899E
+  expected_values:
+    FORD_HVBAT_SOC: 70.46
+- response: 7EC0562480189DC
+  expected_values:
+    FORD_HVBAT_SOC: 70.584
+- response: 7EC0562480189E4
+  expected_values:
+    FORD_HVBAT_SOC: 70.6
 - response: 7EC056248018A03
   expected_values:
     FORD_HVBAT_SOC: 70.662
@@ -443,6 +1196,9 @@ test_cases:
 - response: 7EC056248018A0C
   expected_values:
     FORD_HVBAT_SOC: 70.68
+- response: 7EC056248018A0E
+  expected_values:
+    FORD_HVBAT_SOC: 70.684
 - response: 7EC056248018A26
   expected_values:
     FORD_HVBAT_SOC: 70.732
@@ -473,6 +1229,9 @@ test_cases:
 - response: 7EC056248018A6D
   expected_values:
     FORD_HVBAT_SOC: 70.874
+- response: 7EC056248018A74
+  expected_values:
+    FORD_HVBAT_SOC: 70.888
 - response: 7EC056248018A7D
   expected_values:
     FORD_HVBAT_SOC: 70.906
@@ -509,6 +1268,9 @@ test_cases:
 - response: 7EC056248018B21
   expected_values:
     FORD_HVBAT_SOC: 71.234
+- response: 7EC056248018B23
+  expected_values:
+    FORD_HVBAT_SOC: 71.238
 - response: 7EC056248018B27
   expected_values:
     FORD_HVBAT_SOC: 71.246

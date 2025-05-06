@@ -2,6 +2,21 @@ command_id: 7E2.7EA.22DD05
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7EA0462DD0533
+  expected_values:
+    FORD_AAT: 11
+- response: 7EA0462DD0534
+  expected_values:
+    FORD_AAT: 12
+- response: 7EA0462DD0535
+  expected_values:
+    FORD_AAT: 13
+- response: 7EA0462DD0536
+  expected_values:
+    FORD_AAT: 14
+- response: 7EA0462DD0537
+  expected_values:
+    FORD_AAT: 15
 - response: 7EA0462DD0538
   expected_values:
     FORD_AAT: 16
@@ -26,6 +41,12 @@ test_cases:
 - response: 7EA0462DD053F
   expected_values:
     FORD_AAT: 23
+- response: |-
+    7EA0462DD053F
+    7EF0462DD053E
+    7EE0462DD053E
+  expected_values:
+    FORD_AAT: 23
 - response: 7EA0462DD0540
   expected_values:
     FORD_AAT: 24
@@ -35,6 +56,21 @@ test_cases:
 - response: 7EA0462DD0542
   expected_values:
     FORD_AAT: 26
+- response: 7EA0462DD0543
+  expected_values:
+    FORD_AAT: 27
+- response: 7EA0462DD0544
+  expected_values:
+    FORD_AAT: 28
+- response: 7EA0462DD0545
+  expected_values:
+    FORD_AAT: 29
+- response: 7EA0462DD0546
+  expected_values:
+    FORD_AAT: 30
+- response: 7EA0462DD0547
+  expected_values:
+    FORD_AAT: 31
 - response: 7EA0462DD0548
   expected_values:
     FORD_AAT: 32

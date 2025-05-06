@@ -5,18 +5,66 @@ test_cases:
 - response: '72E056228140310'
   expected_values:
     FORD_TP_FR: 39.2
+- response: 72E05622814031A
+  expected_values:
+    FORD_TP_FR: 39.7
+- response: 72E05622814031F
+  expected_values:
+    FORD_TP_FR: 39.95
+- response: '72E056228140321'
+  expected_values:
+    FORD_TP_FR: 40.05
+- response: '72E056228140324'
+  expected_values:
+    FORD_TP_FR: 40.2
+- response: '72E056228140326'
+  expected_values:
+    FORD_TP_FR: 40.3
+- response: '72E056228140329'
+  expected_values:
+    FORD_TP_FR: 40.45
+- response: 72E05622814032B
+  expected_values:
+    FORD_TP_FR: 40.55
+- response: 72E05622814032E
+  expected_values:
+    FORD_TP_FR: 40.7
+- response: '72E056228140330'
+  expected_values:
+    FORD_TP_FR: 40.8
 - response: '72E056228140333'
   expected_values:
     FORD_TP_FR: 40.95
+- response: '72E056228140335'
+  expected_values:
+    FORD_TP_FR: 41.05
 - response: '72E056228140338'
   expected_values:
     FORD_TP_FR: 41.2
+- response: 72E05622814033A
+  expected_values:
+    FORD_TP_FR: 41.3
 - response: 72E05622814033D
   expected_values:
     FORD_TP_FR: 41.45
+- response: 72E05622814033F
+  expected_values:
+    FORD_TP_FR: 41.55
+- response: '72E056228140342'
+  expected_values:
+    FORD_TP_FR: 41.7
+- response: '72E056228140344'
+  expected_values:
+    FORD_TP_FR: 41.8
 - response: '72E056228140347'
   expected_values:
     FORD_TP_FR: 41.95
+- response: '72E056228140349'
+  expected_values:
+    FORD_TP_FR: 42.05
 - response: 72E05622814034C
   expected_values:
     FORD_TP_FR: 42.2
+- response: '72E056228140351'
+  expected_values:
+    FORD_TP_FR: 42.45

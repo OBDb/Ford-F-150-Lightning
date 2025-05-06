@@ -2,6 +2,9 @@ command_id: 7E2.7EA.22DD05
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7EA0462DD0530
+  expected_values:
+    FORD_AAT: 8
 - response: 7EA0462DD0531
   expected_values:
     FORD_AAT: 9

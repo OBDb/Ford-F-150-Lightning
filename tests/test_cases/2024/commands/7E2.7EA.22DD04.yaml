@@ -5,6 +5,9 @@ test_cases:
 - response: 7EA0462DD0428
   expected_values:
     FORD_IAT: 0
+- response: 7EA0462DD0438
+  expected_values:
+    FORD_IAT: 16
 - response: 7EA0462DD0439
   expected_values:
     FORD_IAT: 17

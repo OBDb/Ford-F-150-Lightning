@@ -14,6 +14,14 @@ test_cases:
   expected_values:
     FORD_AAT_V: 2.55132
     FORD_[ECU] AAT Sensor V: 2.55132
+- response: 7E8056203BA0225
+  expected_values:
+    FORD_AAT_V: 2.68328
+    FORD_[ECU] AAT Sensor V: 2.68328
+- response: 7E8056203BA0226
+  expected_values:
+    FORD_AAT_V: 2.68817
+    FORD_[ECU] AAT Sensor V: 2.68817
 - response: 7E8056203BA0227
   expected_values:
     FORD_AAT_V: 2.69306
@@ -26,6 +34,10 @@ test_cases:
   expected_values:
     FORD_AAT_V: 2.70283
     FORD_[ECU] AAT Sensor V: 2.70283
+- response: 7E8056203BA022C
+  expected_values:
+    FORD_AAT_V: 2.7175
+    FORD_[ECU] AAT Sensor V: 2.7175
 - response: 7E8056203BA022F
   expected_values:
     FORD_AAT_V: 2.73216
@@ -82,6 +94,130 @@ test_cases:
   expected_values:
     FORD_AAT_V: 2.82991
     FORD_[ECU] AAT Sensor V: 2.82991
+- response: 7E8056203BA0245
+  expected_values:
+    FORD_AAT_V: 2.83969
+    FORD_[ECU] AAT Sensor V: 2.83969
+- response: 7E8056203BA0246
+  expected_values:
+    FORD_AAT_V: 2.84457
+    FORD_[ECU] AAT Sensor V: 2.84457
+- response: 7E8056203BA0248
+  expected_values:
+    FORD_AAT_V: 2.85435
+    FORD_[ECU] AAT Sensor V: 2.85435
+- response: 7E8056203BA0249
+  expected_values:
+    FORD_AAT_V: 2.85924
+    FORD_[ECU] AAT Sensor V: 2.85924
+- response: 7E8056203BA024A
+  expected_values:
+    FORD_AAT_V: 2.86413
+    FORD_[ECU] AAT Sensor V: 2.86413
+- response: 7E8056203BA024B
+  expected_values:
+    FORD_AAT_V: 2.86901
+    FORD_[ECU] AAT Sensor V: 2.86901
+- response: 7E8056203BA024C
+  expected_values:
+    FORD_AAT_V: 2.8739
+    FORD_[ECU] AAT Sensor V: 2.8739
+- response: 7E8056203BA024D
+  expected_values:
+    FORD_AAT_V: 2.87879
+    FORD_[ECU] AAT Sensor V: 2.87879
+- response: 7E8056203BA024E
+  expected_values:
+    FORD_AAT_V: 2.88368
+    FORD_[ECU] AAT Sensor V: 2.88368
+- response: 7E8056203BA024F
+  expected_values:
+    FORD_AAT_V: 2.88856
+    FORD_[ECU] AAT Sensor V: 2.88856
+- response: 7E8056203BA0250
+  expected_values:
+    FORD_AAT_V: 2.89345
+    FORD_[ECU] AAT Sensor V: 2.89345
+- response: 7E8056203BA0251
+  expected_values:
+    FORD_AAT_V: 2.89834
+    FORD_[ECU] AAT Sensor V: 2.89834
+- response: 7E8056203BA0255
+  expected_values:
+    FORD_AAT_V: 2.91789
+    FORD_[ECU] AAT Sensor V: 2.91789
+- response: 7E8056203BA0256
+  expected_values:
+    FORD_AAT_V: 2.92278
+    FORD_[ECU] AAT Sensor V: 2.92278
+- response: 7E8056203BA0258
+  expected_values:
+    FORD_AAT_V: 2.93255
+    FORD_[ECU] AAT Sensor V: 2.93255
+- response: 7E8056203BA0259
+  expected_values:
+    FORD_AAT_V: 2.93744
+    FORD_[ECU] AAT Sensor V: 2.93744
+- response: 7E8056203BA025A
+  expected_values:
+    FORD_AAT_V: 2.94233
+    FORD_[ECU] AAT Sensor V: 2.94233
+- response: 7E8056203BA025B
+  expected_values:
+    FORD_AAT_V: 2.94721
+    FORD_[ECU] AAT Sensor V: 2.94721
+- response: 7E8056203BA025C
+  expected_values:
+    FORD_AAT_V: 2.9521
+    FORD_[ECU] AAT Sensor V: 2.9521
+- response: 7E8056203BA025E
+  expected_values:
+    FORD_AAT_V: 2.96188
+    FORD_[ECU] AAT Sensor V: 2.96188
+- response: 7E8056203BA025F
+  expected_values:
+    FORD_AAT_V: 2.96676
+    FORD_[ECU] AAT Sensor V: 2.96676
+- response: 7E8056203BA0262
+  expected_values:
+    FORD_AAT_V: 2.98143
+    FORD_[ECU] AAT Sensor V: 2.98143
+- response: 7E8056203BA0263
+  expected_values:
+    FORD_AAT_V: 2.98631
+    FORD_[ECU] AAT Sensor V: 2.98631
+- response: 7E8056203BA0264
+  expected_values:
+    FORD_AAT_V: 2.9912
+    FORD_[ECU] AAT Sensor V: 2.9912
+- response: 7E8056203BA0266
+  expected_values:
+    FORD_AAT_V: 3.00098
+    FORD_[ECU] AAT Sensor V: 3.00098
+- response: 7E8056203BA0267
+  expected_values:
+    FORD_AAT_V: 3.00587
+    FORD_[ECU] AAT Sensor V: 3.00587
+- response: 7E8056203BA0268
+  expected_values:
+    FORD_AAT_V: 3.01075
+    FORD_[ECU] AAT Sensor V: 3.01075
+- response: 7E8056203BA0269
+  expected_values:
+    FORD_AAT_V: 3.01564
+    FORD_[ECU] AAT Sensor V: 3.01564
+- response: 7E8056203BA026A
+  expected_values:
+    FORD_AAT_V: 3.02053
+    FORD_[ECU] AAT Sensor V: 3.02053
+- response: 7E8056203BA026B
+  expected_values:
+    FORD_AAT_V: 3.02542
+    FORD_[ECU] AAT Sensor V: 3.02542
+- response: 7E8056203BA026D
+  expected_values:
+    FORD_AAT_V: 3.03519
+    FORD_[ECU] AAT Sensor V: 3.03519
 - response: 7E8056203BA026E
   expected_values:
     FORD_AAT_V: 3.04008
@@ -98,7 +234,103 @@ test_cases:
   expected_values:
     FORD_AAT_V: 3.05474
     FORD_[ECU] AAT Sensor V: 3.05474
+- response: 7E8056203BA0272
+  expected_values:
+    FORD_AAT_V: 3.05963
+    FORD_[ECU] AAT Sensor V: 3.05963
+- response: 7E8056203BA0273
+  expected_values:
+    FORD_AAT_V: 3.06452
+    FORD_[ECU] AAT Sensor V: 3.06452
+- response: 7E8056203BA0274
+  expected_values:
+    FORD_AAT_V: 3.0694
+    FORD_[ECU] AAT Sensor V: 3.0694
+- response: 7E8056203BA0275
+  expected_values:
+    FORD_AAT_V: 3.07429
+    FORD_[ECU] AAT Sensor V: 3.07429
+- response: 7E8056203BA0276
+  expected_values:
+    FORD_AAT_V: 3.07918
+    FORD_[ECU] AAT Sensor V: 3.07918
+- response: 7E8056203BA0277
+  expected_values:
+    FORD_AAT_V: 3.08407
+    FORD_[ECU] AAT Sensor V: 3.08407
+- response: 7E8056203BA0278
+  expected_values:
+    FORD_AAT_V: 3.08895
+    FORD_[ECU] AAT Sensor V: 3.08895
+- response: 7E8056203BA027A
+  expected_values:
+    FORD_AAT_V: 3.09873
+    FORD_[ECU] AAT Sensor V: 3.09873
+- response: 7E8056203BA027C
+  expected_values:
+    FORD_AAT_V: 3.1085
+    FORD_[ECU] AAT Sensor V: 3.1085
+- response: 7E8056203BA027D
+  expected_values:
+    FORD_AAT_V: 3.11339
+    FORD_[ECU] AAT Sensor V: 3.11339
+- response: 7E8056203BA027E
+  expected_values:
+    FORD_AAT_V: 3.11828
+    FORD_[ECU] AAT Sensor V: 3.11828
+- response: 7E8056203BA027F
+  expected_values:
+    FORD_AAT_V: 3.12317
+    FORD_[ECU] AAT Sensor V: 3.12317
+- response: 7E8056203BA0281
+  expected_values:
+    FORD_AAT_V: 3.13294
+    FORD_[ECU] AAT Sensor V: 3.13294
 - response: 7E8056203BA0282
   expected_values:
     FORD_AAT_V: 3.13783
     FORD_[ECU] AAT Sensor V: 3.13783
+- response: 7E8056203BA0283
+  expected_values:
+    FORD_AAT_V: 3.14272
+    FORD_[ECU] AAT Sensor V: 3.14272
+- response: 7E8056203BA0284
+  expected_values:
+    FORD_AAT_V: 3.14761
+    FORD_[ECU] AAT Sensor V: 3.14761
+- response: 7E8056203BA0285
+  expected_values:
+    FORD_AAT_V: 3.15249
+    FORD_[ECU] AAT Sensor V: 3.15249
+- response: 7E8056203BA0286
+  expected_values:
+    FORD_AAT_V: 3.15738
+    FORD_[ECU] AAT Sensor V: 3.15738
+- response: 7E8056203BA0287
+  expected_values:
+    FORD_AAT_V: 3.16227
+    FORD_[ECU] AAT Sensor V: 3.16227
+- response: 7E8056203BA0288
+  expected_values:
+    FORD_AAT_V: 3.16716
+    FORD_[ECU] AAT Sensor V: 3.16716
+- response: 7E8056203BA0289
+  expected_values:
+    FORD_AAT_V: 3.17204
+    FORD_[ECU] AAT Sensor V: 3.17204
+- response: 7E8056203BA028A
+  expected_values:
+    FORD_AAT_V: 3.17693
+    FORD_[ECU] AAT Sensor V: 3.17693
+- response: 7E8056203BA028B
+  expected_values:
+    FORD_AAT_V: 3.18182
+    FORD_[ECU] AAT Sensor V: 3.18182
+- response: 7E8056203BA028C
+  expected_values:
+    FORD_AAT_V: 3.18671
+    FORD_[ECU] AAT Sensor V: 3.18671
+- response: 7E8056203BA028D
+  expected_values:
+    FORD_AAT_V: 3.19159
+    FORD_[ECU] AAT Sensor V: 3.19159

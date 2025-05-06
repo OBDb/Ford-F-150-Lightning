@@ -2,6 +2,14 @@ command_id: 7E0.220353
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '7E8056203530187'
+  expected_values:
+    FORD_BARO: 14.17585
+    FORD_[ECU] Baro: 14.17585
+- response: '7E8056203530188'
+  expected_values:
+    FORD_BARO: 14.21211
+    FORD_[ECU] Baro: 14.21211
 - response: '7E8056203530189'
   expected_values:
     FORD_BARO: 14.24836
@@ -18,6 +26,10 @@ test_cases:
   expected_values:
     FORD_BARO: 14.35713
     FORD_[ECU] Baro: 14.35713
+- response: 7E805620353018D
+  expected_values:
+    FORD_BARO: 14.39339
+    FORD_[ECU] Baro: 14.39339
 - response: 7E805620353018E
   expected_values:
     FORD_BARO: 14.42964
@@ -50,3 +62,23 @@ test_cases:
   expected_values:
     FORD_BARO: 14.68343
     FORD_[ECU] Baro: 14.68343
+- response: '7E8056203530196'
+  expected_values:
+    FORD_BARO: 14.71968
+    FORD_[ECU] Baro: 14.71968
+- response: '7E8056203530197'
+  expected_values:
+    FORD_BARO: 14.75594
+    FORD_[ECU] Baro: 14.75594
+- response: '7E8056203530198'
+  expected_values:
+    FORD_BARO: 14.79219
+    FORD_[ECU] Baro: 14.79219
+- response: '7E8056203530199'
+  expected_values:
+    FORD_BARO: 14.82845
+    FORD_[ECU] Baro: 14.82845
+- response: 7E805620353019A
+  expected_values:
+    FORD_BARO: 14.86471
+    FORD_[ECU] Baro: 14.86471
