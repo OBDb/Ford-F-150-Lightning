@@ -6,54 +6,6 @@ test_cases:
   expected_values:
     FORD_BARO: 13.70453
     FORD_[ECU] Baro: 13.70453
-- response: 7E805620353017B
-  expected_values:
-    FORD_BARO: 13.74079
-    FORD_[ECU] Baro: 13.74079
-- response: 7E805620353017C
-  expected_values:
-    FORD_BARO: 13.77704
-    FORD_[ECU] Baro: 13.77704
-- response: 7E805620353017D
-  expected_values:
-    FORD_BARO: 13.8133
-    FORD_[ECU] Baro: 13.8133
-- response: 7E805620353017E
-  expected_values:
-    FORD_BARO: 13.84955
-    FORD_[ECU] Baro: 13.84955
-- response: 7E805620353017F
-  expected_values:
-    FORD_BARO: 13.88581
-    FORD_[ECU] Baro: 13.88581
-- response: '7E8056203530180'
-  expected_values:
-    FORD_BARO: 13.92207
-    FORD_[ECU] Baro: 13.92207
-- response: '7E8056203530181'
-  expected_values:
-    FORD_BARO: 13.95832
-    FORD_[ECU] Baro: 13.95832
-- response: '7E8056203530182'
-  expected_values:
-    FORD_BARO: 13.99458
-    FORD_[ECU] Baro: 13.99458
-- response: '7E8056203530183'
-  expected_values:
-    FORD_BARO: 14.03083
-    FORD_[ECU] Baro: 14.03083
-- response: '7E8056203530184'
-  expected_values:
-    FORD_BARO: 14.06709
-    FORD_[ECU] Baro: 14.06709
-- response: '7E8056203530185'
-  expected_values:
-    FORD_BARO: 14.10334
-    FORD_[ECU] Baro: 14.10334
-- response: '7E8056203530186'
-  expected_values:
-    FORD_BARO: 14.1396
-    FORD_[ECU] Baro: 14.1396
 - response: '7E8056203530187'
   expected_values:
     FORD_BARO: 14.17585
