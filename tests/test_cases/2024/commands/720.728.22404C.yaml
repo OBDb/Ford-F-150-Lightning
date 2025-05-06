@@ -1118,3 +1118,573 @@ test_cases:
 - response: 7280662404C0312CD
   expected_values:
     FORD_ODO_V3: 20142.1
+- response: 7280662404C0312D1
+  expected_values:
+    FORD_ODO_V3: 20142.5
+- response: 7280662404C0312D4
+  expected_values:
+    FORD_ODO_V3: 20142.8
+- response: 7280662404C0312D9
+  expected_values:
+    FORD_ODO_V3: 20143.3
+- response: 7280662404C0312DE
+  expected_values:
+    FORD_ODO_V3: 20143.8
+- response: 7280662404C0312E3
+  expected_values:
+    FORD_ODO_V3: 20144.3
+- response: 7280662404C0312E6
+  expected_values:
+    FORD_ODO_V3: 20144.6
+- response: 7280662404C0312EB
+  expected_values:
+    FORD_ODO_V3: 20145.1
+- response: 7280662404C0312F0
+  expected_values:
+    FORD_ODO_V3: 20145.6
+- response: 7280662404C0312F5
+  expected_values:
+    FORD_ODO_V3: 20146.1
+- response: 7280662404C0312FB
+  expected_values:
+    FORD_ODO_V3: 20146.7
+- response: 7280662404C031301
+  expected_values:
+    FORD_ODO_V3: 20147.3
+- response: 7280662404C031308
+  expected_values:
+    FORD_ODO_V3: 20148
+- response: 7280662404C03130D
+  expected_values:
+    FORD_ODO_V3: 20148.5
+- response: 7280662404C03130E
+  expected_values:
+    FORD_ODO_V3: 20148.6
+- response: 7280662404C031314
+  expected_values:
+    FORD_ODO_V3: 20149.2
+- response: 7280662404C031319
+  expected_values:
+    FORD_ODO_V3: 20149.7
+- response: 7280662404C03131F
+  expected_values:
+    FORD_ODO_V3: 20150.3
+- response: 7280662404C031324
+  expected_values:
+    FORD_ODO_V3: 20150.8
+- response: 7280662404C031329
+  expected_values:
+    FORD_ODO_V3: 20151.3
+- response: 7280662404C03132D
+  expected_values:
+    FORD_ODO_V3: 20151.7
+- response: 7280662404C031334
+  expected_values:
+    FORD_ODO_V3: 20152.4
+- response: 7280662404C03133A
+  expected_values:
+    FORD_ODO_V3: 20153
+- response: 7280662404C031340
+  expected_values:
+    FORD_ODO_V3: 20153.6
+- response: 7280662404C031345
+  expected_values:
+    FORD_ODO_V3: 20154.1
+- response: 7280662404C03134B
+  expected_values:
+    FORD_ODO_V3: 20154.7
+- response: 7280662404C031350
+  expected_values:
+    FORD_ODO_V3: 20155.2
+- response: 7280662404C031355
+  expected_values:
+    FORD_ODO_V3: 20155.7
+- response: 7280662404C031359
+  expected_values:
+    FORD_ODO_V3: 20156.1
+- response: 7280662404C03135E
+  expected_values:
+    FORD_ODO_V3: 20156.6
+- response: 7280662404C03135F
+  expected_values:
+    FORD_ODO_V3: 20156.7
+- response: 7280662404C031360
+  expected_values:
+    FORD_ODO_V3: 20156.8
+- response: 7280662404C031362
+  expected_values:
+    FORD_ODO_V3: 20157
+- response: 7280662404C031366
+  expected_values:
+    FORD_ODO_V3: 20157.4
+- response: 7280662404C031368
+  expected_values:
+    FORD_ODO_V3: 20157.6
+- response: 7280662404C031369
+  expected_values:
+    FORD_ODO_V3: 20157.7
+- response: 7280662404C03136A
+  expected_values:
+    FORD_ODO_V3: 20157.8
+- response: 7280662404C03136C
+  expected_values:
+    FORD_ODO_V3: 20158
+- response: 7280662404C03136E
+  expected_values:
+    FORD_ODO_V3: 20158.2
+- response: 7280662404C031370
+  expected_values:
+    FORD_ODO_V3: 20158.4
+- response: 7280662404C031371
+  expected_values:
+    FORD_ODO_V3: 20158.5
+- response: 7280662404C031373
+  expected_values:
+    FORD_ODO_V3: 20158.7
+- response: 7280662404C031374
+  expected_values:
+    FORD_ODO_V3: 20158.8
+- response: 7280662404C031375
+  expected_values:
+    FORD_ODO_V3: 20158.9
+- response: 7280662404C031378
+  expected_values:
+    FORD_ODO_V3: 20159.2
+- response: 7280662404C03137A
+  expected_values:
+    FORD_ODO_V3: 20159.4
+- response: 7280662404C03137F
+  expected_values:
+    FORD_ODO_V3: 20159.9
+- response: 7280662404C031383
+  expected_values:
+    FORD_ODO_V3: 20160.3
+- response: 7280662404C031384
+  expected_values:
+    FORD_ODO_V3: 20160.4
+- response: 7280662404C031387
+  expected_values:
+    FORD_ODO_V3: 20160.7
+- response: 7280662404C03138A
+  expected_values:
+    FORD_ODO_V3: 20161
+- response: 7280662404C03138D
+  expected_values:
+    FORD_ODO_V3: 20161.3
+- response: 7280662404C03138E
+  expected_values:
+    FORD_ODO_V3: 20161.4
+- response: 7280662404C03138F
+  expected_values:
+    FORD_ODO_V3: 20161.5
+- response: 7280662404C031390
+  expected_values:
+    FORD_ODO_V3: 20161.6
+- response: 7280662404C03139B
+  expected_values:
+    FORD_ODO_V3: 20162.7
+- response: 7280662404C03139D
+  expected_values:
+    FORD_ODO_V3: 20162.9
+- response: 7280662404C03139E
+  expected_values:
+    FORD_ODO_V3: 20163
+- response: 7280662404C03139F
+  expected_values:
+    FORD_ODO_V3: 20163.1
+- response: 7280662404C0313A1
+  expected_values:
+    FORD_ODO_V3: 20163.3
+- response: 7280662404C0313A4
+  expected_values:
+    FORD_ODO_V3: 20163.6
+- response: 7280662404C0313A5
+  expected_values:
+    FORD_ODO_V3: 20163.7
+- response: 7280662404C0313A6
+  expected_values:
+    FORD_ODO_V3: 20163.8
+- response: 7280662404C0313AA
+  expected_values:
+    FORD_ODO_V3: 20164.2
+- response: 7280662404C0313AC
+  expected_values:
+    FORD_ODO_V3: 20164.4
+- response: 7280662404C0313AF
+  expected_values:
+    FORD_ODO_V3: 20164.7
+- response: 7280662404C0313B1
+  expected_values:
+    FORD_ODO_V3: 20164.9
+- response: 7280662404C0313B3
+  expected_values:
+    FORD_ODO_V3: 20165.1
+- response: 7280662404C0313B7
+  expected_values:
+    FORD_ODO_V3: 20165.5
+- response: 7280662404C0313BA
+  expected_values:
+    FORD_ODO_V3: 20165.8
+- response: 7280662404C0313BE
+  expected_values:
+    FORD_ODO_V3: 20166.2
+- response: 7280662404C0313C0
+  expected_values:
+    FORD_ODO_V3: 20166.4
+- response: 7280662404C0313C5
+  expected_values:
+    FORD_ODO_V3: 20166.9
+- response: 7280662404C0313C8
+  expected_values:
+    FORD_ODO_V3: 20167.2
+- response: 7280662404C0313CD
+  expected_values:
+    FORD_ODO_V3: 20167.7
+- response: 7280662404C0313CF
+  expected_values:
+    FORD_ODO_V3: 20167.9
+- response: 7280662404C0313D5
+  expected_values:
+    FORD_ODO_V3: 20168.5
+- response: 7280662404C0313D9
+  expected_values:
+    FORD_ODO_V3: 20168.9
+- response: 7280662404C0313DF
+  expected_values:
+    FORD_ODO_V3: 20169.5
+- response: 7280662404C0313E5
+  expected_values:
+    FORD_ODO_V3: 20170.1
+- response: 7280662404C0313EA
+  expected_values:
+    FORD_ODO_V3: 20170.6
+- response: 7280662404C0313EF
+  expected_values:
+    FORD_ODO_V3: 20171.1
+- response: 7280662404C0313F4
+  expected_values:
+    FORD_ODO_V3: 20171.6
+- response: 7280662404C0313F6
+  expected_values:
+    FORD_ODO_V3: 20171.8
+- response: 7280662404C0313FC
+  expected_values:
+    FORD_ODO_V3: 20172.4
+- response: 7280662404C031403
+  expected_values:
+    FORD_ODO_V3: 20173.1
+- response: 7280662404C03140A
+  expected_values:
+    FORD_ODO_V3: 20173.8
+- response: 7280662404C03140F
+  expected_values:
+    FORD_ODO_V3: 20174.3
+- response: 7280662404C031414
+  expected_values:
+    FORD_ODO_V3: 20174.8
+- response: 7280662404C031419
+  expected_values:
+    FORD_ODO_V3: 20175.3
+- response: 7280662404C03141D
+  expected_values:
+    FORD_ODO_V3: 20175.7
+- response: 7280662404C031420
+  expected_values:
+    FORD_ODO_V3: 20176
+- response: 7280662404C031426
+  expected_values:
+    FORD_ODO_V3: 20176.6
+- response: 7280662404C03142B
+  expected_values:
+    FORD_ODO_V3: 20177.1
+- response: 7280662404C03142F
+  expected_values:
+    FORD_ODO_V3: 20177.5
+- response: 7280662404C031432
+  expected_values:
+    FORD_ODO_V3: 20177.8
+- response: 7280662404C031435
+  expected_values:
+    FORD_ODO_V3: 20178.1
+- response: 7280662404C031436
+  expected_values:
+    FORD_ODO_V3: 20178.2
+- response: 7280662404C031441
+  expected_values:
+    FORD_ODO_V3: 20179.3
+- response: 7280662404C031446
+  expected_values:
+    FORD_ODO_V3: 20179.8
+- response: 7280662404C03144B
+  expected_values:
+    FORD_ODO_V3: 20180.3
+- response: 7280662404C03144E
+  expected_values:
+    FORD_ODO_V3: 20180.6
+- response: 7280662404C031452
+  expected_values:
+    FORD_ODO_V3: 20181
+- response: 7280662404C031457
+  expected_values:
+    FORD_ODO_V3: 20181.5
+- response: 7280662404C03145C
+  expected_values:
+    FORD_ODO_V3: 20182
+- response: 7280662404C031460
+  expected_values:
+    FORD_ODO_V3: 20182.4
+- response: 7280662404C031467
+  expected_values:
+    FORD_ODO_V3: 20183.1
+- response: 7280662404C03146E
+  expected_values:
+    FORD_ODO_V3: 20183.8
+- response: 7280662404C031475
+  expected_values:
+    FORD_ODO_V3: 20184.5
+- response: 7280662404C031477
+  expected_values:
+    FORD_ODO_V3: 20184.7
+- response: 7280662404C03147B
+  expected_values:
+    FORD_ODO_V3: 20185.1
+- response: 7280662404C031481
+  expected_values:
+    FORD_ODO_V3: 20185.7
+- response: 7280662404C031486
+  expected_values:
+    FORD_ODO_V3: 20186.2
+- response: 7280662404C03148A
+  expected_values:
+    FORD_ODO_V3: 20186.6
+- response: 7280662404C03148E
+  expected_values:
+    FORD_ODO_V3: 20187
+- response: 7280662404C031493
+  expected_values:
+    FORD_ODO_V3: 20187.5
+- response: 7280662404C031496
+  expected_values:
+    FORD_ODO_V3: 20187.8
+- response: 7280662404C031499
+  expected_values:
+    FORD_ODO_V3: 20188.1
+- response: 7280662404C03149E
+  expected_values:
+    FORD_ODO_V3: 20188.6
+- response: 7280662404C0314A3
+  expected_values:
+    FORD_ODO_V3: 20189.1
+- response: 7280662404C0314A8
+  expected_values:
+    FORD_ODO_V3: 20189.6
+- response: 7280662404C0314A9
+  expected_values:
+    FORD_ODO_V3: 20189.7
+- response: 7280662404C0314AE
+  expected_values:
+    FORD_ODO_V3: 20190.2
+- response: 7280662404C0314B4
+  expected_values:
+    FORD_ODO_V3: 20190.8
+- response: 7280662404C0314B9
+  expected_values:
+    FORD_ODO_V3: 20191.3
+- response: 7280662404C0314BE
+  expected_values:
+    FORD_ODO_V3: 20191.8
+- response: 7280662404C0314C3
+  expected_values:
+    FORD_ODO_V3: 20192.3
+- response: 7280662404C0314C6
+  expected_values:
+    FORD_ODO_V3: 20192.6
+- response: 7280662404C0314C9
+  expected_values:
+    FORD_ODO_V3: 20192.9
+- response: 7280662404C0314CA
+  expected_values:
+    FORD_ODO_V3: 20193
+- response: 7280662404C0314CB
+  expected_values:
+    FORD_ODO_V3: 20193.1
+- response: 7280662404C0314CD
+  expected_values:
+    FORD_ODO_V3: 20193.3
+- response: 7280662404C0314F1
+  expected_values:
+    FORD_ODO_V3: 20196.9
+- response: 7280662404C0314F5
+  expected_values:
+    FORD_ODO_V3: 20197.3
+- response: 7280662404C0314FA
+  expected_values:
+    FORD_ODO_V3: 20197.8
+- response: 7280662404C0314FE
+  expected_values:
+    FORD_ODO_V3: 20198.2
+- response: 7280662404C031503
+  expected_values:
+    FORD_ODO_V3: 20198.7
+- response: 7280662404C031508
+  expected_values:
+    FORD_ODO_V3: 20199.2
+- response: 7280662404C03150C
+  expected_values:
+    FORD_ODO_V3: 20199.6
+- response: 7280662404C031511
+  expected_values:
+    FORD_ODO_V3: 20200.1
+- response: 7280662404C031514
+  expected_values:
+    FORD_ODO_V3: 20200.4
+- response: 7280662404C031516
+  expected_values:
+    FORD_ODO_V3: 20200.6
+- response: 7280662404C031517
+  expected_values:
+    FORD_ODO_V3: 20200.7
+- response: 7280662404C031518
+  expected_values:
+    FORD_ODO_V3: 20200.8
+- response: 7280662404C03151A
+  expected_values:
+    FORD_ODO_V3: 20201
+- response: 7280662404C031520
+  expected_values:
+    FORD_ODO_V3: 20201.6
+- response: 7280662404C031526
+  expected_values:
+    FORD_ODO_V3: 20202.2
+- response: 7280662404C03152C
+  expected_values:
+    FORD_ODO_V3: 20202.8
+- response: 7280662404C03152D
+  expected_values:
+    FORD_ODO_V3: 20202.9
+- response: 7280662404C031533
+  expected_values:
+    FORD_ODO_V3: 20203.5
+- response: 7280662404C03153A
+  expected_values:
+    FORD_ODO_V3: 20204.2
+- response: 7280662404C03153E
+  expected_values:
+    FORD_ODO_V3: 20204.6
+- response: 7280662404C031543
+  expected_values:
+    FORD_ODO_V3: 20205.1
+- response: 7280662404C03154B
+  expected_values:
+    FORD_ODO_V3: 20205.9
+- response: 7280662404C031553
+  expected_values:
+    FORD_ODO_V3: 20206.7
+- response: 7280662404C031557
+  expected_values:
+    FORD_ODO_V3: 20207.1
+- response: 7280662404C03155D
+  expected_values:
+    FORD_ODO_V3: 20207.7
+- response: 7280662404C031562
+  expected_values:
+    FORD_ODO_V3: 20208.2
+- response: 7280662404C031567
+  expected_values:
+    FORD_ODO_V3: 20208.7
+- response: 7280662404C03156C
+  expected_values:
+    FORD_ODO_V3: 20209.2
+- response: 7280662404C031572
+  expected_values:
+    FORD_ODO_V3: 20209.8
+- response: 7280662404C031576
+  expected_values:
+    FORD_ODO_V3: 20210.2
+- response: 7280662404C03157A
+  expected_values:
+    FORD_ODO_V3: 20210.6
+- response: 7280662404C03157D
+  expected_values:
+    FORD_ODO_V3: 20210.9
+- response: 7280662404C03157F
+  expected_values:
+    FORD_ODO_V3: 20211.1
+- response: 7280662404C031580
+  expected_values:
+    FORD_ODO_V3: 20211.2
+- response: 7280662404C031581
+  expected_values:
+    FORD_ODO_V3: 20211.3
+- response: 7280662404C031585
+  expected_values:
+    FORD_ODO_V3: 20211.7
+- response: 7280662404C031588
+  expected_values:
+    FORD_ODO_V3: 20212
+- response: 7280662404C03158C
+  expected_values:
+    FORD_ODO_V3: 20212.4
+- response: 7280662404C03158F
+  expected_values:
+    FORD_ODO_V3: 20212.7
+- response: 7280662404C031595
+  expected_values:
+    FORD_ODO_V3: 20213.3
+- response: 7280662404C03159A
+  expected_values:
+    FORD_ODO_V3: 20213.8
+- response: 7280662404C03159D
+  expected_values:
+    FORD_ODO_V3: 20214.1
+- response: 7280662404C0315A3
+  expected_values:
+    FORD_ODO_V3: 20214.7
+- response: 7280662404C0315AA
+  expected_values:
+    FORD_ODO_V3: 20215.4
+- response: 7280662404C0315AF
+  expected_values:
+    FORD_ODO_V3: 20215.9
+- response: 7280662404C0315B5
+  expected_values:
+    FORD_ODO_V3: 20216.5
+- response: 7280662404C0315B9
+  expected_values:
+    FORD_ODO_V3: 20216.9
+- response: 7280662404C0315BC
+  expected_values:
+    FORD_ODO_V3: 20217.2
+- response: 7280662404C0315BD
+  expected_values:
+    FORD_ODO_V3: 20217.3
+- response: 7280662404C0315BF
+  expected_values:
+    FORD_ODO_V3: 20217.5
+- response: 7280662404C031605
+  expected_values:
+    FORD_ODO_V3: 20224.5
+- response: 7280662404C031609
+  expected_values:
+    FORD_ODO_V3: 20224.9
+- response: 7280662404C03160D
+  expected_values:
+    FORD_ODO_V3: 20225.3
+- response: 7280662404C031611
+  expected_values:
+    FORD_ODO_V3: 20225.7
+- response: 7280662404C031616
+  expected_values:
+    FORD_ODO_V3: 20226.2
+- response: 7280662404C031619
+  expected_values:
+    FORD_ODO_V3: 20226.5
+- response: 7280662404C03161F
+  expected_values:
+    FORD_ODO_V3: 20227.1
+- response: 7280662404C031623
+  expected_values:
+    FORD_ODO_V3: 20227.5
+- response: 7280662404C031627
+  expected_values:
+    FORD_ODO_V3: 20227.9

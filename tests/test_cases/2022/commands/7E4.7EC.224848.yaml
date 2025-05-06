@@ -2,6 +2,129 @@ command_id: 7E4.7EC.224848
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7EC05624848A10E
+  expected_values:
+    FORD_HVBAT_KWH: 82.46
+- response: 7EC05624848A110
+  expected_values:
+    FORD_HVBAT_KWH: 82.464
+- response: 7EC05624848A13E
+  expected_values:
+    FORD_HVBAT_KWH: 82.556
+- response: 7EC05624848A1A9
+  expected_values:
+    FORD_HVBAT_KWH: 82.77
+- response: 7EC05624848A1CF
+  expected_values:
+    FORD_HVBAT_KWH: 82.846
+- response: 7EC05624848A22A
+  expected_values:
+    FORD_HVBAT_KWH: 83.028
+- response: 7EC05624848A239
+  expected_values:
+    FORD_HVBAT_KWH: 83.058
+- response: 7EC05624848A2BF
+  expected_values:
+    FORD_HVBAT_KWH: 83.326
+- response: 7EC05624848A2C2
+  expected_values:
+    FORD_HVBAT_KWH: 83.332
+- response: 7EC05624848A316
+  expected_values:
+    FORD_HVBAT_KWH: 83.5
+- response: 7EC05624848A394
+  expected_values:
+    FORD_HVBAT_KWH: 83.752
+- response: 7EC05624848A3D6
+  expected_values:
+    FORD_HVBAT_KWH: 83.884
+- response: 7EC05624848A3EA
+  expected_values:
+    FORD_HVBAT_KWH: 83.924
+- response: 7EC05624848A422
+  expected_values:
+    FORD_HVBAT_KWH: 84.036
+- response: 7EC05624848A447
+  expected_values:
+    FORD_HVBAT_KWH: 84.11
+- response: 7EC05624848A473
+  expected_values:
+    FORD_HVBAT_KWH: 84.198
+- response: 7EC05624848A4C3
+  expected_values:
+    FORD_HVBAT_KWH: 84.358
+- response: 7EC05624848A56E
+  expected_values:
+    FORD_HVBAT_KWH: 84.7
+- response: 7EC05624848A579
+  expected_values:
+    FORD_HVBAT_KWH: 84.722
+- response: 7EC05624848A61A
+  expected_values:
+    FORD_HVBAT_KWH: 85.044
+- response: 7EC05624848A6E1
+  expected_values:
+    FORD_HVBAT_KWH: 85.442
+- response: 7EC05624848A797
+  expected_values:
+    FORD_HVBAT_KWH: 85.806
+- response: 7EC05624848A869
+  expected_values:
+    FORD_HVBAT_KWH: 86.226
+- response: 7EC05624848A977
+  expected_values:
+    FORD_HVBAT_KWH: 86.766
+- response: 7EC05624848A9C3
+  expected_values:
+    FORD_HVBAT_KWH: 86.918
+- response: 7EC05624848A9CC
+  expected_values:
+    FORD_HVBAT_KWH: 86.936
+- response: 7EC05624848A9F3
+  expected_values:
+    FORD_HVBAT_KWH: 87.014
+- response: 7EC05624848A9F5
+  expected_values:
+    FORD_HVBAT_KWH: 87.018
+- response: 7EC05624848AA24
+  expected_values:
+    FORD_HVBAT_KWH: 87.112
+- response: 7EC05624848AA97
+  expected_values:
+    FORD_HVBAT_KWH: 87.342
+- response: 7EC05624848AAA1
+  expected_values:
+    FORD_HVBAT_KWH: 87.362
+- response: 7EC05624848AAB0
+  expected_values:
+    FORD_HVBAT_KWH: 87.392
+- response: 7EC05624848AAB7
+  expected_values:
+    FORD_HVBAT_KWH: 87.406
+- response: 7EC05624848AAC3
+  expected_values:
+    FORD_HVBAT_KWH: 87.43
+- response: 7EC05624848AACC
+  expected_values:
+    FORD_HVBAT_KWH: 87.448
+- response: 7EC05624848AAFC
+  expected_values:
+    FORD_HVBAT_KWH: 87.544
+- response: 7EC05624848AB04
+  expected_values:
+    FORD_HVBAT_KWH: 87.56
+- response: 7EC05624848AB40
+  expected_values:
+    FORD_HVBAT_KWH: 87.68
+- response: 7EC05624848ABAA
+  expected_values:
+    FORD_HVBAT_KWH: 87.892
+- response: 7EC05624848AC92
+  expected_values:
+    FORD_HVBAT_KWH: 88.356
+- response: 7EC05624848AD5B
+  expected_values:
+    FORD_HVBAT_KWH: 88.758
 - response: 7EC05624848AD77
   expected_values:
     FORD_HVBAT_KWH: 88.814
@@ -41,6 +164,345 @@ test_cases:
 - response: 7EC05624848AD8C
   expected_values:
     FORD_HVBAT_KWH: 88.856
+- response: 7EC05624848AE5A
+  expected_values:
+    FORD_HVBAT_KWH: 89.268
+- response: 7EC05624848AE67
+  expected_values:
+    FORD_HVBAT_KWH: 89.294
+- response: 7EC05624848AE69
+  expected_values:
+    FORD_HVBAT_KWH: 89.298
+- response: 7EC05624848AE6D
+  expected_values:
+    FORD_HVBAT_KWH: 89.306
+- response: 7EC05624848AE71
+  expected_values:
+    FORD_HVBAT_KWH: 89.314
+- response: 7EC05624848AE7A
+  expected_values:
+    FORD_HVBAT_KWH: 89.332
+- response: 7EC05624848AE83
+  expected_values:
+    FORD_HVBAT_KWH: 89.35
+- response: 7EC05624848AE8D
+  expected_values:
+    FORD_HVBAT_KWH: 89.37
+- response: 7EC05624848AE9A
+  expected_values:
+    FORD_HVBAT_KWH: 89.396
+- response: 7EC05624848AEAB
+  expected_values:
+    FORD_HVBAT_KWH: 89.43
+- response: 7EC05624848AEB4
+  expected_values:
+    FORD_HVBAT_KWH: 89.448
+- response: 7EC05624848AEC8
+  expected_values:
+    FORD_HVBAT_KWH: 89.488
+- response: 7EC05624848AECD
+  expected_values:
+    FORD_HVBAT_KWH: 89.498
+- response: 7EC05624848AED5
+  expected_values:
+    FORD_HVBAT_KWH: 89.514
+- response: 7EC05624848AF09
+  expected_values:
+    FORD_HVBAT_KWH: 89.618
+- response: 7EC05624848AF1E
+  expected_values:
+    FORD_HVBAT_KWH: 89.66
+- response: 7EC05624848AF22
+  expected_values:
+    FORD_HVBAT_KWH: 89.668
+- response: 7EC05624848AF23
+  expected_values:
+    FORD_HVBAT_KWH: 89.67
+- response: 7EC05624848AF27
+  expected_values:
+    FORD_HVBAT_KWH: 89.678
+- response: 7EC05624848AF5B
+  expected_values:
+    FORD_HVBAT_KWH: 89.782
+- response: 7EC05624848AF63
+  expected_values:
+    FORD_HVBAT_KWH: 89.798
+- response: 7EC05624848AF73
+  expected_values:
+    FORD_HVBAT_KWH: 89.83
+- response: 7EC05624848AF9A
+  expected_values:
+    FORD_HVBAT_KWH: 89.908
+- response: 7EC05624848B01C
+  expected_values:
+    FORD_HVBAT_KWH: 90.168
+- response: 7EC05624848B089
+  expected_values:
+    FORD_HVBAT_KWH: 90.386
+- response: 7EC05624848B169
+  expected_values:
+    FORD_HVBAT_KWH: 90.834
+- response: 7EC05624848B19B
+  expected_values:
+    FORD_HVBAT_KWH: 90.934
+- response: 7EC05624848B1A8
+  expected_values:
+    FORD_HVBAT_KWH: 90.96
+- response: 7EC05624848B1AF
+  expected_values:
+    FORD_HVBAT_KWH: 90.974
+- response: 7EC05624848B1E6
+  expected_values:
+    FORD_HVBAT_KWH: 91.084
+- response: 7EC05624848B1EF
+  expected_values:
+    FORD_HVBAT_KWH: 91.102
+- response: 7EC05624848B1F0
+  expected_values:
+    FORD_HVBAT_KWH: 91.104
+- response: 7EC05624848B1F6
+  expected_values:
+    FORD_HVBAT_KWH: 91.116
+- response: 7EC05624848B1F7
+  expected_values:
+    FORD_HVBAT_KWH: 91.118
+- response: 7EC05624848B20E
+  expected_values:
+    FORD_HVBAT_KWH: 91.164
+- response: 7EC05624848B21A
+  expected_values:
+    FORD_HVBAT_KWH: 91.188
+- response: 7EC05624848B226
+  expected_values:
+    FORD_HVBAT_KWH: 91.212
+- response: 7EC05624848B22D
+  expected_values:
+    FORD_HVBAT_KWH: 91.226
+- response: 7EC05624848B27D
+  expected_values:
+    FORD_HVBAT_KWH: 91.386
+- response: 7EC05624848B296
+  expected_values:
+    FORD_HVBAT_KWH: 91.436
+- response: 7EC05624848B299
+  expected_values:
+    FORD_HVBAT_KWH: 91.442
+- response: 7EC05624848B2A3
+  expected_values:
+    FORD_HVBAT_KWH: 91.462
+- response: 7EC05624848B2A6
+  expected_values:
+    FORD_HVBAT_KWH: 91.468
+- response: 7EC05624848B2D9
+  expected_values:
+    FORD_HVBAT_KWH: 91.57
+- response: 7EC05624848B306
+  expected_values:
+    FORD_HVBAT_KWH: 91.66
+- response: 7EC05624848B386
+  expected_values:
+    FORD_HVBAT_KWH: 91.916
+- response: 7EC05624848B3BF
+  expected_values:
+    FORD_HVBAT_KWH: 92.03
+- response: 7EC05624848B3C7
+  expected_values:
+    FORD_HVBAT_KWH: 92.046
+- response: 7EC05624848B3F2
+  expected_values:
+    FORD_HVBAT_KWH: 92.132
+- response: 7EC05624848B40A
+  expected_values:
+    FORD_HVBAT_KWH: 92.18
+- response: 7EC05624848B43F
+  expected_values:
+    FORD_HVBAT_KWH: 92.286
+- response: 7EC05624848B465
+  expected_values:
+    FORD_HVBAT_KWH: 92.362
+- response: 7EC05624848B47A
+  expected_values:
+    FORD_HVBAT_KWH: 92.404
+- response: 7EC05624848B48A
+  expected_values:
+    FORD_HVBAT_KWH: 92.436
+- response: 7EC05624848B498
+  expected_values:
+    FORD_HVBAT_KWH: 92.464
+- response: 7EC05624848B49D
+  expected_values:
+    FORD_HVBAT_KWH: 92.474
+- response: 7EC05624848B4D8
+  expected_values:
+    FORD_HVBAT_KWH: 92.592
+- response: 7EC05624848B4DC
+  expected_values:
+    FORD_HVBAT_KWH: 92.6
+- response: 7EC05624848B4DE
+  expected_values:
+    FORD_HVBAT_KWH: 92.604
+- response: 7EC05624848B55A
+  expected_values:
+    FORD_HVBAT_KWH: 92.852
+- response: 7EC05624848B55F
+  expected_values:
+    FORD_HVBAT_KWH: 92.862
+- response: 7EC05624848B581
+  expected_values:
+    FORD_HVBAT_KWH: 92.93
+- response: 7EC05624848B5A6
+  expected_values:
+    FORD_HVBAT_KWH: 93.004
+- response: 7EC05624848B5B0
+  expected_values:
+    FORD_HVBAT_KWH: 93.024
+- response: 7EC05624848B5B4
+  expected_values:
+    FORD_HVBAT_KWH: 93.032
+- response: 7EC05624848B5F8
+  expected_values:
+    FORD_HVBAT_KWH: 93.168
+- response: 7EC05624848B631
+  expected_values:
+    FORD_HVBAT_KWH: 93.282
+- response: 7EC05624848B660
+  expected_values:
+    FORD_HVBAT_KWH: 93.376
+- response: 7EC05624848B67A
+  expected_values:
+    FORD_HVBAT_KWH: 93.428
+- response: 7EC05624848B691
+  expected_values:
+    FORD_HVBAT_KWH: 93.474
+- response: 7EC05624848B69B
+  expected_values:
+    FORD_HVBAT_KWH: 93.494
+- response: 7EC05624848B6A6
+  expected_values:
+    FORD_HVBAT_KWH: 93.516
+- response: 7EC05624848B701
+  expected_values:
+    FORD_HVBAT_KWH: 93.698
+- response: 7EC05624848B76C
+  expected_values:
+    FORD_HVBAT_KWH: 93.912
+- response: 7EC05624848B773
+  expected_values:
+    FORD_HVBAT_KWH: 93.926
+- response: 7EC05624848B780
+  expected_values:
+    FORD_HVBAT_KWH: 93.952
+- response: 7EC05624848B78A
+  expected_values:
+    FORD_HVBAT_KWH: 93.972
+- response: 7EC05624848B7B4
+  expected_values:
+    FORD_HVBAT_KWH: 94.056
+- response: 7EC05624848B87D
+  expected_values:
+    FORD_HVBAT_KWH: 94.458
+- response: 7EC05624848B890
+  expected_values:
+    FORD_HVBAT_KWH: 94.496
+- response: 7EC05624848B958
+  expected_values:
+    FORD_HVBAT_KWH: 94.896
+- response: 7EC05624848B9B7
+  expected_values:
+    FORD_HVBAT_KWH: 95.086
+- response: 7EC05624848B9F5
+  expected_values:
+    FORD_HVBAT_KWH: 95.21
+- response: 7EC05624848B9FB
+  expected_values:
+    FORD_HVBAT_KWH: 95.222
+- response: 7EC05624848BA06
+  expected_values:
+    FORD_HVBAT_KWH: 95.244
+- response: 7EC05624848BA45
+  expected_values:
+    FORD_HVBAT_KWH: 95.37
+- response: 7EC05624848BA8B
+  expected_values:
+    FORD_HVBAT_KWH: 95.51
+- response: 7EC05624848BA94
+  expected_values:
+    FORD_HVBAT_KWH: 95.528
+- response: 7EC05624848BAC6
+  expected_values:
+    FORD_HVBAT_KWH: 95.628
+- response: 7EC05624848BACC
+  expected_values:
+    FORD_HVBAT_KWH: 95.64
+- response: 7EC05624848BAD9
+  expected_values:
+    FORD_HVBAT_KWH: 95.666
+- response: 7EC05624848BAE9
+  expected_values:
+    FORD_HVBAT_KWH: 95.698
+- response: 7EC05624848BAEA
+  expected_values:
+    FORD_HVBAT_KWH: 95.7
+- response: 7EC05624848BAF3
+  expected_values:
+    FORD_HVBAT_KWH: 95.718
+- response: 7EC05624848BAFC
+  expected_values:
+    FORD_HVBAT_KWH: 95.736
+- response: 7EC05624848BCD3
+  expected_values:
+    FORD_HVBAT_KWH: 96.678
+- response: 7EC05624848BCDA
+  expected_values:
+    FORD_HVBAT_KWH: 96.692
+- response: 7EC05624848BD51
+  expected_values:
+    FORD_HVBAT_KWH: 96.93
+- response: 7EC05624848BDAE
+  expected_values:
+    FORD_HVBAT_KWH: 97.116
+- response: 7EC05624848BDB4
+  expected_values:
+    FORD_HVBAT_KWH: 97.128
+- response: 7EC05624848BDD9
+  expected_values:
+    FORD_HVBAT_KWH: 97.202
+- response: 7EC05624848BE1A
+  expected_values:
+    FORD_HVBAT_KWH: 97.332
+- response: 7EC05624848BE60
+  expected_values:
+    FORD_HVBAT_KWH: 97.472
+- response: 7EC05624848BE8C
+  expected_values:
+    FORD_HVBAT_KWH: 97.56
+- response: 7EC05624848BECE
+  expected_values:
+    FORD_HVBAT_KWH: 97.692
+- response: 7EC05624848BEEC
+  expected_values:
+    FORD_HVBAT_KWH: 97.752
+- response: 7EC05624848BEEE
+  expected_values:
+    FORD_HVBAT_KWH: 97.756
+- response: 7EC05624848BF0E
+  expected_values:
+    FORD_HVBAT_KWH: 97.82
+- response: 7EC05624848BF2E
+  expected_values:
+    FORD_HVBAT_KWH: 97.884
+- response: 7EC05624848BF80
+  expected_values:
+    FORD_HVBAT_KWH: 98.048
+- response: 7EC05624848BFCF
+  expected_values:
+    FORD_HVBAT_KWH: 98.206
+- response: 7EC05624848C013
+  expected_values:
+    FORD_HVBAT_KWH: 98.342
+- response: 7EC05624848C037
+  expected_values:
+    FORD_HVBAT_KWH: 98.414
 - response: 7EC05624848C03B
   expected_values:
     FORD_HVBAT_KWH: 98.422
@@ -50,12 +512,21 @@ test_cases:
 - response: 7EC05624848C03F
   expected_values:
     FORD_HVBAT_KWH: 98.43
+- response: 7EC05624848C042
+  expected_values:
+    FORD_HVBAT_KWH: 98.436
 - response: 7EC05624848C046
   expected_values:
     FORD_HVBAT_KWH: 98.444
+- response: 7EC05624848C04B
+  expected_values:
+    FORD_HVBAT_KWH: 98.454
 - response: 7EC05624848C052
   expected_values:
     FORD_HVBAT_KWH: 98.468
+- response: 7EC05624848C058
+  expected_values:
+    FORD_HVBAT_KWH: 98.48
 - response: 7EC05624848C07A
   expected_values:
     FORD_HVBAT_KWH: 98.548

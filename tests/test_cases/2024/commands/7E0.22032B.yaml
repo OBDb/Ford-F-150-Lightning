@@ -234,6 +234,10 @@ test_cases:
   expected_values:
     FORD_ACC_POS: 30
     FORD_[ECU] Accelerator pedal position: 30
+- response: 7E80462032B3D
+  expected_values:
+    FORD_ACC_POS: 30.5
+    FORD_[ECU] Accelerator pedal position: 30.5
 - response: 7E80462032B3E
   expected_values:
     FORD_ACC_POS: 31
@@ -258,6 +262,10 @@ test_cases:
   expected_values:
     FORD_ACC_POS: 33.5
     FORD_[ECU] Accelerator pedal position: 33.5
+- response: 7E80462032B44
+  expected_values:
+    FORD_ACC_POS: 34
+    FORD_[ECU] Accelerator pedal position: 34
 - response: 7E80462032B45
   expected_values:
     FORD_ACC_POS: 34.5
@@ -274,3 +282,11 @@ test_cases:
   expected_values:
     FORD_ACC_POS: 36.5
     FORD_[ECU] Accelerator pedal position: 36.5
+- response: 7E80462032B4A
+  expected_values:
+    FORD_ACC_POS: 37
+    FORD_[ECU] Accelerator pedal position: 37
+- response: 7E80462032B51
+  expected_values:
+    FORD_ACC_POS: 40.5
+    FORD_[ECU] Accelerator pedal position: 40.5

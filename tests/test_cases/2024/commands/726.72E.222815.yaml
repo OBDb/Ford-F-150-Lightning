@@ -2,6 +2,14 @@ command_id: 726.72E.222815
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '72E056228150359'
+  expected_values:
+    FORD_TP_RR: 42.85
+    FORD_TP_RRO: 42.85
+- response: 72E05622815035C
+  expected_values:
+    FORD_TP_RR: 43
+    FORD_TP_RRO: 43
 - response: 72E05622815035E
   expected_values:
     FORD_TP_RR: 43.1
@@ -66,6 +74,10 @@ test_cases:
   expected_values:
     FORD_TP_RR: 44.6
     FORD_TP_RRO: 44.6
+- response: 72E05622815037D
+  expected_values:
+    FORD_TP_RR: 44.65
+    FORD_TP_RRO: 44.65
 - response: 72E05622815037F
   expected_values:
     FORD_TP_RR: 44.75

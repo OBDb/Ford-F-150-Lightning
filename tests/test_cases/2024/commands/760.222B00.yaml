@@ -17,6 +17,9 @@ test_cases:
 - response: 76807622B00D6000000
   expected_values:
     FORD_PARKING_BRAKE: 1
+- response: 76807622B00D6800000
+  expected_values:
+    FORD_PARKING_BRAKE: 1
 - response: 76807622B00DE000000
   expected_values:
     FORD_PARKING_BRAKE: 1

@@ -5,6 +5,9 @@ test_cases:
 - response: 7EA0462DD0428
   expected_values:
     FORD_IAT: 0
+- response: 7EA0462DD043A
+  expected_values:
+    FORD_IAT: 18
 - response: 7EA0462DD043B
   expected_values:
     FORD_IAT: 19
@@ -47,6 +50,9 @@ test_cases:
 - response: 7EA0462DD0448
   expected_values:
     FORD_IAT: 32
+- response: 7EA0462DD0449
+  expected_values:
+    FORD_IAT: 33
 - response: 7EA0462DD044A
   expected_values:
     FORD_IAT: 34
@@ -62,3 +68,27 @@ test_cases:
 - response: 7EA0462DD044E
   expected_values:
     FORD_IAT: 38
+- response: 7EA0462DD044F
+  expected_values:
+    FORD_IAT: 39
+- response: 7EA0462DD0450
+  expected_values:
+    FORD_IAT: 40
+- response: 7EA0462DD0451
+  expected_values:
+    FORD_IAT: 41
+- response: 7EA0462DD0452
+  expected_values:
+    FORD_IAT: 42
+- response: 7EA0462DD0453
+  expected_values:
+    FORD_IAT: 43
+- response: 7EA0462DD0454
+  expected_values:
+    FORD_IAT: 44
+- response: 7EA0462DD0455
+  expected_values:
+    FORD_IAT: 45
+- response: 7EA0462DD0457
+  expected_values:
+    FORD_IAT: 47

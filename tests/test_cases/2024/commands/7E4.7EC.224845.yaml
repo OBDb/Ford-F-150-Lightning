@@ -2,6 +2,57 @@ command_id: 7E4.7EC.224845
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7EC0462484571
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 56.5
+- response: 7EC0462484572
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 57
+- response: 7EC0462484573
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 57.5
+- response: 7EC0462484574
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 58
+- response: 7EC0462484579
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 60.5
+- response: 7EC046248457A
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 61
+- response: 7EC046248457B
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 61.5
+- response: 7EC046248457C
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 62
+- response: 7EC046248457D
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 62.5
+- response: 7EC046248457E
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 63
+- response: 7EC046248457F
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 63.5
+- response: 7EC0462484580
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 64
+- response: 7EC0462484581
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 64.5
+- response: 7EC0462484582
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 65
+- response: 7EC0462484583
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 65.5
+- response: 7EC0462484584
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 66
+- response: 7EC0462484586
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 67
 - response: 7EC0462484587
   expected_values:
     FORD_HVBAT_SOC_DISP: 67.5
@@ -29,6 +80,18 @@ test_cases:
 - response: 7EC046248458F
   expected_values:
     FORD_HVBAT_SOC_DISP: 71.5
+- response: 7EC0462484590
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 72
+- response: 7EC0462484591
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 72.5
+- response: 7EC0462484592
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 73
+- response: 7EC0462484593
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 73.5
 - response: 7EC0462484594
   expected_values:
     FORD_HVBAT_SOC_DISP: 74
