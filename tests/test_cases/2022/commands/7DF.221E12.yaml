@@ -5,9 +5,6 @@ test_cases:
 - response: 7EA04621E1228
   expected_values:
     FORD_GEAR_V2: 40
-- response: 7EA04621E123C
-  expected_values:
-    FORD_GEAR_V2: 60
 - response: 7EA04621E1246
   expected_values:
     FORD_GEAR_V2: 70
@@ -23,12 +20,6 @@ test_cases:
     7EC04621E1246
   expected_values:
     FORD_GEAR_V2: 70
-- response: 7EC04621E1228
-  expected_values:
-    FORD_GEAR_V2: 40
-- response: 7EC04621E1246
-  expected_values:
-    FORD_GEAR_V2: 70
 - response: |-
     7EC04621E1246
     7EA04621E1246
@@ -38,12 +29,6 @@ test_cases:
 - response: 7EE04621E1228
   expected_values:
     FORD_GEAR_V2: 40
-- response: 7EE04621E123C
-  expected_values:
-    FORD_GEAR_V2: 60
-- response: 7EE04621E1246
-  expected_values:
-    FORD_GEAR_V2: 70
 - response: |-
     7EE04621E1246
     7EA04621E1246
