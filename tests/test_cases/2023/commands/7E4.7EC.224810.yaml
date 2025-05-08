@@ -2,30 +2,9 @@ command_id: 7E4.7EC.224810
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7EC056248100E66
+- response: 7EC056248100DFD
   expected_values:
-    FORD_HVBAT_AGE: 13269.6
-- response: 7EC056248100E6C
+    FORD_HVBAT_AGE: 12891.6
+- response: 7EC056248100E03
   expected_values:
-    FORD_HVBAT_AGE: 13291.2
-- response: 7EC056248100E73
-  expected_values:
-    FORD_HVBAT_AGE: 13316.4
-- response: 7EC056248100E79
-  expected_values:
-    FORD_HVBAT_AGE: 13338
-- response: 7EC056248100E87
-  expected_values:
-    FORD_HVBAT_AGE: 13388.4
-- response: 7EC056248100E8D
-  expected_values:
-    FORD_HVBAT_AGE: 13410
-- response: 7EC056248100E94
-  expected_values:
-    FORD_HVBAT_AGE: 13435.2
-- response: 7EC056248100E9A
-  expected_values:
-    FORD_HVBAT_AGE: 13456.8
-- response: 7EC056248100EA1
-  expected_values:
-    FORD_HVBAT_AGE: 13482
+    FORD_HVBAT_AGE: 12913.2

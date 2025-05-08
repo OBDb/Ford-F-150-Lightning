@@ -2,9 +2,9 @@ command_id: 7E4.7EC.224845
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7EC0462484531
+- response: 7EC046248451F
   expected_values:
-    FORD_HVBAT_SOC_DISP: 24.5
+    FORD_HVBAT_SOC_DISP: 15.5
 - response: 7EC04624845C8
   expected_values:
     FORD_HVBAT_SOC_DISP: 100

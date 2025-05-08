@@ -2,10 +2,10 @@ command_id: 7E0.220353
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E805620353017A
+- response: '7E8056203530179'
   expected_values:
-    FORD_BARO: 13.70453
-    FORD_[ECU] Baro: 13.70453
+    FORD_BARO: 13.66828
+    FORD_[ECU] Baro: 13.66828
 - response: '7E8056203530187'
   expected_values:
     FORD_BARO: 14.17585

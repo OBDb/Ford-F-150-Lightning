@@ -13,10 +13,20 @@ test_cases:
   expected_values:
     FORD_TOT_V2: 17.9375
 - response: |-
+    7EE05621E1C01FA
+    7EF05621E1C0248
+  expected_values:
+    FORD_TOT_V2: 36.5
+- response: |-
     7EE05621E1C0211
     7EF05621E1C0255
   expected_values:
     FORD_TOT_V2: 37.3125
+- response: |-
+    7EE05621E1C0252
+    7EF05621E1C0282
+  expected_values:
+    FORD_TOT_V2: 40.125
 - response: 7EF05621E1C0111
   expected_values:
     FORD_TOT_V2: 17.0625

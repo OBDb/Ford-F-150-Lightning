@@ -11,6 +11,9 @@ test_cases:
 - response: 7280662404C01DB00
   expected_values:
     FORD_ODO_V3: 12160
+- response: 7280662404C04B594
+  expected_values:
+    FORD_ODO_V3: 30862.8
 - response: 7280662404C07BA81
   expected_values:
     FORD_ODO_V3: 50649.7

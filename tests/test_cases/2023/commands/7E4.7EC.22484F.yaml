@@ -8,3 +8,6 @@ test_cases:
 - response: 7EC0462484F01
   expected_values:
     FORD_CHRG_STATE: READY
+- response: 7EC0462484F05
+  expected_values:
+    FORD_CHRG_STATE: CHARGING
