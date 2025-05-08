@@ -11,6 +11,6 @@ test_cases:
 - response: 7EC05624848B400
   expected_values:
     FORD_HVBAT_KWH: 92.16
-- response: 7EC05624848D437
+- response: 7EC05624848D799
   expected_values:
-    FORD_HVBAT_KWH: 108.654
+    FORD_HVBAT_KWH: 110.386
