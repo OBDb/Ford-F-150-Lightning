@@ -3,48 +3,48 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7EE05621E1C00AB
-    7EF05621E1C00A3
+    7EE05621E1C0084
+    7EF05621E1C0087
   expected_values:
-    FORD_TOT_V2: 10.1875
-- response: |-
-    7EE05621E1C00D1
-    7EF05621E1C00E1
-  expected_values:
-    FORD_TOT_V2: 14.0625
+    FORD_TOT_V2: 8.4375
 - response: |-
     7EE05621E1C01A7
     7EF05621E1C018F
   expected_values:
     FORD_TOT_V2: 24.9375
 - response: |-
-    7EE05621E1C01F6
-    7EF05621E1C0264
+    7EE05621E1C01FE
+    7EF05621E1C023A
   expected_values:
-    FORD_TOT_V2: 38.25
+    FORD_TOT_V2: 35.625
 - response: |-
     7EE05621E1C0213
     7EF05621E1C0252
   expected_values:
     FORD_TOT_V2: 37.125
-- response: 7EF05621E1C00A3
-  expected_values:
-    FORD_TOT_V2: 10.1875
 - response: |-
-    7EF05621E1C00B7
-    7EE05621E1C00BB
+    7EE05621E1C026A
+    7EF05621E1C028E
   expected_values:
-    FORD_TOT_V2: 11.4375
+    FORD_TOT_V2: 40.875
+- response: |-
+    7EF05621E1C0087
+    7EE05621E1C0084
+  expected_values:
+    FORD_TOT_V2: 8.4375
+- response: 7EF05621E1C0091
+  expected_values:
+    FORD_TOT_V2: 9.0625
 - response: |-
     7EF05621E1C0100
     7EE05621E1C00FB
   expected_values:
     FORD_TOT_V2: 16
 - response: |-
-    7EF05621E1C01FC
-    7EE05621E1C01CD
+    7EF05621E1C0198
+    7EE05621E1C01A0
   expected_values:
-    FORD_TOT_V2: 31.75
+    FORD_TOT_V2: 25.5
 - response: 7EF05621E1C01FF
   expected_values:
     FORD_TOT_V2: 31.9375

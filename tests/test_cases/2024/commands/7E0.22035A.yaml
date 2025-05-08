@@ -2,10 +2,10 @@ command_id: 7E0.22035A
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80562035A02EA
+- response: 7E80562035A02E6
   expected_values:
-    FORD_BARO_V: 3.64614
-    FORD_[ECU] Baro Sensor V: 3.64614
+    FORD_BARO_V: 3.62659
+    FORD_[ECU] Baro Sensor V: 3.62659
 - response: 7E80562035A02FF
   expected_values:
     FORD_BARO_V: 3.74878
