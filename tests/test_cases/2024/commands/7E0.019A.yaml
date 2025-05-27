@@ -1,7 +1,17 @@
 command_id: 7E0.019A
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
+- response: |-
+    7E81008419A0E0257E0
+    7E821000ACCCCCCCCCC
+  expected_values:
+    EHEV_MODE: CSM
+    EHEV_MODE_SUP: 1
+    HEV_BATT_A: 1
+    HEV_BATT_A_SUP: 1
+    HEV_BATT_V: 351.5
+    HEV_BATT_V_SUP: 1
+    HEV_MODE: CSM
+    HEV_MODE_SUP: 0
 - response: |-
     7E81008419A0E025F60
     7E8210012CCCCCCCCCC

@@ -1,8 +1,0 @@
-command_id: 7E0.2203BD
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
-test_cases:
-- response: 7E8056203BD0000
-  expected_values:
-    FORD_CL_LC: 0
-    FORD_[ECU] CL Lambda Corr: 0
