@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224848|fc=1
+test_cases:
+- response: 7EC056248486553
+  expected_values:
+    FORD_HVBAT_KWH: 51.878
+- response: 7EC0562484867FF
+  expected_values:
+    FORD_HVBAT_KWH: 53.246
+- response: 7EC05624848B701
+  expected_values:
+    FORD_HVBAT_KWH: 93.698
+- response: 7EC05624848C20F
+  expected_values:
+    FORD_HVBAT_KWH: 99.358

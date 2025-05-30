@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.22DD05|fc=1
+test_cases:
+- response: 7EA0462DD052F
+  expected_values:
+    FORD_AAT: 7
+- response: |-
+    7EA0462DD053F
+    7EF0462DD053E
+    7EE0462DD053E
+  expected_values:
+    FORD_AAT: 23
+- response: 7EA0462DD05FF
+  expected_values:
+    FORD_AAT: 215
