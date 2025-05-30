@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224845|fc=1
+test_cases:
+- response: 7EC046248454B
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 37.5
+- response: 7EC04624845B4
+  expected_values:
+    FORD_HVBAT_SOC_DISP: 90
