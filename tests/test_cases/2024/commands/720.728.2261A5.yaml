@@ -6,12 +6,18 @@ test_cases:
 - response: 728076261A500000002
   expected_values:
     FORD_TPMS_WARN: 0
+- response: 728076261A500000022
+  expected_values:
+    FORD_TPMS_WARN: 0
 - response: 728076261A500800000
   expected_values:
     FORD_TPMS_WARN: 0
 - response: 728076261A500800002
   expected_values:
     FORD_TPMS_WARN: 0
+- response: 728076261A520008000
+  expected_values:
+    FORD_TPMS_WARN: 1
 - response: 728076261A520008002
   expected_values:
     FORD_TPMS_WARN: 1
