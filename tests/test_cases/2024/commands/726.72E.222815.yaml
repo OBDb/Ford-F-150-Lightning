@@ -1,10 +1,10 @@
 command_id: 726.72E.222815
 test_cases:
-- response: '72E056228150328'
+- response: 72E056228150328
   expected_values:
-    FORD_TP_RR: 40.4
-    FORD_TP_RRO: 40.4
+    F150LIGHTNING_TP_RR: 40.4
+    F150LIGHTNING_TP_RRO: 40.4
 - response: 72E0562281503BE
   expected_values:
-    FORD_TP_RR: 47.9
-    FORD_TP_RRO: 47.9
+    F150LIGHTNING_TP_RR: 47.9
+    F150LIGHTNING_TP_RRO: 47.9

@@ -2,19 +2,19 @@ command_id: 7E4.7EC.224800|fc=1
 test_cases:
 - response: 7EC0462480041
   expected_values:
-    FORD_HVBAT_T: 15
+    F150LIGHTNING_HVBAT_T: 15.0
 - response: 7EC0462480042
   expected_values:
-    FORD_HVBAT_T: 16
+    F150LIGHTNING_HVBAT_T: 16.0
 - response: 7EC0462480043
   expected_values:
-    FORD_HVBAT_T: 17
+    F150LIGHTNING_HVBAT_T: 17.0
 - response: 7EC0462480044
   expected_values:
-    FORD_HVBAT_T: 18
+    F150LIGHTNING_HVBAT_T: 18.0
 - response: 7EC0462480045
   expected_values:
-    FORD_HVBAT_T: 19
+    F150LIGHTNING_HVBAT_T: 19.0
 - response: 7EC0462480048
   expected_values:
-    FORD_HVBAT_T: 22
+    F150LIGHTNING_HVBAT_T: 22.0

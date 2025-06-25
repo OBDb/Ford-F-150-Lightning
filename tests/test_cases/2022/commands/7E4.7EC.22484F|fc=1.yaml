@@ -2,4 +2,4 @@ command_id: 7E4.7EC.22484F|fc=1
 test_cases:
 - response: 7EC0462484F00
   expected_values:
-    FORD_CHRG_STATE: NOT_READY
+    F150LIGHTNING_CHRG_STATE: NOT_READY
