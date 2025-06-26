@@ -1,9 +1,6 @@
 command_id: 7E0.019A
 test_cases:
-- response: |-
-    7E81008419A0E025F40
-    7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -12,10 +9,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E026060
+  response: |-
+    7E81008419A0E025F40
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -24,10 +21,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E026080
+  response: |-
+    7E81008419A0E026060
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -36,10 +33,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E0260A0
+  response: |-
+    7E81008419A0E026080
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -48,10 +45,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E026100
+  response: |-
+    7E81008419A0E0260A0
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -60,10 +57,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E026120
+  response: |-
+    7E81008419A0E026100
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -72,10 +69,10 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
-- response: |-
-    7E81008419A0E026140
+  response: |-
+    7E81008419A0E026120
     7E8210000CCCCCCCCCC
-  expected_values:
+- expected_values:
     EHEV_MODE: CSM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
@@ -84,3 +81,6 @@ test_cases:
     HEV_BATT_V_SUP: 1
     HEV_MODE: CSM
     HEV_MODE_SUP: 0
+  response: |-
+    7E81008419A0E026140
+    7E8210000CCCCCCCCCC
