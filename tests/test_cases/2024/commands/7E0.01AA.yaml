@@ -1,5 +1,5 @@
 command_id: 7E0.01AA
 test_cases:
-- response: 7E80341AAA9
-  expected_values:
+- expected_values:
     V_SET: 169
+  response: 7E80341AAA9
