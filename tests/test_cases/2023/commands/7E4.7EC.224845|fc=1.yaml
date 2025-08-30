@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224845|fc=1
 test_cases:
 - expected_values:
-    FORD_HVBAT_SOC_DISP: 13
+    F150LIGHTNING_HVBAT_SOC_DISP: 13.0
   response: 7EC046248451A
 - expected_values:
-    FORD_HVBAT_SOC_DISP: 100
+    F150LIGHTNING_HVBAT_SOC_DISP: 100.0
   response: 7EC04624845C8

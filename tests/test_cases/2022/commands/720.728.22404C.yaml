@@ -1,20 +1,20 @@
 command_id: 720.728.22404C
 test_cases:
 - expected_values:
-    FORD_ODO_V3: 12123.6
+    F150LIGHTNING_ODO_V3: 12123.6
   response: 7280662404C01D994
 - expected_values:
-    FORD_ODO_V3: 12159.9
+    F150LIGHTNING_ODO_V3: 12159.9
   response: 7280662404C01DAFF
 - expected_values:
-    FORD_ODO_V3: 12160
+    F150LIGHTNING_ODO_V3: 12160.0
   response: 7280662404C01DB00
 - expected_values:
-    FORD_ODO_V3: 12781.6
+    F150LIGHTNING_ODO_V3: 12781.6
   response: 7280662404C01F348
 - expected_values:
-    FORD_ODO_V3: 30862.8
+    F150LIGHTNING_ODO_V3: 30862.8
   response: 7280662404C04B594
 - expected_values:
-    FORD_ODO_V3: 50649.7
+    F150LIGHTNING_ODO_V3: 50649.7
   response: 7280662404C07BA81

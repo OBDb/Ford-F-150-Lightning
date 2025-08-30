@@ -1,5 +1,5 @@
 command_id: 7E0.220307
 test_cases:
 - expected_values:
-    FORD_LPFP_DUTY: 0
-  response: '7E8056203070000'
+    F150LIGHTNING_LPFP_DUTY: 0
+  response: 7E8056203070000

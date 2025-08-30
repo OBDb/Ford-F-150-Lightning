@@ -1,19 +1,20 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    FORD_ODO: 16342
+    F150LIGHTNING_ODO: 16342.0
   response: 7E80662DD01003FD6
 - expected_values:
-    FORD_ODO: 16383
+    F150LIGHTNING_ODO: 16383.0
   response: 7E80662DD01003FFF
 - expected_values:
-    FORD_ODO: 16384
+    F150LIGHTNING_ODO: 16384.0
   response: 7E80662DD01004000
 - expected_values:
-    FORD_ODO: 57689
+    F150LIGHTNING_ODO: 57689.0
   response: 7E80662DD0100E159
 - expected_values:
-    FORD_ODO: 17184
+    VSS: 0
+    F150LIGHTNING_ODO: 17184.0
   response: |-
     7EF03410D00
     7E80662DD01004320

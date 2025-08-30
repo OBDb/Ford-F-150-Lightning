@@ -1,8 +1,8 @@
 command_id: 7E0.220353
 test_cases:
 - expected_values:
-    FORD_BARO: 12.03679
+    F150LIGHTNING_BARO: 12.03679
   response: 7E805620353014C
 - expected_values:
-    FORD_BARO: 14.86471
+    F150LIGHTNING_BARO: 14.86471
   response: 7E805620353019A
