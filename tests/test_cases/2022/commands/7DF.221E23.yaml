@@ -1,14 +1,11 @@
 command_id: 7DF.221E23
 test_cases:
 - expected_values:
-    F150LIGHTNING_GEAR_SHFT_V2: 43.0
     F150LIGHTNING_GEAR_SHFT: null
   response: 7EE04621E232B
 - expected_values:
-    F150LIGHTNING_GEAR_SHFT_V2: 60.0
     F150LIGHTNING_GEAR_SHFT: REVERSE
   response: 7EE04621E233C
 - expected_values:
-    F150LIGHTNING_GEAR_SHFT_V2: 70.0
     F150LIGHTNING_GEAR_SHFT: PARK
   response: 7EE04621E2346

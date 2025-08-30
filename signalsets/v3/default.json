@@ -1,23 +1,11 @@
 { "commands": [
-{ "hdr": "720", "dbg": true, "cmd": {"22": "6185"}, "freq": 1,
-  "signals": [
-    {"id": "F150LIGHTNING_FLI_V2", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
-  ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "F150LIGHTNING_ODO_V3", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
+    {"id": "F150LIGHTNING_ODO_HIGH_RES", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "F150LIGHTNING_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning indicator"}
-  ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "from": 2024 },
-  "signals": [
-    {"id": "F150LIGHTNING_ODO_TRIP", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Trip distance"}
-  ]},
-{ "hdr": "726", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
-  "signals": [
-    {"id": "F150LIGHTNING_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
@@ -29,86 +17,27 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "F150LIGHTNING_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"},
-    {"id": "F150LIGHTNING_TP_RR",  "path": "Tires", "fmt": { "len": 16, "max": 255,  "div": 20, "unit": "psi" }, "name": "Rear right tire pressure",       "suggestedMetric": "rearRightTirePressure"}
+    {"id": "F150LIGHTNING_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "F150LIGHTNING_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "F150LIGHTNING_TP_RL",  "path": "Tires", "fmt": { "len": 16, "max": 255,  "div": 20, "unit": "psi" }, "name": "Rear left tire pressure",       "suggestedMetric": "rearLeftTirePressure"}
-  ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure"}
-  ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure"}
-  ]},
-{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
+    {"id": "F150LIGHTNING_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
   "signals": [
     {"id": "F150LIGHTNING_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "from": 2025 },
+  "signals": [
+    {"id": "F150LIGHTNING_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
+  ]},
+{ "hdr": "764", "rax": "76C", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "F150LIGHTNING_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "from": 2025 },
+{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "F150LIGHTNING_GEAR_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
-  ]},
-{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_TOT_V2", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
-  ]},
-{ "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 30, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_GEAR_SHFT_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
-  ]},
-{ "hdr": "7DF", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_FLI_V3", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level (alternative)"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_LPFP_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator pedal position"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_BARO_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "03BA"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "03BD"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_CL_LC", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1E1C"}, "freq": 1,
-  "signals": [
-    {"id": "F150LIGHTNING_TOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1E23"}, "freq": 2,
-  "signals": [
-    {"id": "F150LIGHTNING_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "10": { "description": "Manual",  "value": "MANUAL" },
+    {"id": "F150LIGHTNING_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "46": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },
           "60": { "description": "Reverse", "value": "REVERSE" },
@@ -116,29 +45,13 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "F150LIGHTNING_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
-          "1":  { "description": "First gear",   "value": "1" },
-          "2":  { "description": "Second gear",  "value": "2" },
-          "3":  { "description": "Third gear",   "value": "3" },
-          "4":  { "description": "Fourth gear",  "value": "4" },
-          "5":  { "description": "Fifth gear",   "value": "5" },
-          "6":  { "description": "Sixth gear",   "value": "6" },
-          "7":  { "description": "Seventh gear", "value": "7" },
-          "8":  { "description": "Eighth gear",  "value": "8" },
-          "9":  { "description": "Ninth gear",   "value": "9" },
-          "10": { "description": "Tenth gear",   "value": "10" }
-        }}
-    }
+    {"id": "F150LIGHTNING_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "F150LIGHTNING_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "dbgfilter": { "from": 2025 },
-  "signals": [
-    {"id": "F150LIGHTNING_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
