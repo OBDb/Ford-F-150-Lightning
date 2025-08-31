@@ -1,14 +1,14 @@
 command_id: 7E4.7EC.224848|fc=1
 test_cases:
 - expected_values:
-    FORD_HVBAT_KWH: 51.878
+    F150LIGHTNING_HVBAT_KWH: 51.878
   response: 7EC056248486553
 - expected_values:
-    FORD_HVBAT_KWH: 53.246
+    F150LIGHTNING_HVBAT_KWH: 53.246
   response: 7EC0562484867FF
 - expected_values:
-    FORD_HVBAT_KWH: 92.674
+    F150LIGHTNING_HVBAT_KWH: 92.674
   response: 7EC05624848B501
 - expected_values:
-    FORD_HVBAT_KWH: 131.07
+    F150LIGHTNING_HVBAT_KWH: 131.07
   response: 7EC05624848FFFF

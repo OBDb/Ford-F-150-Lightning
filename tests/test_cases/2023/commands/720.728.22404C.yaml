@@ -1,14 +1,14 @@
 command_id: 720.728.22404C
 test_cases:
 - expected_values:
-    FORD_ODO_V3: 0
+    F150LIGHTNING_ODO_HIGH_RES: 0
   response: 7280662404C000000
 - expected_values:
-    FORD_ODO_V3: 16793.5
+    F150LIGHTNING_ODO_HIGH_RES: 16793.5
   response: 7280662404C028FFF
 - expected_values:
-    FORD_ODO_V3: 25498.9
+    F150LIGHTNING_ODO_HIGH_RES: 25498.9
   response: 7280662404C03E40D
 - expected_values:
-    FORD_ODO_V3: 55243.9
+    F150LIGHTNING_ODO_HIGH_RES: 55243.9
   response: 7280662404C086DF7

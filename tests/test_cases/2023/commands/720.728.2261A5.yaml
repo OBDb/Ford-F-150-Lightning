@@ -1,20 +1,20 @@
 command_id: 720.728.2261A5
 test_cases:
 - expected_values:
-    FORD_TPMS_WARN: 0
+    F150LIGHTNING_TPMS_WARN: 0
   response: 728076261A500000000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    F150LIGHTNING_TPMS_WARN: 0
   response: 728076261A500000002
 - expected_values:
-    FORD_TPMS_WARN: 0
+    F150LIGHTNING_TPMS_WARN: 0
   response: 728076261A500800000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    F150LIGHTNING_TPMS_WARN: 0
   response: 728076261A500800002
 - expected_values:
-    FORD_TPMS_WARN: 1
+    F150LIGHTNING_TPMS_WARN: 1.0
   response: 728076261A520008000
 - expected_values:
-    FORD_TPMS_WARN: 1
+    F150LIGHTNING_TPMS_WARN: 1.0
   response: 728076261A520008002

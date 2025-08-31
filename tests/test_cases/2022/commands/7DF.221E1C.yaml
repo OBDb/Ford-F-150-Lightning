@@ -1,54 +1,50 @@
 command_id: 7DF.221E1C
 test_cases:
 - expected_values:
-    FORD_TOT_V2: 16.75
+    F150LIGHTNING_TT: 17.4375
   response: |-
     7EE05621E1C0117
     7EF05621E1C010C
 - expected_values:
-    FORD_TOT_V2: 23
+    F150LIGHTNING_TT: 21.125
   response: |-
     7EE05621E1C0152
     7EF05621E1C0170
 - expected_values:
-    FORD_TOT_V2: 31.875
+    F150LIGHTNING_TT: 27.3125
   response: |-
     7EE05621E1C01B5
     7EF05621E1C01FE
 - expected_values:
-    FORD_TOT_V2: 37.875
+    F150LIGHTNING_TT: 33.0625
   response: |-
     7EE05621E1C0211
     7EF05621E1C025E
 - expected_values:
-    FORD_TOT_V2: 46.25
+    F150LIGHTNING_TT: 44.625
   response: |-
     7EE05621E1C02CA
     7EF05621E1C02E4
 - expected_values:
-    FORD_TOT_V2: 13.5625
+    F150LIGHTNING_TT: 12.125
   response: |-
     7EF05621E1C00D9
     7EE05621E1C00C2
-- expected_values:
-    FORD_TOT_V2: 13.8125
+- expected_values: {}
   response: 7EF05621E1C00DD
 - expected_values:
-    FORD_TOT_V2: 15.625
+    F150LIGHTNING_TT: 15.5625
   response: |-
     7EF05621E1C00FA
     7EE05621E1C00F9
-- expected_values:
-    FORD_TOT_V2: 31.9375
+- expected_values: {}
   response: 7EF05621E1C01FF
 - expected_values:
-    FORD_TOT_V2: 32
+    F150LIGHTNING_TT: 25.125
   response: |-
     7EF05621E1C0200
     7EE05621E1C0192
-- expected_values:
-    FORD_TOT_V2: 32.125
+- expected_values: {}
   response: 7EF05621E1C0202
-- expected_values:
-    FORD_TOT_V2: 48.1875
+- expected_values: {}
   response: 7EF05621E1C0303

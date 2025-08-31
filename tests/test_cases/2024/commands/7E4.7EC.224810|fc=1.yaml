@@ -1,14 +1,14 @@
 command_id: 7E4.7EC.224810|fc=1
 test_cases:
 - expected_values:
-    FORD_HVBAT_AGE: 5346
+    F150LIGHTNING_HVBAT_AGE: 5346.0
   response: 7EC0562481005CD
 - expected_values:
-    FORD_HVBAT_AGE: 6454.8
+    F150LIGHTNING_HVBAT_AGE: 6454.8
   response: 7EC056248100701
 - expected_values:
-    FORD_HVBAT_AGE: 10123.2
+    F150LIGHTNING_HVBAT_AGE: 10123.2
   response: 7EC056248100AFC
 - expected_values:
-    FORD_HVBAT_AGE: 10144.8
+    F150LIGHTNING_HVBAT_AGE: 10144.8
   response: 7EC056248100B02

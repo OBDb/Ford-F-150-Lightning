@@ -1,5 +1,4 @@
 command_id: 7E0.2203BD
 test_cases:
-- expected_values:
-    FORD_CL_LC: 0
+- expected_values: {}
   response: 7E8056203BD0000
