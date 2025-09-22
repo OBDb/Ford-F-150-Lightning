@@ -1,8 +1,8 @@
 command_id: 726.72E.222813
 test_cases:
 - expected_values:
+    F150LIGHTNING_TP_FL: 37.65
+  response: 72E0562281302F1
+- expected_values:
     F150LIGHTNING_TP_FL: 39.9
   response: 72E05622813031E
-- expected_values:
-    F150LIGHTNING_TP_FL: 49.65
-  response: 72E0562281303E1
