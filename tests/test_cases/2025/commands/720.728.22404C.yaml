@@ -1,0 +1,11 @@
+command_id: 720.728.22404C
+test_cases:
+- expected_values:
+    F150LIGHTNING_ODO_HIGH_RES: 0
+  response: 7280662404C000000
+- expected_values:
+    F150LIGHTNING_ODO_HIGH_RES: 537.5
+  response: 7280662404C0014FF
+- expected_values:
+    F150LIGHTNING_ODO_HIGH_RES: 4275.2
+  response: 7280662404C00A700

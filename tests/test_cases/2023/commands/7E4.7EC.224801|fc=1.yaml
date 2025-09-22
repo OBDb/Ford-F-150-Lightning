@@ -1,14 +1,14 @@
 command_id: 7E4.7EC.224801|fc=1
 test_cases:
 - expected_values:
-    F150LIGHTNING_HVBAT_SOC: 15.304
-  response: 7EC056248011DE4
+    F150LIGHTNING_HVBAT_SOC: 10.972
+  response: 7EC05624801156E
 - expected_values:
     F150LIGHTNING_HVBAT_SOC: 17.918
   response: 7EC0562480122FF
 - expected_values:
-    F150LIGHTNING_HVBAT_SOC: 28.16
-  response: 7EC056248013700
+    F150LIGHTNING_HVBAT_SOC: 24.576
+  response: 7EC056248013000
 - expected_values:
     F150LIGHTNING_HVBAT_SOC: 95.788
   response: 7EC05624801BB16

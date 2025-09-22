@@ -1,8 +1,0 @@
-command_id: 7E0.2203BA
-test_cases:
-- expected_values: {}
-  response: 7E8056203BA017E
-- expected_values: {}
-  response: 7E8056203BA01FF
-- expected_values: {}
-  response: 7E8056203BA0200
