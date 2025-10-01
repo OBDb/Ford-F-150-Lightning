@@ -1,41 +1,41 @@
 { "commands": [
-{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_ODO_HIGH_RES", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "from": 2025 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning indicator"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "760", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
+{ "hdr": "760", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "from": 2025 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
   ]},
-{ "hdr": "764", "rax": "76C", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
+{ "hdr": "764", "rax": "76C", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
-{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "from": 2025 },
+{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "46": { "description": "Drive",   "value": "DRIVE" },
@@ -45,47 +45,47 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Interior temperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD05"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD05"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4800"}, "freq": 10, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4800"}, "freq": 10, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Hv battery temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4801"}, "freq": 1, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4801"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "Hv battery charge", "suggestedMetric": "stateOfCharge", "description": "High resolution state of charge."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "480D"}, "freq": 1, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "480D"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "Hv battery voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4810"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4810"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 235926, "mul": 720, "div": 200, "unit": "hours" }, "name": "Hv battery age"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4845"}, "freq": 1, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4845"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Hv battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "The state of charge displayed on the vehicle's dashboard."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4848"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4848"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 131.07, "div": 500, "unit": "kilowattHours" }, "name": "Hv battery energy"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "484F"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "484F"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_CHRG_STATE", "path": "Battery", "name": "Charging state", "suggestedMetric": "isCharging", "fmt": {"len": 8, "map": {
           "0": { "description": "Not ready",        "value": "NOT_READY" },
@@ -100,11 +100,11 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "490C"}, "freq": 3600, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "490C"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Hv battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "F150LIGHTNING_TT", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature"}
   ]}
