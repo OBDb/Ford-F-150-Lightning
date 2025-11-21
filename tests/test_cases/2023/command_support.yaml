@@ -112,6 +112,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0149:APP_D
+  - 7E6.7EE.0104
   - 7E6.7EE.010D
   - 7E6.7EE.221E1C|fc=1:F150LIGHTNING_TT
   "7E7":
