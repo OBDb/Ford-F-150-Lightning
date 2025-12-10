@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.22480D|fc=1
 test_cases:
 - expected_values:
-    F150LIGHTNING_HVBAT_V: 330.85
-  response: 7EC0562480D813D
+    F150LIGHTNING_HVBAT_V: 324.98
+  response: 7EC0562480D7EF2
 - expected_values:
     F150LIGHTNING_HVBAT_V: 373.75
   response: 7EC0562480D91FF
