@@ -30,9 +30,6 @@ test_cases:
     7EE05621E1C01FE
     7EF05621E1C0245
 - expected_values:
-    F150LIGHTNING_TT: 32
-  response: 7EE05621E1C0200
-- expected_values:
     F150LIGHTNING_TT: 32.25
   response: |-
     7EE05621E1C0204
@@ -42,6 +39,9 @@ test_cases:
   response: |-
     7EE05621E1C02C7
     7EF05621E1C02E7
+- expected_values:
+    F150LIGHTNING_TT: -6.8125
+  response: 7EE05621E1CFF93
 - expected_values:
     F150LIGHTNING_TT: 12.4375
   response: |-
