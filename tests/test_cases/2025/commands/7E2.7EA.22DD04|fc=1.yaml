@@ -1,8 +1,8 @@
 command_id: 7E2.7EA.22DD04|fc=1
 test_cases:
 - expected_values:
-    F150LIGHTNING_IAT: -3
-  response: 7EA0462DD0425
+    F150LIGHTNING_IAT: -8
+  response: 7EA0462DD0420
 - expected_values:
     F150LIGHTNING_IAT: 215
   response: 7EA0462DD04FF
