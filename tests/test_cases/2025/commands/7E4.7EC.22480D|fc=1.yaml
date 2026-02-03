@@ -12,3 +12,10 @@ test_cases:
 - expected_values:
     F150LIGHTNING_HVBAT_V: 394.53
   response: 7EC0562480D9A1D
+- expected_values:
+    F150LIGHTNING_HVBAT_V: 377.66
+  response: |-
+    7EE0562480D9376
+    7EA0562480D9376
+    7EC0562480D9386
+    7EF0562480D9376
