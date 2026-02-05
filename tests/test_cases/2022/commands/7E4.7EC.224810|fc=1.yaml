@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     F150LIGHTNING_HVBAT_AGE: 32216.4
   response: 7EC0562481022F5
+- expected_values:
+    F150LIGHTNING_HVBAT_AGE: 32310
+  response: 7EC05624810230F
