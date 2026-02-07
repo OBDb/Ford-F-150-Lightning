@@ -1,6 +1,9 @@
 command_id: 7DF.7EE.221E23
 test_cases:
 - expected_values:
+    F150LIGHTNING_GEAR_SHFT: NEUTRAL
+  response: 7EE04621E2332
+- expected_values:
     F150LIGHTNING_GEAR_SHFT: REVERSE
   response: 7EE04621E233C
 - expected_values:
