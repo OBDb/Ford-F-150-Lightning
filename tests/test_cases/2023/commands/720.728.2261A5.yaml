@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     F150LIGHTNING_TPMS_WARN: 1
   response: 728076261A520808000
+- expected_values:
+    F150LIGHTNING_TPMS_WARN: 1
+  response: 728076261A520808002
