@@ -18,6 +18,7 @@ supported_commands_by_ecu:
   "764":
   - 764.76C.22A224:F150LIGHTNING_CC_TGT_VSS
   "7DF":
+  - 7DF.0105
   - 7DF.012F
   - 7DF.221E12
   - 7DF.221E1C
