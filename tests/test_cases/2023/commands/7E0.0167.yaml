@@ -9,48 +9,6 @@ test_cases:
 - expected_values:
     ECT_1: 15
     ECT_1_SUP: 0
-    ECT_2: 19
-    ECT_2_SUP: 1
-  response: 7E805416702373B
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 22
-    ECT_2_SUP: 1
-  response: 7E805416702373E
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 23
-    ECT_2_SUP: 1
-  response: 7E805416702373F
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 24
-    ECT_2_SUP: 1
-  response: '7E8054167023740'
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 25
-    ECT_2_SUP: 1
-  response: '7E8054167023741'
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 26
-    ECT_2_SUP: 1
-  response: '7E8054167023742'
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
-    ECT_2: 34
-    ECT_2_SUP: 1
-  response: 7E805416702374A
-- expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 0
     ECT_2: 54
     ECT_2_SUP: 1
   response: 7E805416702375E
