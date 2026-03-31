@@ -3,6 +3,18 @@ test_cases:
 - expected_values:
     ECT_1: 15
     ECT_1_SUP: 0
+    ECT_2: 18
+    ECT_2_SUP: 1
+  response: 7E805416702373A
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 0
+    ECT_2: 19
+    ECT_2_SUP: 1
+  response: 7E805416702373B
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 0
     ECT_2: 25
     ECT_2_SUP: 1
   response: '7E8054167023741'
