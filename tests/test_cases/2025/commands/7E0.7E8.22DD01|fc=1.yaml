@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    F150LIGHTNING_ODO: 537
-  response: 7E80662DD01000219
+    F150LIGHTNING_ODO: 273
+  response: 7E80662DD01000111
 - expected_values:
     F150LIGHTNING_ODO: 767
   response: 7E80662DD010002FF
