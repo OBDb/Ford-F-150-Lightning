@@ -21,3 +21,8 @@ test_cases:
   response: |-
     7EC03410D36
     7E803410D36
+- expected_values:
+    VSS: 0
+  response: |-
+    > 7E4.7EC.010D
+    7EC03410D00
