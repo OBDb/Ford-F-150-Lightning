@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224848|fc=1
+test_cases:
+- expected_values:
+    F150LIGHTNING_HVBAT_KWH: 0
+  response: 7EC056248480000
+- expected_values:
+    F150LIGHTNING_HVBAT_KWH: 16.382
+  response: 7EC056248481FFF
+- expected_values:
+    F150LIGHTNING_HVBAT_KWH: 130.584
+  response: 7EC05624848FF0C

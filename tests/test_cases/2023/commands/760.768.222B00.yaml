@@ -1,0 +1,34 @@
+command_id: 760.768.222B00
+test_cases:
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: '768 07 62 2B 00 10 00 00 00 '
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: 76807622B0010000000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: |-
+    76807622B0010000000
+    76807622B0010000000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: 76807622B0010800000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: 76807622B0018000000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 0
+  response: 76807622B0018800000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 1
+  response: 76807622B00D6000000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 1
+  response: 76807622B00D6800000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 1
+  response: 76807622B00DE000000
+- expected_values:
+    F150LIGHTNING_PARKING_BRAKE: 1
+  response: 76807622B00DE800000
