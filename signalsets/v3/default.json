@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E4", "type": "battery" }
+  ],
+  "commands": [
 { "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5,
   "signals": [
     {"id": "F150LIGHTNING_ODO_HIGH_RES", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
