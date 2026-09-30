@@ -1,0 +1,14 @@
+command_id: 7E6.7EE.22DD05
+test_cases:
+- expected_values:
+    LIGHTNING_OUTSIDE_T: 71.6
+  response: |-
+    7EA0462DD053F
+    7EF0462DD053E
+    7EE0462DD053E
+- expected_values:
+    LIGHTNING_OUTSIDE_T: 71.6
+  response: |-
+    7EE0462DD053E
+    7EA0462DD053F
+    7EF0462DD053E
