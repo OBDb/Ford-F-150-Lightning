@@ -1,5 +1,11 @@
 command_id: 7E4.7EC.2248FB
 test_cases:
 - expected_values:
-    LIGHTNING_HVBAT_CHG_PWR_LIM: 205.2
-  response: 7EC056248FB0804
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 201.3
+  response: 7EC056248FB07DD
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 204.6
+  response: 7EC056248FB07FE
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 205.1
+  response: 7EC056248FB0803

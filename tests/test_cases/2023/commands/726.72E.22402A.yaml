@@ -4,5 +4,5 @@ test_cases:
     LIGHTNING_12V_V: 11.7
   response: 72E0462402A72
 - expected_values:
-    LIGHTNING_12V_V: 14.2
-  response: 72E0462402AA4
+    LIGHTNING_12V_V: 14.45
+  response: 72E0462402AA9

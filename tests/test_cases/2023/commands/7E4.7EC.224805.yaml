@@ -5,7 +5,10 @@ test_cases:
   response: 7EC05624805005C
 - expected_values:
     LIGHTNING_CONTACTOR_V_POS: 300
+  response: 7EC056248058E05
+- expected_values:
+    LIGHTNING_CONTACTOR_V_POS: 300
   response: 7EC056248058EFF
 - expected_values:
     LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC056248058F07
+  response: 7EC056248059011

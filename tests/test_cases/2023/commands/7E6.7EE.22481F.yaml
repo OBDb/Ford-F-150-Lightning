@@ -4,8 +4,5 @@ test_cases:
     LIGHTNING_PRI_MOTOR_COIL_T: 27
   response: 7EE0562481F001B
 - expected_values:
-    LIGHTNING_PRI_MOTOR_COIL_T: 28
-  response: 7EE0562481F001C
-- expected_values:
-    LIGHTNING_PRI_MOTOR_COIL_T: 29
-  response: 7EE0562481F001D
+    LIGHTNING_PRI_MOTOR_COIL_T: 56
+  response: 7EE0562481F0038

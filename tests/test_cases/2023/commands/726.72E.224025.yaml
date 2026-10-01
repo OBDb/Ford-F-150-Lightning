@@ -1,5 +1,8 @@
 command_id: 726.72E.224025
 test_cases:
 - expected_values:
+    LIGHTNING_BAT_QUIESCENT: 68
+  response: '72E056240250858'
+- expected_values:
     LIGHTNING_BAT_QUIESCENT: 69
   response: 72E05624025085A
