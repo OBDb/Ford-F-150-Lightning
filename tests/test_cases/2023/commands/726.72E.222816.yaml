@@ -10,5 +10,5 @@ test_cases:
     LIGHTNING_TP_RL: 38.4
   response: '72E056228160300'
 - expected_values:
-    LIGHTNING_TP_RL: 68.7
-  response: 72E05622816055E
+    LIGHTNING_TP_RL: null
+  response: 72E056228160BB8
