@@ -7,8 +7,8 @@ test_cases:
     LIGHTNING_HV_POS_LEAK_V: 2.826
   response: 7EC056248030B0A
 - expected_values:
-    LIGHTNING_HV_POS_LEAK_V: 3.053
-  response: 7EC056248030BED
+    LIGHTNING_HV_POS_LEAK_V: 3.054
+  response: 7EC056248030BEE
 - expected_values:
     LIGHTNING_HV_POS_LEAK_V: 3.338
   response: 7EC056248030D0A

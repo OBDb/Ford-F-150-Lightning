@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     LIGHTNING_HVBAT_COOLANT_INLET_T: 24
   response: 7EC046248464A
+- expected_values:
+    LIGHTNING_HVBAT_COOLANT_INLET_T: 27
+  response: 7EC046248464D
+- expected_values:
+    LIGHTNING_HVBAT_COOLANT_INLET_T: 28
+  response: 7EC046248464E
+- expected_values:
+    LIGHTNING_HVBAT_COOLANT_INLET_T: 29
+  response: 7EC046248464F
+- expected_values:
+    LIGHTNING_HVBAT_COOLANT_INLET_T: 30
+  response: 7EC0462484650

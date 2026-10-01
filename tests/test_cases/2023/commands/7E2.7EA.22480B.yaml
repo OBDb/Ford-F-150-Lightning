@@ -4,8 +4,8 @@ test_cases:
     LIGHTNING_HIGH_V_CURRENT: 0.02
   response: 7EA0562480B0001
 - expected_values:
-    LIGHTNING_HIGH_V_CURRENT: -0.12
-  response: 7EA0562480BFFFA
+    LIGHTNING_HIGH_V_CURRENT: -1.28
+  response: 7EA0562480BFFC0
 - expected_values:
     LIGHTNING_HIGH_V_CURRENT: -0.02
   response: 7EA0562480BFFFF

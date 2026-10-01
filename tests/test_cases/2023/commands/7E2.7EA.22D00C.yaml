@@ -4,17 +4,5 @@ test_cases:
     LIGHTNING_HIGH_V_DC_CHARGER_T: 75.2
   response: 7EA0462D00C40
 - expected_values:
-    LIGHTNING_HIGH_V_DC_CHARGER_T: 77
-  response: 7EA0462D00C41
-- expected_values:
-    LIGHTNING_HIGH_V_DC_CHARGER_T: 78.8
-  response: 7EA0462D00C42
-- expected_values:
-    LIGHTNING_HIGH_V_DC_CHARGER_T: 80.6
-  response: 7EA0462D00C43
-- expected_values:
-    LIGHTNING_HIGH_V_DC_CHARGER_T: 82.4
-  response: 7EA0462D00C44
-- expected_values:
-    LIGHTNING_HIGH_V_DC_CHARGER_T: 84.2
-  response: 7EA0462D00C45
+    LIGHTNING_HIGH_V_DC_CHARGER_T: 104
+  response: 7EA0462D00C50

@@ -1,8 +1,8 @@
 command_id: 730.738.22330C
 test_cases:
 - expected_values:
-    LIGHTNING_STEER_SHFT_TQ: 0
-  response: 7380462330C7F
+    LIGHTNING_STEER_SHFT_TQ: -3.6
+  response: 7380462330C5B
 - expected_values:
-    LIGHTNING_STEER_SHFT_TQ: 0.1
-  response: 7380462330C80
+    LIGHTNING_STEER_SHFT_TQ: 1.9
+  response: 7380462330C92

@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     LIGHTNING_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
+- expected_values:
+    LIGHTNING_GRILL_SHUTTER_POSITION: 46.66667
+  response: '7E80462058077'
+- expected_values:
+    LIGHTNING_GRILL_SHUTTER_POSITION: 80
+  response: 7E804620580CC
+- expected_values:
+    LIGHTNING_GRILL_SHUTTER_POSITION: 100
+  response: 7E804620580FF

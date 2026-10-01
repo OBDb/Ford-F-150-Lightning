@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LIGHTNING_VSS_HD: 0
   response: '7E8056215050000'
+- expected_values:
+    LIGHTNING_VSS_HD: 43.99219
+  response: 7E80562150515FF
+- expected_values:
+    LIGHTNING_VSS_HD: 104.42969
+  response: '7E8056215053437'

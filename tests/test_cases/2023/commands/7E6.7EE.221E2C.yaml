@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LIGHTNING_PRI_MOTOR_RPM: 0
   response: 7EE05621E2C0000
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 2557
+  response: 7EE05621E2C09FD
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 5994
+  response: 7EE05621E2C176A
