@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_ODO_BCM: 52666
   response: 7680662DD0100CDBA
+- expected_values:
+    LIGHTNING_ODO_BCM: 52686
+  response: 7680662DD0100CDCE

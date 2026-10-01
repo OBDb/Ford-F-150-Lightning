@@ -10,5 +10,5 @@ test_cases:
     LIGHTNING_RUN_TIME: 2560
   response: 7E80562F41F0A00
 - expected_values:
-    LIGHTNING_RUN_TIME: 4111
-  response: 7E80562F41F100F
+    LIGHTNING_RUN_TIME: 6166
+  response: 7E80562F41F1816

@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     LIGHTNING_NORM_CUM_CHG_IGN_ON: 163.3
   response: 72E0562401E0661
+- expected_values:
+    LIGHTNING_NORM_CUM_CHG_IGN_ON: 163.4
+  response: 72E0562401E0662
+- expected_values:
+    LIGHTNING_NORM_CUM_CHG_IGN_ON: 163.5
+  response: 72E0562401E0663

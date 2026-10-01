@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     LIGHTNING_AC_CHG_COUPLER_T: 28
   response: 7EA0462488844
+- expected_values:
+    LIGHTNING_AC_CHG_COUPLER_T: 32
+  response: 7EA0462488848
+- expected_values:
+    LIGHTNING_AC_CHG_COUPLER_T: 33
+  response: 7EA0462488849
+- expected_values:
+    LIGHTNING_AC_CHG_COUPLER_T: 34
+  response: 7EA046248884A
