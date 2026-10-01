@@ -1,0 +1,16 @@
+command_id: 7E2.7EA.22480D
+test_cases:
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 37350
+  response: |-
+    7EE0562480D91E6
+    7EA0562480D91E6
+    7EC0562480D91FF
+    7EF0562480D91E6
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 37750
+  response: |-
+    7EE0562480D9376
+    7EA0562480D9376
+    7EC0562480D9386
+    7EF0562480D9376

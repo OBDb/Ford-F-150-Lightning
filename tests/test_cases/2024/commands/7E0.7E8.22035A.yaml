@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22035A
+test_cases:
+- expected_values:
+    LIGHTNING_BARO_V: 2.77615
+  response: 7E80562035A0238
+- expected_values:
+    LIGHTNING_BARO_V: 3.74878
+  response: 7E80562035A02FF
+- expected_values:
+    LIGHTNING_BARO_V: 3.75367
+  response: 7E80562035A0300
