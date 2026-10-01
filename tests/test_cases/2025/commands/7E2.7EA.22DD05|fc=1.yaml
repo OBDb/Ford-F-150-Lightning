@@ -4,5 +4,5 @@ test_cases:
     LIGHTNING_AAT: -20
   response: 7EA0462DD0514
 - expected_values:
-    LIGHTNING_AAT: 48
-  response: 7EA0462DD0558
+    LIGHTNING_AAT: null
+  response: 7EA0462DD05FF

@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224812
+test_cases:
+- expected_values:
+    LIGHTNING_HIGH_V_LEAKAGE_RES: 49500
+  response: 7EC05624812C15C
+- expected_values:
+    LIGHTNING_HIGH_V_LEAKAGE_RES: 49939
+  response: 7EC05624812C313
+- expected_values:
+    LIGHTNING_HIGH_V_LEAKAGE_RES: 50174
+  response: 7EC05624812C3FE
+- expected_values:
+    LIGHTNING_HIGH_V_LEAKAGE_RES: 50731
+  response: 7EC05624812C62B

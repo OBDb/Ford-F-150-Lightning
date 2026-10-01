@@ -1,0 +1,14 @@
+command_id: 7E6.7EE.221E2C
+test_cases:
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 429
+  response: 7EE05621E2C01AD
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 3323
+  response: 7EE05621E2C0CFB
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 4965
+  response: 7EE05621E2C1365
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 7595
+  response: 7EE05621E2C1DAB
