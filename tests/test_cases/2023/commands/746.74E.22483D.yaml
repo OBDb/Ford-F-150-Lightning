@@ -1,0 +1,23 @@
+command_id: 746.74E.22483D
+test_cases:
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 0
+  response: 74E0562483D0086
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D0186
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D0187
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D0189
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D018B
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D018D
+- expected_values:
+    LIGHTNING_DCDC_ENABLED: 1
+  response: 74E0562483D0190

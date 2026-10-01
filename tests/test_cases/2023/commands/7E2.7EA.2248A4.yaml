@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.2248A4
+test_cases:
+- expected_values:
+    LIGHTNING_DC_CHG_COUPLER_T3: 24
+  response: 7EA046248A440
+- expected_values:
+    LIGHTNING_DC_CHG_COUPLER_T3: 25
+  response: 7EA046248A441
+- expected_values:
+    LIGHTNING_DC_CHG_COUPLER_T3: 26
+  response: 7EA046248A442
+- expected_values:
+    LIGHTNING_DC_CHG_COUPLER_T3: 27
+  response: 7EA046248A443

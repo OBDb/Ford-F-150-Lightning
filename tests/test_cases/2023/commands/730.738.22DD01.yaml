@@ -1,0 +1,5 @@
+command_id: 730.738.22DD01
+test_cases:
+- expected_values:
+    LIGHTNING_ODO_PSCM: 52666
+  response: 7380662DD0100CDBA

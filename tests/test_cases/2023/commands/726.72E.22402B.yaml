@@ -1,0 +1,8 @@
+command_id: 726.72E.22402B
+test_cases:
+- expected_values:
+    LIGHTNING_12V_A: -125
+  response: 72E0462402B02
+- expected_values:
+    LIGHTNING_12V_A: 78
+  response: 72E0462402BCD

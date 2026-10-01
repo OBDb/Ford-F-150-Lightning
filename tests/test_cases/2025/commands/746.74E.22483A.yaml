@@ -12,3 +12,18 @@ test_cases:
 - expected_values:
     LIGHTNING_DCDC_HV_A: 1.4
   response: 74E0462483A0E
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 1.6
+  response: 74E0462483A10
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 1.8
+  response: 74E0462483A12
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 1.9
+  response: 74E0462483A13
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 2.1
+  response: 74E0462483A15
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 2.3
+  response: 74E0462483A17

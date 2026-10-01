@@ -1,0 +1,14 @@
+command_id: 726.72E.22423C
+test_cases:
+- expected_values:
+    LIGHTNING_VEH_BAT_B_CURRENT: 1.65625
+  response: 72E0562423C0035
+- expected_values:
+    LIGHTNING_VEH_BAT_B_CURRENT: 15.90625
+  response: 72E0562423C01FD
+- expected_values:
+    LIGHTNING_VEH_BAT_B_CURRENT: -23.90625
+  response: 72E0562423CFD03
+- expected_values:
+    LIGHTNING_VEH_BAT_B_CURRENT: -10.59375
+  response: 72E0562423CFEAD

@@ -1,0 +1,14 @@
+command_id: 7E6.7EE.22481C
+test_cases:
+- expected_values:
+    LIGHTNING_PRI_MOTOR_TQ: 0.1
+  response: 7EE0562481C0001
+- expected_values:
+    LIGHTNING_PRI_MOTOR_TQ: 0.2
+  response: 7EE0562481C0002
+- expected_values:
+    LIGHTNING_PRI_MOTOR_TQ: 0.3
+  response: 7EE0562481C0003
+- expected_values:
+    LIGHTNING_PRI_MOTOR_TQ: 0.4
+  response: 7EE0562481C0004
