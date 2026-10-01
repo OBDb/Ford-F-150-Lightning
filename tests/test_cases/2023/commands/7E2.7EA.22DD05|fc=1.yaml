@@ -10,8 +10,8 @@ test_cases:
     7EF0462DD053E
     7EE0462DD053E
 - expected_values:
-    LIGHTNING_AAT: 215
-  response: 7EA0462DD05FF
+    LIGHTNING_AAT: 48
+  response: 7EA0462DD0558
 - expected_values:
     LIGHTNING_AAT: 23
   response: |-

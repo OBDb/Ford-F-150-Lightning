@@ -414,11 +414,11 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD04"}, "freq": 5,
   "signals": [
-    {"id": "LIGHTNING_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Interior temperature"}
+    {"id": "LIGHTNING_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Interior temperature"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD05"}, "freq": 5,
   "signals": [
-    {"id": "LIGHTNING_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
+    {"id": "LIGHTNING_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "05A1"}, "freq": 60,
   "signals": [
@@ -426,7 +426,7 @@
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4800"}, "freq": 10,
   "signals": [
-    {"id": "LIGHTNING_HVBAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Hv battery temperature"}
+    {"id": "LIGHTNING_HVBAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 205, "unit": "celsius" }, "name": "Hv battery temperature"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4801"}, "freq": 1,
   "signals": [
