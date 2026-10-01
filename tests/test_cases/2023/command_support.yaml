@@ -1,5 +1,8 @@
 model_year: 2023
 supported_commands_by_ecu:
+  "6F5":
+  - 6F5.6FD.224899:LIGHTNING_HVDC_CHG_MAX_C
+  - 6F5.6FD.22489D:LIGHTNING_HVDC_CHG_MAX_V
   "720":
   - 720.728.22404C:LIGHTNING_ODO_HIGH_RES
   - 720.728.2261A5:LIGHTNING_TPMS_WARN
@@ -148,6 +151,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   "720":
+  - 720.728.226180:LIGHTNING_ODO_720
   - 720.728.226185
   "726":
   - 726.22407E
