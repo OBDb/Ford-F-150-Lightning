@@ -1,5 +1,14 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
+    LIGHTNING_12V_SOC: 97
+  response: '72E0462402861'
+- expected_values:
+    LIGHTNING_12V_SOC: 98
+  response: '72E0462402862'
+- expected_values:
+    LIGHTNING_12V_SOC: 99
+  response: '72E0462402863'
+- expected_values:
     LIGHTNING_12V_SOC: 100
   response: '72E0462402864'

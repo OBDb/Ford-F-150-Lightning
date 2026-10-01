@@ -1,11 +1,11 @@
 command_id: 7E2.7EA.22480B
 test_cases:
 - expected_values:
-    LIGHTNING_HIGH_V_CURRENT: 20.28
-  response: 7EA0562480B03F6
+    LIGHTNING_HIGH_V_CURRENT: 1.68
+  response: 7EA0562480B0054
 - expected_values:
     LIGHTNING_HIGH_V_CURRENT: 66.68
   response: 7EA0562480B0D06
 - expected_values:
-    LIGHTNING_HIGH_V_CURRENT: -7.48
-  response: 7EA0562480BFE8A
+    LIGHTNING_HIGH_V_CURRENT: -0.02
+  response: 7EA0562480BFFFF

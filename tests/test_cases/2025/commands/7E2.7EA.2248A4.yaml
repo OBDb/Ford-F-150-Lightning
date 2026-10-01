@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     LIGHTNING_DC_CHG_COUPLER_T3: 23
   response: 7EA046248A43F
+- expected_values:
+    LIGHTNING_DC_CHG_COUPLER_T3: 24
+  response: 7EA046248A440

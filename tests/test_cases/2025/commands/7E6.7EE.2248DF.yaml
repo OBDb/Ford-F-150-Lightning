@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_COOLANT_HTR_OP_MODE: 'OFF'
   response: 7EE046248DF00
+- expected_values:
+    LIGHTNING_COOLANT_HTR_OP_MODE: STOP
+  response: 7EE046248DF07

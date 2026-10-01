@@ -4,5 +4,5 @@ test_cases:
     LIGHTNING_STEER_SHFT_TQ: -2.6
   response: 7380462330C65
 - expected_values:
-    LIGHTNING_STEER_SHFT_TQ: 1.5
-  response: 7380462330C8E
+    LIGHTNING_STEER_SHFT_TQ: 2.7
+  response: 7380462330C9A
