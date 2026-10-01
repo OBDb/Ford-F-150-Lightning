@@ -1,0 +1,20 @@
+command_id: 7E4.7EC.224841
+test_cases:
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.817
+  response: 7EC056248410EE9
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.818
+  response: 7EC056248410EEA
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.819
+  response: 7EC056248410EEB
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.82
+  response: 7EC056248410EEC
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.821
+  response: 7EC056248410EED
+- expected_values:
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.822
+  response: 7EC056248410EEE

@@ -4,6 +4,9 @@ test_cases:
     LIGHTNING_HVBAT_CHG_PWR_LIM: 205.2
   response: 7EC056248FB0804
 - expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 209
+  response: 7EC056248FB082A
+- expected_values:
     LIGHTNING_HVBAT_CHG_PWR_LIM: 210.4
   response: 7EC056248FB0838
 - expected_values:

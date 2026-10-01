@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224803
+test_cases:
+- expected_values:
+    LIGHTNING_HV_POS_LEAK_V: 2.492
+  response: 7EC0562480309BC
+- expected_values:
+    LIGHTNING_HV_POS_LEAK_V: 2.826
+  response: 7EC056248030B0A
+- expected_values:
+    LIGHTNING_HV_POS_LEAK_V: 3.053
+  response: 7EC056248030BED
+- expected_values:
+    LIGHTNING_HV_POS_LEAK_V: 3.338
+  response: 7EC056248030D0A

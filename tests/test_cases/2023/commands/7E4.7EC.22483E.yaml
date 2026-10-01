@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22483E
+test_cases:
+- expected_values:
+    LIGHTNING_HVB_SOC_VARIATION: 0.594
+  response: 7EC0562483E0252
+- expected_values:
+    LIGHTNING_HVB_SOC_VARIATION: 0.595
+  response: 7EC0562483E0253
+- expected_values:
+    LIGHTNING_HVB_SOC_VARIATION: 0.596
+  response: 7EC0562483E0254
+- expected_values:
+    LIGHTNING_HVB_SOC_VARIATION: 0.597
+  response: 7EC0562483E0255

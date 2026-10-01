@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221505
 test_cases:
 - expected_values:
-    LIGHTNING_VSS_HD: 1.21094
-  response: 7E805621505009B
+    LIGHTNING_VSS_HD: 0
+  response: '7E8056215050000'
 - expected_values:
-    LIGHTNING_VSS_HD: 51.84375
-  response: 7E80562150519EC
-- expected_values:
-    LIGHTNING_VSS_HD: 80.04688
-  response: '7E8056215052806'
+    LIGHTNING_VSS_HD: 43.89844
+  response: 7E80562150515F3
 - expected_values:
     LIGHTNING_VSS_HD: 120.10938
   response: 7E8056215053C0E

@@ -1,0 +1,8 @@
+command_id: 746.74E.22483A
+test_cases:
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 0
+  response: 74E0462483A00
+- expected_values:
+    LIGHTNING_DCDC_HV_A: 4.2
+  response: 74E0462483A2A

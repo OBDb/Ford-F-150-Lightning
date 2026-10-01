@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     LIGHTNING_BAT_PACK_LIFETIME: 29330
   response: 7EC0562485D0B75
+- expected_values:
+    LIGHTNING_BAT_PACK_LIFETIME: 29340
+  response: 7EC0562485D0B76
