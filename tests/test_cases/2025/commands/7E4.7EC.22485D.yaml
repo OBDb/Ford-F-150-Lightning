@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.22485D
+test_cases:
+- expected_values:
+    LIGHTNING_BAT_PACK_LIFETIME: 29310
+  response: 7EC0562485D0B73
+- expected_values:
+    LIGHTNING_BAT_PACK_LIFETIME: 29320
+  response: 7EC0562485D0B74
+- expected_values:
+    LIGHTNING_BAT_PACK_LIFETIME: 29330
+  response: 7EC0562485D0B75

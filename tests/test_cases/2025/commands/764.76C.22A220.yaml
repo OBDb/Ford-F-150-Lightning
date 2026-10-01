@@ -1,0 +1,8 @@
+command_id: 764.76C.22A220
+test_cases:
+- expected_values:
+    LIGHTNING_FSM_AUTOMATIC: 0
+  response: 76C0562A2200000
+- expected_values:
+    LIGHTNING_FSM_AUTOMATIC: -0.1
+  response: 76C0562A220FFFF

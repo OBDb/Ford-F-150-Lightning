@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.22484A
+test_cases:
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 370.59
+  response: 7EA0562484A90C3
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 373.67
+  response: 7EA0562484A91F7
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 374.04
+  response: 7EA0562484A921C
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 377.73
+  response: 7EA0562484A938D

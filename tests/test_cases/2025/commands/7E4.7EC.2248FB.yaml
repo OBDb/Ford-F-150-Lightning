@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.2248FB
+test_cases:
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 205.2
+  response: 7EC056248FB0804
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 210.4
+  response: 7EC056248FB0838
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 210.8
+  response: 7EC056248FB083C
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 210.9
+  response: 7EC056248FB083D
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 211.3
+  response: 7EC056248FB0841
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 211.4
+  response: 7EC056248FB0842
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 211.9
+  response: 7EC056248FB0847
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 212.4
+  response: 7EC056248FB084C
+- expected_values:
+    LIGHTNING_HVBAT_CHG_PWR_LIM: 212.8
+  response: 7EC056248FB0850

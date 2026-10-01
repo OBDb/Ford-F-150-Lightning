@@ -4,5 +4,5 @@ test_cases:
     LIGHTNING_HVBAT_T: -13
   response: 7EC0462480025
 - expected_values:
-    LIGHTNING_HVBAT_T: 40
-  response: 7EC046248005A
+    LIGHTNING_HVBAT_T: null
+  response: 7EC04624800FF

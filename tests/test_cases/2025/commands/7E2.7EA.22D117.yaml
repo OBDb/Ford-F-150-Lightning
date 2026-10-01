@@ -1,0 +1,26 @@
+command_id: 7E2.7EA.22D117
+test_cases:
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 64.4
+  response: 7EA0462D1173A
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 66.2
+  response: 7EA0462D1173B
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 68
+  response: 7EA0462D1173C
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 69.8
+  response: 7EA0462D1173D
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 71.6
+  response: 7EA0462D1173E
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 73.4
+  response: 7EA0462D1173F
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 75.2
+  response: 7EA0462D11740
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 78.8
+  response: 7EA0462D11742
