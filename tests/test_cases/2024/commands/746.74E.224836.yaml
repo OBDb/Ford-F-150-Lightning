@@ -1,0 +1,8 @@
+command_id: 746.74E.224836
+test_cases:
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 0
+  response: '74E0462483600'
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 51
+  response: '74E0462483633'
