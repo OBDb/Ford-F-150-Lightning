@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224804
+test_cases:
+- expected_values:
+    LIGHTNING_HV_NEG_LEAK_V: 1.517
+  response: 7EC0562480405ED
+- expected_values:
+    LIGHTNING_HV_NEG_LEAK_V: 1.793
+  response: 7EC056248040701
+- expected_values:
+    LIGHTNING_HV_NEG_LEAK_V: 2.042
+  response: 7EC0562480407FA
+- expected_values:
+    LIGHTNING_HV_NEG_LEAK_V: 2.499
+  response: 7EC0562480409C3

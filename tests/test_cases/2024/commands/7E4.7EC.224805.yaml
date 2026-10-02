@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224805
+test_cases:
+- expected_values:
+    LIGHTNING_CONTACTOR_V_POS: 300
+  response: 7EC056248050DDC
+- expected_values:
+    LIGHTNING_CONTACTOR_V_POS: 300
+  response: 7EC056248058FFA
+- expected_values:
+    LIGHTNING_CONTACTOR_V_POS: 300
+  response: 7EC056248059001
+- expected_values:
+    LIGHTNING_CONTACTOR_V_POS: 300
+  response: 7EC056248059104
