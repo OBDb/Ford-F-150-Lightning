@@ -4,29 +4,5 @@ test_cases:
     LIGHTNING_ODO_BCM: 38326
   response: 7680662DD010095B6
 - expected_values:
-    LIGHTNING_ODO_BCM: 38327
-  response: 7680662DD010095B7
-- expected_values:
-    LIGHTNING_ODO_BCM: 38329
-  response: 7680662DD010095B9
-- expected_values:
-    LIGHTNING_ODO_BCM: 38331
-  response: 7680662DD010095BB
-- expected_values:
-    LIGHTNING_ODO_BCM: 38333
-  response: 7680662DD010095BD
-- expected_values:
-    LIGHTNING_ODO_BCM: 38335
-  response: 7680662DD010095BF
-- expected_values:
-    LIGHTNING_ODO_BCM: 38337
-  response: 7680662DD010095C1
-- expected_values:
-    LIGHTNING_ODO_BCM: 38338
-  response: 7680662DD010095C2
-- expected_values:
-    LIGHTNING_ODO_BCM: 38339
-  response: 7680662DD010095C3
-- expected_values:
-    LIGHTNING_ODO_BCM: 38340
-  response: 7680662DD010095C4
+    LIGHTNING_ODO_BCM: 38347
+  response: 7680662DD010095CB

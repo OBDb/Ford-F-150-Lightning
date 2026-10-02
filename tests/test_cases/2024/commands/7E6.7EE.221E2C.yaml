@@ -7,5 +7,5 @@ test_cases:
     LIGHTNING_PRI_MOTOR_RPM: 2036
   response: 7EE05621E2C07F4
 - expected_values:
-    LIGHTNING_PRI_MOTOR_RPM: 6209
-  response: 7EE05621E2C1841
+    LIGHTNING_PRI_MOTOR_RPM: -339
+  response: 7EE05621E2CFEAD

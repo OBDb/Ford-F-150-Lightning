@@ -16,6 +16,9 @@ test_cases:
     LIGHTNING_PRI_MOTOR_INV_T: 38
   response: 7EE056248240026
 - expected_values:
+    LIGHTNING_PRI_MOTOR_INV_T: 39
+  response: 7EE056248240027
+- expected_values:
     LIGHTNING_PRI_MOTOR_INV_T: 40
   response: 7EE056248240028
 - expected_values:
@@ -24,3 +27,6 @@ test_cases:
 - expected_values:
     LIGHTNING_PRI_MOTOR_INV_T: 44
   response: 7EE05624824002C
+- expected_values:
+    LIGHTNING_PRI_MOTOR_INV_T: 45
+  response: 7EE05624824002D

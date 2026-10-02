@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.22480A
 test_cases:
 - expected_values:
-    LIGHTNING_HVB_CURRENT_LOW: 0.32
-  response: 7EC0562480A0010
+    LIGHTNING_HVB_CURRENT_LOW: 0.12
+  response: 7EC0562480A0006
 - expected_values:
     LIGHTNING_HVB_CURRENT_LOW: 5.16
   response: 7EC0562480A0102
@@ -10,5 +10,5 @@ test_cases:
     LIGHTNING_HVB_CURRENT_LOW: 158.64
   response: 7EC0562480A1EFC
 - expected_values:
-    LIGHTNING_HVB_CURRENT_LOW: -6.9
-  response: 7EC0562480AFEA7
+    LIGHTNING_HVB_CURRENT_LOW: -4.7
+  response: 7EC0562480AFF15

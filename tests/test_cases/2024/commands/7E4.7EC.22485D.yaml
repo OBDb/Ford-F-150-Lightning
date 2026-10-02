@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LIGHTNING_BAT_PACK_LIFETIME: 48920
   response: 7EC0562485D131C
+- expected_values:
+    LIGHTNING_BAT_PACK_LIFETIME: 48930
+  response: 7EC0562485D131D
