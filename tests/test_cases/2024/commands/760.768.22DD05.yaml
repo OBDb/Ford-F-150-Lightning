@@ -1,0 +1,11 @@
+command_id: 760.768.22DD05
+test_cases:
+- expected_values:
+    LIGHTNING_OUTDOOR_T_BCM: 18
+  response: 7680462DD053A
+- expected_values:
+    LIGHTNING_OUTDOOR_T_BCM: 19
+  response: 7680462DD053B
+- expected_values:
+    LIGHTNING_OUTDOOR_T_BCM: 215
+  response: 7680462DD05FF
