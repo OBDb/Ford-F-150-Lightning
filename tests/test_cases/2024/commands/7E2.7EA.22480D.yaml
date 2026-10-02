@@ -1,11 +1,20 @@
 command_id: 7E2.7EA.22480D
 test_cases:
 - expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 36500
+  response: 7EA0562480D8E94
+- expected_values:
     LIGHTNING_HVB_V_RAW_CNT: 36550
   response: 7EA0562480D8EC6
 - expected_values:
     LIGHTNING_HVB_V_RAW_CNT: 36600
   response: 7EA0562480D8EF8
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 36650
+  response: 7EA0562480D8F2A
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 36700
+  response: 7EA0562480D8F5C
 - expected_values:
     LIGHTNING_HVB_V_RAW_CNT: 36750
   response: 7EA0562480D8F8E
