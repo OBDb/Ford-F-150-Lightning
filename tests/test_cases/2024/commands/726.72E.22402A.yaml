@@ -1,32 +1,8 @@
 command_id: 726.72E.22402A
 test_cases:
 - expected_values:
-    LIGHTNING_12V_V: 12.25
-  response: 72E0462402A7D
-- expected_values:
-    LIGHTNING_12V_V: 12.3
-  response: 72E0462402A7E
-- expected_values:
-    LIGHTNING_12V_V: 12.35
-  response: 72E0462402A7F
-- expected_values:
-    LIGHTNING_12V_V: 12.75
-  response: 72E0462402A87
-- expected_values:
-    LIGHTNING_12V_V: 12.8
-  response: 72E0462402A88
-- expected_values:
-    LIGHTNING_12V_V: 13.25
-  response: 72E0462402A91
-- expected_values:
-    LIGHTNING_12V_V: 13.3
-  response: 72E0462402A92
-- expected_values:
-    LIGHTNING_12V_V: 14.2
-  response: 72E0462402AA4
-- expected_values:
-    LIGHTNING_12V_V: 14.25
-  response: 72E0462402AA5
+    LIGHTNING_12V_V: 12.2
+  response: 72E0462402A7C
 - expected_values:
     LIGHTNING_12V_V: 14.3
   response: 72E0462402AA6

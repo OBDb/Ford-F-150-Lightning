@@ -4,8 +4,14 @@ test_cases:
     LIGHTNING_BRK_FL_P: 1
   response: 76805622B0D0001
 - expected_values:
+    LIGHTNING_BRK_FL_P: 4
+  response: 76805622B0D0004
+- expected_values:
     LIGHTNING_BRK_FL_P: 15
   response: 76805622B0D000F
+- expected_values:
+    LIGHTNING_BRK_FL_P: 18
+  response: 76805622B0D0012
 - expected_values:
     LIGHTNING_BRK_FL_P: 26
   response: 76805622B0D001A

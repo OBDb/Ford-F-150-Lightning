@@ -4,8 +4,8 @@ test_cases:
     LIGHTNING_HVBAT_AVG_MOD_V: 3.787
   response: 7EC056248410ECB
 - expected_values:
-    LIGHTNING_HVBAT_AVG_MOD_V: 3.838
-  response: 7EC056248410EFE
+    LIGHTNING_HVBAT_AVG_MOD_V: 3.839
+  response: 7EC056248410EFF
 - expected_values:
     LIGHTNING_HVBAT_AVG_MOD_V: 3.841
   response: 7EC056248410F01
