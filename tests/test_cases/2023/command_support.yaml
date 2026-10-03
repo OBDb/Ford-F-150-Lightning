@@ -56,6 +56,7 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0104
   - 7DF.0105
+  - 7DF.010C
   - 7DF.010D
   - 7DF.012F
   - 7DF.0131
@@ -220,6 +221,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 7E6.7EE.0104
   - 7E6.7EE.0105
+  - 7E6.7EE.010C
   - 7E6.7EE.010D
   - 7E6.7EE.0131
   - 7E6.7EE.221E1C|fc=1:LIGHTNING_TT
