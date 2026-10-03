@@ -1,0 +1,26 @@
+command_id: 746.74E.224836
+test_cases:
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 36
+  response: '74E0462483624'
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 39
+  response: '74E0462483627'
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 41
+  response: '74E0462483629'
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 42
+  response: 74E046248362A
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 43
+  response: 74E046248362B
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 44
+  response: 74E046248362C
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 45
+  response: 74E046248362D
+- expected_values:
+    LIGHTNING_DCDC_LV_A: 50
+  response: '74E0462483632'

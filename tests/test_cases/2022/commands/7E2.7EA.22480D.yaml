@@ -1,0 +1,26 @@
+command_id: 7E2.7EA.22480D
+test_cases:
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 37800
+  response: 7EA0562480D93A8
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38000
+  response: 7EA0562480D9470
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38100
+  response: 7EA0562480D94D4
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38200
+  response: 7EA0562480D9538
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38250
+  response: 7EA0562480D956A
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38400
+  response: 7EA0562480D9600
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38450
+  response: 7EA0562480D9632
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38550
+  response: 7EA0562480D9696

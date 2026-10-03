@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    LIGHTNING_RUN_TIME: 159
+  response: 7E80562F41F009F
+- expected_values:
+    LIGHTNING_RUN_TIME: 233
+  response: 7E80562F41F00E9
+- expected_values:
+    LIGHTNING_RUN_TIME: 263
+  response: 7E80562F41F0107

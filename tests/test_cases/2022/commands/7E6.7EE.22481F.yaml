@@ -1,0 +1,17 @@
+command_id: 7E6.7EE.22481F
+test_cases:
+- expected_values:
+    LIGHTNING_PRI_MOTOR_COIL_T: 20
+  response: 7EE0562481F0014
+- expected_values:
+    LIGHTNING_PRI_MOTOR_COIL_T: 21
+  response: 7EE0562481F0015
+- expected_values:
+    LIGHTNING_PRI_MOTOR_COIL_T: 22
+  response: 7EE0562481F0016
+- expected_values:
+    LIGHTNING_PRI_MOTOR_COIL_T: 24
+  response: 7EE0562481F0018
+- expected_values:
+    LIGHTNING_PRI_MOTOR_COIL_T: 25
+  response: 7EE0562481F0019

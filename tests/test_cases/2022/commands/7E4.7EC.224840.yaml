@@ -1,0 +1,32 @@
+command_id: 7E4.7EC.224840
+test_cases:
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.934
+  response: 7EC056248400F5E
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.957
+  response: 7EC056248400F75
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.961
+  response: 7EC056248400F79
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.97
+  response: 7EC056248400F82
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.972
+  response: 7EC056248400F84
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.974
+  response: 7EC056248400F86
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 3.979
+  response: 7EC056248400F8B
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 4.002
+  response: 7EC056248400FA2
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 4.007
+  response: 7EC056248400FA7
+- expected_values:
+    LIGHTNING_HVBAT_MIN_MOD_V: 4.014
+  response: 7EC056248400FAE

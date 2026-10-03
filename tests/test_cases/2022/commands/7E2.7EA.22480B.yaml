@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.22480B
+test_cases:
+- expected_values:
+    LIGHTNING_HIGH_V_CURRENT: 10.48
+  response: 7EA0562480B020C
+- expected_values:
+    LIGHTNING_HIGH_V_CURRENT: 82.12
+  response: 7EA0562480B100A
+- expected_values:
+    LIGHTNING_HIGH_V_CURRENT: 96.92
+  response: 7EA0562480B12EE
+- expected_values:
+    LIGHTNING_HIGH_V_CURRENT: -45.32
+  response: 7EA0562480BF726
