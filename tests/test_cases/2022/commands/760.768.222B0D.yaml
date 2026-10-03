@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     LIGHTNING_BRK_FL_P: 0
   response: 76805622B0D0000
+- expected_values:
+    LIGHTNING_BRK_FL_P: 2
+  response: 76805622B0D0002
+- expected_values:
+    LIGHTNING_BRK_FL_P: 20
+  response: 76805622B0D0014
+- expected_values:
+    LIGHTNING_BRK_FL_P: 28
+  response: 76805622B0D001C
+- expected_values:
+    LIGHTNING_BRK_FL_P: 32
+  response: 76805622B0D0020
+- expected_values:
+    LIGHTNING_BRK_FL_P: 126
+  response: 76805622B0D007E

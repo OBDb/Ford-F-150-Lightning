@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     LIGHTNING_AC_COMP_A: 6.10065
   response: 7CF056299AB07CF
+- expected_values:
+    LIGHTNING_AC_COMP_A: 6.20136
+  response: 7CF056299AB07F0
+- expected_values:
+    LIGHTNING_AC_COMP_A: 7.40074
+  response: 7CF056299AB0979
+- expected_values:
+    LIGHTNING_AC_COMP_A: 7.50145
+  response: 7CF056299AB099A
+- expected_values:
+    LIGHTNING_AC_COMP_A: 7.90124
+  response: 7CF056299AB0A1D
+- expected_values:
+    LIGHTNING_AC_COMP_A: 8.09961
+  response: 7CF056299AB0A5E
+- expected_values:
+    LIGHTNING_AC_COMP_A: 8.99991
+  response: 7CF056299AB0B85
+- expected_values:
+    LIGHTNING_AC_COMP_A: 10.90121
+  response: 7CF056299AB0DF4

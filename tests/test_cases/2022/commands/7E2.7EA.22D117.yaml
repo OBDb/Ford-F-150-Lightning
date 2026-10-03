@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     LIGHTNING_HIGH_V_AC_CHARGER_T: 59
   response: 7EA0462D11737
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 71.6
+  response: 7EA0462D1173E
+- expected_values:
+    LIGHTNING_HIGH_V_AC_CHARGER_T: 73.4
+  response: 7EA0462D1173F

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_HVB_SOC_VARIATION: 0.249
   response: 7EC0562483E00F9
+- expected_values:
+    LIGHTNING_HVB_SOC_VARIATION: 0.483
+  response: 7EC0562483E01E3

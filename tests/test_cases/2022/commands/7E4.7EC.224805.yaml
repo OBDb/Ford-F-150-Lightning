@@ -1,32 +1,11 @@
 command_id: 7E4.7EC.224805
 test_cases:
 - expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC0562480593E4
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC0562480594AA
+    LIGHTNING_CONTACTOR_V_POS: 17.6
+  response: 7EC0562480500B0
 - expected_values:
     LIGHTNING_CONTACTOR_V_POS: 300
   response: 7EC0562480594E7
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC056248059533
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC056248059568
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC056248059586
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC05624805958E
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC05624805965B
-- expected_values:
-    LIGHTNING_CONTACTOR_V_POS: 300
-  response: 7EC05624805969F
 - expected_values:
     LIGHTNING_CONTACTOR_V_POS: 300
   response: 7EC056248059719

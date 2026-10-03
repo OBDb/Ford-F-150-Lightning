@@ -1,32 +1,11 @@
 command_id: 7E6.7EE.22481D
 test_cases:
 - expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 380.1
-  response: 7EE0562481D0ED9
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 380.2
-  response: 7EE0562481D0EDA
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 380.6
-  response: 7EE0562481D0EDE
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 380.9
-  response: 7EE0562481D0EE1
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 381.5
-  response: 7EE0562481D0EE7
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 381.8
-  response: 7EE0562481D0EEA
+    LIGHTNING_PRI_MOTOR_INV_V: 9.1
+  response: 7EE0562481D005B
 - expected_values:
     LIGHTNING_PRI_MOTOR_INV_V: 382.6
   response: 7EE0562481D0EF2
 - expected_values:
     LIGHTNING_PRI_MOTOR_INV_V: 385.4
   response: 7EE0562481D0F0E
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 385.5
-  response: 7EE0562481D0F0F
-- expected_values:
-    LIGHTNING_PRI_MOTOR_INV_V: 388.4
-  response: 7EE0562481D0F2C
