@@ -4,8 +4,17 @@ test_cases:
     LIGHTNING_YAW_RATE_SIG: 0
   response: 76805622B0B0000
 - expected_values:
+    LIGHTNING_YAW_RATE_SIG: 1.4
+  response: 76805622B0B0007
+- expected_values:
     LIGHTNING_YAW_RATE_SIG: 1.6
   response: 76805622B0B0008
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -14.2
+  response: 76805622B0BFFB9
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -4.4
+  response: 76805622B0BFFEA
 - expected_values:
     LIGHTNING_YAW_RATE_SIG: -2.6
   response: 76805622B0BFFF3

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_BAT_QUIESCENT: 32
   response: '72E056240250810'
+- expected_values:
+    LIGHTNING_BAT_QUIESCENT: 35
+  response: '72E056240250816'

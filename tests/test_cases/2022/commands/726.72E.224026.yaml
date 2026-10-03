@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_NORM_CUM_DCHG_BAT_OFF: 15
   response: '72E056240260096'
+- expected_values:
+    LIGHTNING_NORM_CUM_DCHG_BAT_OFF: 15.1
+  response: '72E056240260097'

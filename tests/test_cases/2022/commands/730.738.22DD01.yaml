@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     LIGHTNING_ODO_PSCM: 39503
   response: 7380662DD01009A4F
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39537
+  response: 7380662DD01009A71
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39538
+  response: 7380662DD01009A72

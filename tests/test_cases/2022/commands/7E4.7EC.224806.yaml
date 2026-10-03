@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.224806
 test_cases:
 - expected_values:
+    LIGHTNING_CONTACTOR_V_NEG: 9.4
+  response: 7EC05624806005E
+- expected_values:
     LIGHTNING_CONTACTOR_V_NEG: 9.5
   response: 7EC05624806005F
 - expected_values:
@@ -9,3 +12,6 @@ test_cases:
 - expected_values:
     LIGHTNING_CONTACTOR_V_NEG: 9.7
   response: 7EC056248060061
+- expected_values:
+    LIGHTNING_CONTACTOR_V_NEG: 300
+  response: 7EC05624806FFFF

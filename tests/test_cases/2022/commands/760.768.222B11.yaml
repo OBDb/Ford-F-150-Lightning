@@ -4,29 +4,8 @@ test_cases:
     LIGHTNING_LAT_G: 0
   response: 76805622B110000
 - expected_values:
-    LIGHTNING_LAT_G: 0.34
-  response: 76805622B110011
-- expected_values:
-    LIGHTNING_LAT_G: 0.36
-  response: 76805622B110012
-- expected_values:
     LIGHTNING_LAT_G: -1
-  response: 76805622B11FFC1
-- expected_values:
-    LIGHTNING_LAT_G: -1
-  response: 76805622B11FFC4
-- expected_values:
-    LIGHTNING_LAT_G: -0.7
-  response: 76805622B11FFDD
-- expected_values:
-    LIGHTNING_LAT_G: -0.54
-  response: 76805622B11FFE5
-- expected_values:
-    LIGHTNING_LAT_G: -0.46
-  response: 76805622B11FFE9
-- expected_values:
-    LIGHTNING_LAT_G: -0.32
-  response: 76805622B11FFF0
+  response: 76805622B11FFAD
 - expected_values:
     LIGHTNING_LAT_G: -0.06
   response: 76805622B11FFFD

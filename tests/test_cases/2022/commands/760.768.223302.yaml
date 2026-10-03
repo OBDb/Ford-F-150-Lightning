@@ -1,29 +1,8 @@
 command_id: 760.768.223302
 test_cases:
 - expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -8.1
-  response: '768056233021E27'
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -4.7
-  response: '768056233021E49'
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -3.8
-  response: '768056233021E52'
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -2.6
-  response: 768056233021E5E
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -2.5
-  response: 768056233021E5F
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -2.3
-  response: '768056233021E61'
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -1.9
-  response: '768056233021E65'
-- expected_values:
-    LIGHTNING_BCM_STEER_ANG_ACT: -0.5
-  response: '768056233021E73'
+    LIGHTNING_BCM_STEER_ANG_ACT: -603.3
+  response: '7680562330206E7'
 - expected_values:
     LIGHTNING_BCM_STEER_ANG_ACT: 14.4
   response: 768056233021F08

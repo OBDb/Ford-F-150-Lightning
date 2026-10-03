@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     LIGHTNING_12V_A: 6
   response: 72E0462402B85
+- expected_values:
+    LIGHTNING_12V_A: 7
+  response: 72E0462402B86
+- expected_values:
+    LIGHTNING_12V_A: 8
+  response: 72E0462402B87
+- expected_values:
+    LIGHTNING_12V_A: 9
+  response: 72E0462402B88
+- expected_values:
+    LIGHTNING_12V_A: 10
+  response: 72E0462402B89
+- expected_values:
+    LIGHTNING_12V_A: 14
+  response: 72E0462402B8D
