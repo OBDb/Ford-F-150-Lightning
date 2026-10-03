@@ -1,0 +1,32 @@
+command_id: 7E6.7EE.221E2C
+test_cases:
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 2208
+  response: 7EE05621E2C08A0
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 2518
+  response: 7EE05621E2C09D6
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 3687
+  response: 7EE05621E2C0E67
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 3731
+  response: 7EE05621E2C0E93
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 3786
+  response: 7EE05621E2C0ECA
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 4168
+  response: 7EE05621E2C1048
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 4228
+  response: 7EE05621E2C1084
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 4768
+  response: 7EE05621E2C12A0
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 5827
+  response: 7EE05621E2C16C3
+- expected_values:
+    LIGHTNING_PRI_MOTOR_RPM: 5832
+  response: 7EE05621E2C16C8

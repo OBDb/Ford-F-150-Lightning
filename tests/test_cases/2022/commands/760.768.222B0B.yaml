@@ -1,0 +1,23 @@
+command_id: 760.768.222B0B
+test_cases:
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: 0
+  response: 76805622B0B0000
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: 1.6
+  response: 76805622B0B0008
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -2.6
+  response: 76805622B0BFFF3
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -0.8
+  response: 76805622B0BFFFC
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -0.6
+  response: 76805622B0BFFFD
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -0.4
+  response: 76805622B0BFFFE
+- expected_values:
+    LIGHTNING_YAW_RATE_SIG: -0.2
+  response: 76805622B0BFFFF

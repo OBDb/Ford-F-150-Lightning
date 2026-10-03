@@ -1,0 +1,11 @@
+command_id: 7C7.7CF.2299AB
+test_cases:
+- expected_values:
+    LIGHTNING_AC_COMP_A: 0
+  response: 7CF056299AB0000
+- expected_values:
+    LIGHTNING_AC_COMP_A: 5.60015
+  response: 7CF056299AB072B
+- expected_values:
+    LIGHTNING_AC_COMP_A: 6.10065
+  response: 7CF056299AB07CF

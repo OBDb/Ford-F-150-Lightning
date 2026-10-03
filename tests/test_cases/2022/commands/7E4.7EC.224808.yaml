@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224808
+test_cases:
+- expected_values:
+    LIGHTNING_T_RANGE: 0
+    LIGHTNING_T_RANGE_AVG: 17
+    LIGHTNING_T_RANGE_MAX: 17
+    LIGHTNING_T_RANGE_MIN: 17
+  response: 7EC0762480843433243

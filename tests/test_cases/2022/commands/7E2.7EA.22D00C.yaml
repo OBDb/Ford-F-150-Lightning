@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22D00C
+test_cases:
+- expected_values:
+    LIGHTNING_HIGH_V_DC_CHARGER_T: 60.8
+  response: 7EA0462D00C38
+- expected_values:
+    LIGHTNING_HIGH_V_DC_CHARGER_T: 62.6
+  response: 7EA0462D00C39

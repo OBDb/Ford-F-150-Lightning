@@ -1,0 +1,23 @@
+command_id: 7E2.7EA.22484A
+test_cases:
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 377
+  response: 7EA0562484A9344
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 379
+  response: 7EA0562484A940C
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 380
+  response: 7EA0562484A9470
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 381
+  response: 7EA0562484A94D4
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 382
+  response: 7EA0562484A9538
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 384
+  response: 7EA0562484A9600
+- expected_values:
+    LIGHTNING_CHG_OUT_V: 384.87
+  response: 7EA0562484A9657

@@ -1,0 +1,29 @@
+command_id: 760.768.222B08
+test_cases:
+- expected_values:
+    LIGHTNING_RR_VSS: 49
+  response: 76804622B0831
+- expected_values:
+    LIGHTNING_RR_VSS: 54
+  response: 76804622B0836
+- expected_values:
+    LIGHTNING_RR_VSS: 56
+  response: 76804622B0838
+- expected_values:
+    LIGHTNING_RR_VSS: 63
+  response: 76804622B083F
+- expected_values:
+    LIGHTNING_RR_VSS: 65
+  response: 76804622B0841
+- expected_values:
+    LIGHTNING_RR_VSS: 66
+  response: 76804622B0842
+- expected_values:
+    LIGHTNING_RR_VSS: 69
+  response: 76804622B0845
+- expected_values:
+    LIGHTNING_RR_VSS: 87
+  response: 76804622B0857
+- expected_values:
+    LIGHTNING_RR_VSS: 92
+  response: 76804622B085C

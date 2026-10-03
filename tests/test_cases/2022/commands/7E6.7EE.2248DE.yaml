@@ -1,0 +1,32 @@
+command_id: 7E6.7EE.2248DE
+test_cases:
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 0.95
+  response: 7EE056248DE03B6
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 1.33
+  response: 7EE056248DE0532
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 1.433
+  response: 7EE056248DE0599
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 1.52
+  response: 7EE056248DE05F0
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 1.548
+  response: 7EE056248DE060C
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 1.805
+  response: 7EE056248DE070D
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 2.09
+  response: 7EE056248DE082A
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 2.214
+  response: 7EE056248DE08A6
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 2.483
+  response: 7EE056248DE09B3
+- expected_values:
+    LIGHTNING_COOLANT_HTR_PWR: 2.599
+  response: 7EE056248DE0A27

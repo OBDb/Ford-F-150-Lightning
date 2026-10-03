@@ -1,0 +1,32 @@
+command_id: 730.738.22330C
+test_cases:
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -1.3
+  response: 7380462330C72
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -1.1
+  response: 7380462330C74
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -0.8
+  response: 7380462330C77
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -0.4
+  response: 7380462330C7B
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -0.3
+  response: 7380462330C7C
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: -0.2
+  response: 7380462330C7D
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: 0
+  response: 7380462330C7F
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: 0.5
+  response: 7380462330C84
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: 0.9
+  response: 7380462330C88
+- expected_values:
+    LIGHTNING_STEER_SHFT_TQ: 2
+  response: 7380462330C93

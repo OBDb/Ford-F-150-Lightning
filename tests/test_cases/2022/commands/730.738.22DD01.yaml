@@ -1,0 +1,20 @@
+command_id: 730.738.22DD01
+test_cases:
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39498
+  response: 7380662DD01009A4A
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39499
+  response: 7380662DD01009A4B
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39500
+  response: 7380662DD01009A4C
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39501
+  response: 7380662DD01009A4D
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39502
+  response: 7380662DD01009A4E
+- expected_values:
+    LIGHTNING_ODO_PSCM: 39503
+  response: 7380662DD01009A4F
