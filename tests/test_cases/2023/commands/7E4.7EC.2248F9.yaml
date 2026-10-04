@@ -4,8 +4,8 @@ test_cases:
     LIGHTNING_HVBAT_A: 0
   response: 7EC056248F90000
 - expected_values:
-    LIGHTNING_HVBAT_A: -23.1
-  response: 7EC056248F9FF19
+    LIGHTNING_HVBAT_A: -25.6
+  response: 7EC056248F9FF00
 - expected_values:
     LIGHTNING_HVBAT_A: -0.1
   response: 7EC056248F9FFFF
