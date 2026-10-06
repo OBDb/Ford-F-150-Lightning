@@ -4,5 +4,5 @@ test_cases:
     LIGHTNING_ODO_BCM: 38326
   response: 7680662DD010095B6
 - expected_values:
-    LIGHTNING_ODO_BCM: 38347
-  response: 7680662DD010095CB
+    LIGHTNING_ODO_BCM: 38371
+  response: 7680662DD010095E3
