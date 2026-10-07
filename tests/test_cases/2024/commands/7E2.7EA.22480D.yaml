@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     LIGHTNING_HVB_V_RAW_CNT: 37100
   response: 7EA0562480D90EC
+- expected_values:
+    LIGHTNING_HVB_V_RAW_CNT: 38350
+  response: 7EA0562480D95CE
