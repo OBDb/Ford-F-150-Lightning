@@ -302,6 +302,7 @@ unsupported_commands_by_ecu:
   "7E7":
   - 7E7.7EF.0104
   - 7E7.7EF.0105
+  - 7E7.7EF.010C
   - 7E7.7EF.010D
   - 7E7.7EF.0131
   - 7E7.7EF.0142
