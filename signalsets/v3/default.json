@@ -6,11 +6,11 @@
   "commands": [
 { "hdr": "6F5", "rax": "6FD", "cmd": {"22": "4899"}, "freq": 1,
   "signals": [
-    {"id": "LIGHTNING_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "amps" }, "name": "HV DC charger maximum current"}
+    {"id": "LIGHTNING_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "amps" }, "name": "HV DC charger maximum current"}
   ]},
 { "hdr": "6F5", "rax": "6FD", "cmd": {"22": "489D"}, "freq": 1,
   "signals": [
-    {"id": "LIGHTNING_HVDC_CHG_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV DC charger maximum voltage"}
+    {"id": "LIGHTNING_HVDC_CHG_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "nullmax": 6553.5, "unit": "volts" }, "name": "HV DC charger maximum voltage"}
   ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5,
   "signals": [
@@ -192,7 +192,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "DD05"}, "freq": 5,
   "signals": [
-    {"id": "LIGHTNING_OUTDOOR_T_BCM", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outdoor temperature, BCM"}
+    {"id": "LIGHTNING_OUTDOOR_T_BCM", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Outdoor temperature, BCM"}
   ]},
 { "hdr": "764", "rax": "76C", "cmd": {"22": "A220"}, "freq": 1,
   "signals": [
@@ -312,7 +312,7 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4860"}, "freq": 1,
   "signals": [
-    {"id": "LIGHTNING_AC_CHG_IN_FREQ", "path": "Battery", "fmt": { "len": 8, "max": 90, "min": 30, "div": 2, "unit": "hertz" }, "name": "HV AC charger input frequency"}
+    {"id": "LIGHTNING_AC_CHG_IN_FREQ", "path": "Battery", "fmt": { "len": 8, "max": 90, "div": 2, "nullmin": 0, "unit": "hertz" }, "name": "HV AC charger input frequency"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4861"}, "freq": 1,
   "signals": [
@@ -400,11 +400,11 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48BC"}, "freq": 1,
   "signals": [
-    {"id": "LIGHTNING_HVBAT_MAX_CHG_A", "path": "Battery", "fmt": { "len": 16, "max": 15, "div": 20, "unit": "amps" }, "name": "HV battery maximum charge current"}
+    {"id": "LIGHTNING_HVBAT_MAX_CHG_A", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "amps" }, "name": "HV battery maximum charge current"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48C4"}, "freq": 1,
   "signals": [
-    {"id": "LIGHTNING_CHG_MAX_PWR", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 20, "unit": "kilowatts" }, "name": "HV charger maximum power"}
+    {"id": "LIGHTNING_CHG_MAX_PWR", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "nullmax": 3276.75, "unit": "kilowatts" }, "name": "HV charger maximum power"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "D00C"}, "freq": 1,
   "signals": [

@@ -10,5 +10,5 @@ test_cases:
     LIGHTNING_OUTDOOR_T_BCM: 19
   response: 7680462DD053B
 - expected_values:
-    LIGHTNING_OUTDOOR_T_BCM: 215
+    LIGHTNING_OUTDOOR_T_BCM: null
   response: 7680462DD05FF
