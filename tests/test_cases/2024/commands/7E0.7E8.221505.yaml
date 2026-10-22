@@ -4,8 +4,8 @@ test_cases:
     LIGHTNING_VSS_HD: 0
   response: '7E8056215050000'
 - expected_values:
-    LIGHTNING_VSS_HD: 33.99219
-  response: 7E80562150510FF
+    LIGHTNING_VSS_HD: 27.99219
+  response: 7E8056215050DFF
 - expected_values:
     LIGHTNING_VSS_HD: 106.11719
   response: 7E805621505350F
