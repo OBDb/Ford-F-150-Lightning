@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_12V_AGE: 16512
   response: 72E0562402702B0
+- expected_values:
+    LIGHTNING_12V_AGE: 17040
+  response: 72E0562402702C6
