@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LIGHTNING_ODO_PSCM: 52686
   response: 7380662DD0100CDCE
+- expected_values:
+    LIGHTNING_ODO_PSCM: 84876
+  response: 7380662DD01014B8C
