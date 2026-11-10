@@ -210,10 +210,11 @@
   "signals": [
     {"id": "LIGHTNING_AC_COMP_A", "path": "Climate", "fmt": { "len": 16, "max": 100, "min": -100, "mul": 100, "div": 32767, "sign": true, "unit": "amps" }, "name": "A/C compressor current"}
   ]},
-{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 2,
+{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 0.25,
   "signals": [
-    {"id": "LIGHTNING_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "46": { "description": "Drive",   "value": "DRIVE" },
+    {"id": "LIGHTNING_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "20": { "description": "Low",     "value": "LOW" },
+          "43": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },
           "60": { "description": "Reverse", "value": "REVERSE" },
           "70": { "description": "Park",    "value": "PARK" }
@@ -580,15 +581,15 @@
   "signals": [
     {"id": "LIGHTNING_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Hv battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 0.25,
   "signals": [
-    {"id": "LIGHTNING_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "fmt": {"len": 8, "map": {
+    {"id": "LIGHTNING_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "0":   { "description": "Unknown", "value": "UNKNOWN" },
-          "20":  { "description": "L",       "value": "L" },
-          "40":  { "description": "D",       "value": "D" },
-          "50":  { "description": "N",       "value": "N" },
-          "60":  { "description": "R",       "value": "R" },
-          "70":  { "description": "P",       "value": "P" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
           "255": { "description": "Fault",   "value": "FAULT" }
         }}
     }
