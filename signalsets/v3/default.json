@@ -4,11 +4,11 @@
     { "hdr": "7E6", "type": "hybridControl" }
   ],
   "commands": [
-{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "4899"}, "freq": 1,
+{ "hdr": "6F5", "rax": "6FD", "dbg": true, "cmd": {"22": "4899"}, "freq": 1,
   "signals": [
     {"id": "LIGHTNING_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "amps" }, "name": "HV DC charger maximum current"}
   ]},
-{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "489D"}, "freq": 1,
+{ "hdr": "6F5", "rax": "6FD", "dbg": true, "cmd": {"22": "489D"}, "freq": 1,
   "signals": [
     {"id": "LIGHTNING_HVDC_CHG_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "nullmax": 6553.5, "unit": "volts" }, "name": "HV DC charger maximum voltage"}
   ]},
@@ -311,7 +311,7 @@
   "signals": [
     {"id": "LIGHTNING_AC_CHG_IN_A", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "amps" }, "name": "HV AC charger input current"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4860"}, "freq": 1,
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "4860"}, "freq": 1,
   "signals": [
     {"id": "LIGHTNING_AC_CHG_IN_FREQ", "path": "Battery", "fmt": { "len": 8, "max": 90, "div": 2, "nullmin": 0, "unit": "hertz" }, "name": "HV AC charger input frequency"}
   ]},
@@ -403,7 +403,7 @@
   "signals": [
     {"id": "LIGHTNING_HVBAT_MAX_CHG_A", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "amps" }, "name": "HV battery maximum charge current"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48C4"}, "freq": 1,
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "48C4"}, "freq": 1,
   "signals": [
     {"id": "LIGHTNING_CHG_MAX_PWR", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "nullmax": 3276.75, "unit": "kilowatts" }, "name": "HV charger maximum power"}
   ]},
