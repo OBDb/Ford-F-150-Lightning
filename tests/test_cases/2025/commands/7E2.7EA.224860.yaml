@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LIGHTNING_AC_CHG_IN_FREQ: null
   response: 7EA0462486000
+- expected_values:
+    LIGHTNING_AC_CHG_IN_FREQ: 60
+  response: 7EA0462486078
