@@ -311,7 +311,7 @@
   "signals": [
     {"id": "LIGHTNING_AC_CHG_IN_A", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "amps" }, "name": "HV AC charger input current"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "4860"}, "freq": 1,
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4860"}, "freq": 1, "dbgfilter": { "to": 2024 },
   "signals": [
     {"id": "LIGHTNING_AC_CHG_IN_FREQ", "path": "Battery", "fmt": { "len": 8, "max": 90, "div": 2, "nullmin": 0, "unit": "hertz" }, "name": "HV AC charger input frequency"}
   ]},
